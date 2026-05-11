@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Save to DB — non-fatal if it fails (SQLite not supported on Vercel)
-    let leadId: number | undefined
+    let leadId: string | number | undefined
     try {
       const lead = await prisma.lead.create({
         data: {
