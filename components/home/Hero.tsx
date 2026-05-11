@@ -18,20 +18,25 @@ const stats = [
 
 export default function Hero() {
   const [form, setForm] = useState({ name: '', phone: '', service: '', message: '' })
-  const [sent, setSent]     = useState(false)
+  const [sent, setSent]       = useState(false)
   const [loading, setLoading] = useState(false)
+  const [error, setError]     = useState('')
 
   const submit = async (e: React.FormEvent) => {
     e.preventDefault()
     setLoading(true)
+    setError('')
     try {
-      await fetch('/api/leads', {
+      const res = await fetch('/api/leads', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ...form, source: 'hero' }),
       })
+      if (!res.ok) throw new Error('Failed')
       setSent(true)
-    } catch {}
+    } catch {
+      setError('Something went wrong. Please call us or WhatsApp directly.')
+    }
     setLoading(false)
   }
 
@@ -151,6 +156,7 @@ export default function Hero() {
                       className="btn-primary w-full justify-center py-4 text-base font-black tracking-wide">
                       {loading ? 'Sending...' : '🔒 Request FREE Survey Now'}
                     </button>
+                    {error && <p className="text-red-500 text-sm text-center">{error}</p>}
                     <p className="text-gray-400 text-xs text-center flex items-center justify-center gap-1">
                       <Shield size={11} /> Your information is 100% secure & private
                     </p>
