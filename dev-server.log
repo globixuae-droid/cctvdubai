@@ -1,0 +1,144 @@
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local, .env
+
+ ✓ Starting...
+ ✓ Ready in 4.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 5.6s (596 modules)
+ ✓ Compiled in 709ms (289 modules)
+ GET / 200 in 6414ms
+ GET / 200 in 110ms
+ ✓ Compiled in 567ms (596 modules)
+ ✓ Compiled in 677ms (596 modules)
+ ✓ Compiled in 349ms (289 modules)
+ ✓ Compiled in 312ms (289 modules)
+ ✓ Compiled in 222ms (289 modules)
+ ✓ Compiled in 882ms (596 modules)
+ ✓ Compiled in 938ms (596 modules)
+ ✓ Compiled /_not-found in 405ms (585 modules)
+ GET /_next/static/css/app/layout.css?v=1778485484831 404 in 597ms
+ GET /_next/static/css/app/layout.css?v=1778485484828 404 in 606ms
+ ✓ Compiled in 499ms (599 modules)
+ GET /_next/static/css/app/layout.css?v=1778485490859 404 in 99ms
+ GET /_next/static/css/app/layout.css?v=1778485490878 404 in 50ms
+ ✓ Compiled in 435ms (291 modules)
+ ✓ Compiled in 670ms (596 modules)
+ ✓ Compiled in 426ms (596 modules)
+ ✓ Compiled in 510ms (289 modules)
+ GET / 200 in 414ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 643ms (599 modules)
+ GET /_next/static/chunks/main-app.js?v=1778485661527 404 in 897ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 900ms
+ GET / 200 in 137ms
+ GET /_next/static/chunks/main-app.js?v=1778485732773 404 in 146ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 144ms
+ ○ Compiling /services/cctv-installation-dubai ...
+ ✓ Compiled /services/cctv-installation-dubai in 1257ms (603 modules)
+ GET /services/cctv-installation-dubai 200 in 1587ms
+ GET /_next/static/chunks/main-app.js?v=1778485736376 404 in 142ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 144ms
+ ✓ Compiled /services/structured-cabling-uae in 473ms (607 modules)
+ GET /services/structured-cabling-uae 200 in 670ms
+ GET /_next/static/chunks/main-app.js?v=1778485769011 404 in 115ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 112ms
+ ✓ Compiled /services/audio-visual-systems in 474ms (611 modules)
+ GET /services/audio-visual-systems 200 in 709ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 129ms
+ GET /_next/static/chunks/main-app.js?v=1778485789336 404 in 139ms
+ ○ Compiling /services/access-control-systems ...
+ ✓ Compiled /services/access-control-systems in 608ms (615 modules)
+ GET /services/access-control-systems 200 in 972ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 132ms
+ GET /_next/static/chunks/main-app.js?v=1778485796913 404 in 136ms
+ ✓ Compiled /services/parking-gate-barrier in 493ms (616 modules)
+ GET /services/parking-gate-barrier 200 in 774ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 111ms
+ GET /_next/static/chunks/main-app.js?v=1778485803633 404 in 115ms
+ GET / 200 in 171ms
+ GET /_next/static/chunks/main-app.js?v=1778485826289 404 in 140ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 137ms
+ ○ Compiling /projects ...
+ ✓ Compiled /projects in 755ms (625 modules)
+ GET /projects 200 in 1011ms
+ GET /images/projects/project-3.jpg 404 in 150ms
+ GET /images/projects/project-2.jpg 404 in 161ms
+ GET /images/projects/project-1.jpg 404 in 191ms
+ GET /_next/static/chunks/main-app.js?v=1778485837189 404 in 201ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 101ms
+ ✓ Compiled /about in 462ms (630 modules)
+ GET /about 200 in 773ms
+ GET /_next/static/chunks/main-app.js?v=1778485854478 404 in 123ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 122ms
+ GET / 200 in 198ms
+ GET /_next/static/chunks/main-app.js?v=1778485906504 404 in 173ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 148ms
+ ✓ Compiled in 1483ms (605 modules)
+ ✓ Compiled in 683ms (605 modules)
+ ✓ Compiled in 1175ms (605 modules)
+ ✓ Compiled in 595ms (605 modules)
+ ✓ Compiled in 892ms (605 modules)
+ ✓ Compiled in 332ms (605 modules)
+ ✓ Compiled in 462ms (605 modules)
+ ✓ Compiled in 744ms (605 modules)
+ ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <div className=... style={{...}} onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "1709825701"
+ ✓ Compiled in 517ms (605 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <div className=... style={{...}} onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "2529802889"
+ ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <div className=... style={{...}} onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "2529802889"
+ GET / 500 in 364ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 516ms (594 modules)
+ GET /_next/static/chunks/main-app.js 404 in 699ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 673ms
+ ✓ Compiled in 364ms (300 modules)
+ ✓ Compiled in 423ms (608 modules)
+ ✓ Compiled in 307ms (298 modules)
+ ✓ Compiled in 443ms (298 modules)
+ ✓ Compiled in 289ms (298 modules)
+ ✓ Compiled in 386ms (298 modules)
+ ✓ Compiled in 342ms (298 modules)
+ ✓ Compiled in 341ms (298 modules)
+ ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <div className=... style={{...}} onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "2529802889"
+ ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <div className=... style={{...}} onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "2529802889"
+ GET / 500 in 321ms
+ ✓ Compiled /_not-found in 338ms (594 modules)
+ GET /_next/static/chunks/main-app.js 404 in 541ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 539ms
+[?25h
