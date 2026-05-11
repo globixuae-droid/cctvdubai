@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
-import { Resend } from 'resend'
+import nodemailer from 'nodemailer'
 
 const TO_EMAIL = 'hammad.rehman@mideatek.com'
 
@@ -13,7 +13,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Name and phone are required' }, { status: 400 })
     }
 
-    // Save to DB — non-fatal if it fails on Vercel (SQLite not supported)
+    // Save to DB — non-fatal if it fails on Vercel (SQLite)
     let leadId: string | number | undefined
     try {
       const lead = await prisma.lead.create({
@@ -31,11 +31,17 @@ export async function POST(req: NextRequest) {
       console.error('DB save failed (non-fatal):', dbErr)
     }
 
-    // Send email via Resend (HTTPS — works on Vercel)
-    if (process.env.RESEND_API_KEY) {
-      const resend = new Resend(process.env.RESEND_API_KEY)
-      await resend.emails.send({
-        from: 'CCTV Dubai <onboarding@resend.dev>',
+    // Send email via Gmail SMTP
+    if (process.env.GMAIL_USER && process.env.GMAIL_APP_PASSWORD) {
+      const transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+          user: process.env.GMAIL_USER,
+          pass: process.env.GMAIL_APP_PASSWORD,
+        },
+      })
+      await transporter.sendMail({
+        from: `"CCTV Dubai — cctvdubai.me" <${process.env.GMAIL_USER}>`,
         to: TO_EMAIL,
         subject: `New Lead: ${name} — ${service || 'General Enquiry'} (${source || 'website'})`,
         html: `
