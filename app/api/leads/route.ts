@@ -2,9 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 import { Resend } from 'resend'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
 const TO_EMAIL = 'hammad.rehman@mideatek.com'
-const FROM_EMAIL = process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev'
 
 export async function POST(req: NextRequest) {
   try {
@@ -35,8 +33,10 @@ export async function POST(req: NextRequest) {
 
     // Send email notification — always attempt this
     if (process.env.RESEND_API_KEY) {
+      const resend = new Resend(process.env.RESEND_API_KEY)
+      const fromEmail = process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev'
       await resend.emails.send({
-        from: `CCTV Dubai <${FROM_EMAIL}>`,
+        from: `CCTV Dubai <${fromEmail}>`,
         to: TO_EMAIL,
         subject: `New Lead: ${name} — ${service || 'General Enquiry'} (${source || 'website'})`,
         html: `
