@@ -70,5 +70,41 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.75,
     },
+    {
+      url: `${BASE}/blog`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE}/blog/cctv-installation-cost-dubai-2025`,
+      lastModified: new Date('2025-05-01'),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
+      url: `${BASE}/blog/sira-approval-cctv-dubai-guide-2025`,
+      lastModified: new Date('2025-05-05'),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
+      url: `${BASE}/blog/best-cctv-cameras-dubai-villas-homes-2025`,
+      lastModified: new Date('2025-05-08'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE}/blog/structured-cabling-cat6-fiber-optic-dubai-guide`,
+      lastModified: new Date('2025-05-10'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE}/blog/gate-barrier-systems-dubai-guide-2025`,
+      lastModified: new Date('2025-05-12'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
   ]
 }

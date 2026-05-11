@@ -75,6 +75,7 @@ export default function Footer() {
                 { name: 'Home',             href: '/' },
                 { name: 'About Us',         href: '/about' },
                 { name: 'Our Projects',     href: '/projects' },
+                { name: 'Blog',             href: '/blog' },
                 { name: 'Contact Us',       href: '/contact' },
                 { name: 'Get Free Quote',   href: '/contact#quote' },
                 { name: 'Free Site Survey', href: '/contact#survey' },

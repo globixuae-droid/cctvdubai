@@ -166,6 +166,22 @@
   100% { background-position: 200% center; }
 }
 
+/* ── Blog content styles ── */
+.blog-content h2 { font-size: 1.5rem; font-weight: 900; color: #0F172A; margin: 2rem 0 0.75rem; font-family: var(--font-heading, sans-serif); }
+.blog-content h3 { font-size: 1.15rem; font-weight: 700; color: #1B3F7C; margin: 1.5rem 0 0.5rem; }
+.blog-content p  { margin-bottom: 1rem; color: #4B5563; line-height: 1.8; }
+.blog-content ul, .blog-content ol { margin: 0.75rem 0 1rem 1.25rem; color: #4B5563; }
+.blog-content li { margin-bottom: 0.4rem; line-height: 1.7; }
+.blog-content ul li { list-style: disc; }
+.blog-content ol li { list-style: decimal; }
+.blog-content a  { color: #1B3F7C; font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+.blog-content a:hover { color: #DC2626; }
+.blog-content strong { color: #0F172A; font-weight: 700; }
+.blog-content table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.9rem; overflow-x: auto; display: block; }
+.blog-content table th { background: #1B3F7C; color: white; padding: 10px 14px; text-align: left; font-weight: 700; }
+.blog-content table td { padding: 10px 14px; border-bottom: 1px solid #e5e7eb; color: #374151; }
+.blog-content table tr:nth-child(even) { background: #f8fafc; }
+
 .animate-fade-up        { animation: fadeInUp 0.6s ease-out forwards; }
 .animate-fade-in        { animation: fadeIn 0.5s ease-out forwards; }
 .animate-slide-in-right { animation: slideInRight 0.6s ease-out forwards; }
