@@ -4,7 +4,10 @@ import { redirect } from 'next/navigation'
 import AdminSidebar from '@/components/admin/AdminSidebar'
 import AdminTopbar from '@/components/admin/AdminTopbar'
 
-export const metadata = { title: 'Admin Panel – Mideatek' }
+export const metadata = {
+  title: 'Admin Panel – Mideatek',
+  robots: { index: false, follow: false },
+}
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
   const session = await getServerSession(authOptions)
