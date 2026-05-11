@@ -4,10 +4,24 @@ import LeadForm from '@/components/shared/LeadForm'
 import CTASection from '@/components/shared/CTASection'
 import Link from 'next/link'
 
+const BASE = 'https://www.cctvdubai.me'
+
 export const metadata: Metadata = {
-  title: 'Audio Visual Systems Dubai | Video Wall Installation UAE | AV Company',
-  description: 'Premium audio visual and video wall solutions in Dubai — LED & LCD video walls, background music systems, digital signage, conference room AV, and home theatre. Free consultation.',
-  keywords: ['audio visual Dubai', 'video wall Dubai', 'AV company UAE', 'background music Dubai', 'conference room AV UAE', 'digital signage Dubai', 'LED video wall UAE'],
+  title: 'Audio Visual Systems Dubai | Video Wall & AV Company UAE',
+  description: 'Premium audio visual & video wall solutions in Dubai — LED & LCD video walls, background music, conference AV, digital signage, home theatre. Sony, Samsung, Bose, QSC. Free consultation.',
+  keywords: [
+    'audio visual Dubai', 'AV company UAE', 'video wall Dubai',
+    'LED video wall Dubai', 'background music Dubai', 'BGM system UAE',
+    'conference room AV Dubai', 'digital signage Dubai', 'home theatre Dubai',
+    'video wall installation Dubai', 'AV installation UAE', 'outdoor PA system Dubai',
+    'Samsung video wall Dubai', 'LG video wall UAE', 'Crestron AV Dubai',
+  ],
+  alternates: { canonical: `${BASE}/services/audio-visual-systems` },
+  openGraph: {
+    title: 'Audio Visual Systems Dubai | Video Wall & AV Company UAE',
+    description: 'LED & LCD video walls, background music, conference AV & digital signage in Dubai. Free consultation.',
+    url: `${BASE}/services/audio-visual-systems`,
+  },
 }
 
 const solutions = [
@@ -49,9 +63,53 @@ const gridVideos = [
   { src: '/videos/video-wall/video-wall-6.mp4', label: 'Live System Demo' },
 ]
 
+const faqs = [
+  { q: 'What video wall solutions do you install in Dubai?', a: 'We design and install LED and LCD video walls from Samsung, LG, Absen, and Unilumin. Configurations range from compact 2×2 arrays to large-format 10×10 walls for control rooms, corporate lobbies, showrooms, and hospitality venues across Dubai and the UAE.' },
+  { q: 'What background music system is best for a hotel or restaurant in Dubai?', a: 'For hotels and restaurants in Dubai, we recommend a zone-based IP audio system using Bose, QSC, or Yamaha equipment with a central DSP controller. This allows independent volume and source control for each area — lobby, restaurant, pool deck, and rooms — from one management platform.' },
+  { q: 'Do you supply and install conference room AV in Dubai?', a: 'Yes. We design and install complete conference room AV systems including interactive flat panels, 4K displays, Microsoft Teams and Zoom video conferencing, ceiling microphone arrays, and wireless presentation systems for offices and boardrooms across Dubai.' },
+  { q: 'How much does a video wall cost in Dubai?', a: 'A 2×2 LCD video wall (4 panels) for a reception or showroom in Dubai typically starts from AED 25,000 including installation. LED video walls for larger spaces start from AED 80,000. We provide detailed proposals based on your specific size, resolution, and location requirements.' },
+  { q: 'Do you provide digital signage systems in Dubai?', a: 'Yes. We supply, install, and configure digital signage systems including commercial displays, media players, and content management software for lobbies, retail, wayfinding, advertising, and menu boards across Dubai and the UAE.' },
+]
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home',     item: BASE },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/#services` },
+    { '@type': 'ListItem', position: 3, name: 'Audio Visual Systems Dubai', item: `${BASE}/services/audio-visual-systems` },
+  ],
+}
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Audio Visual Systems Dubai',
+  alternateName: ['Video Wall Dubai', 'AV Company UAE', 'Background Music Dubai', 'Digital Signage Dubai'],
+  description: 'Premium audio visual and video wall solutions in Dubai including LED/LCD video walls, background music, conference AV, digital signage, home theatre, and outdoor PA systems.',
+  provider: { '@type': 'LocalBusiness', '@id': `${BASE}/#business` },
+  areaServed: [{ '@type': 'City', name: 'Dubai' }, { '@type': 'AdministrativeArea', name: 'UAE' }],
+  serviceType: 'Audio Visual Installation',
+  url: `${BASE}/services/audio-visual-systems`,
+}
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map(({ q, a }) => ({
+    '@type': 'Question',
+    name: q,
+    acceptedAnswer: { '@type': 'Answer', text: a },
+  })),
+}
+
 export default function AudioVisualPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+
       {/* Hero */}
       <section className="pt-32 pb-20 bg-white dot-grid">
         <div className="container-custom">
@@ -106,8 +164,6 @@ export default function AudioVisualPage() {
               </div>
             ))}
           </div>
-
-          {/* Why choose + features */}
           <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
             <h2 className="section-title mb-8 text-center">Why Choose Mideatek for AV?</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
@@ -121,7 +177,7 @@ export default function AudioVisualPage() {
         </div>
       </section>
 
-      {/* Video wall — main showcase */}
+      {/* Video wall showcase */}
       <section className="section-pad bg-white">
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-14">
@@ -129,7 +185,7 @@ export default function AudioVisualPage() {
               <div className="section-tag">VIDEO WALLS</div>
               <h2 className="section-title mb-4">LED & LCD Video Wall Installation Dubai</h2>
               <p className="text-gray-500 mb-6 leading-relaxed">
-                Mideatek designs and installs high-impact video walls for command centres, corporate lobbies, retail showrooms, event spaces, and hospitality venues across Dubai and the UAE. From compact 2×2 configurations to massive multi-panel arrays, we deliver pixel-perfect results.
+                Mideatek designs and installs high-impact video walls for command centres, corporate lobbies, retail showrooms, event spaces, and hospitality venues across Dubai and the UAE.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
                 {videoWallFeatures.map((f) => (
@@ -143,39 +199,42 @@ export default function AudioVisualPage() {
               </div>
             </div>
             <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-gray-50">
-              <video
-                src="/videos/video-wall/video-wall-1.mp4"
-                controls
-                muted
-                playsInline
-                preload="metadata"
+              <video src="/videos/video-wall/video-wall-1.mp4" controls muted playsInline preload="metadata"
                 className="w-full aspect-video object-cover"
-                aria-label="Video wall installation Dubai by Mideatek"
-              />
+                aria-label="Video wall installation Dubai by Mideatek" />
               <div className="px-5 py-4">
                 <p className="text-sm font-semibold text-gray-700">Video Wall Installation — Full Project</p>
                 <p className="text-xs text-gray-400 mt-0.5">Mideatek · Dubai</p>
               </div>
             </div>
           </div>
-
-          {/* 5-video grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {gridVideos.map((v) => (
               <div key={v.src} className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-gray-50">
-                <video
-                  src={v.src}
-                  controls
-                  muted
-                  playsInline
-                  preload="metadata"
-                  className="w-full aspect-video object-cover"
-                  aria-label={v.label}
-                />
+                <video src={v.src} controls muted playsInline preload="metadata"
+                  className="w-full aspect-video object-cover" aria-label={v.label} />
                 <div className="px-4 py-3">
                   <p className="text-sm font-semibold text-gray-700">{v.label}</p>
                   <p className="text-xs text-gray-400 mt-0.5">Mideatek · Dubai</p>
                 </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="section-pad" style={{ background: '#F8FAFC' }}>
+        <div className="container-custom max-w-3xl">
+          <div className="text-center mb-10">
+            <div className="section-tag">FAQ</div>
+            <h2 className="section-title mb-4">Audio Visual & Video Wall Dubai — FAQ</h2>
+          </div>
+          <div className="space-y-4">
+            {faqs.map((faq) => (
+              <div key={faq.q} className="bg-white rounded-xl p-6 border border-gray-200">
+                <h3 className="font-semibold mb-2" style={{ color: '#0F172A' }}>{faq.q}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>

@@ -4,10 +4,25 @@ import LeadForm from '@/components/shared/LeadForm'
 import CTASection from '@/components/shared/CTASection'
 import Link from 'next/link'
 
+const BASE = 'https://www.cctvdubai.me'
+
 export const metadata: Metadata = {
-  title: 'Parking & Gate Barrier Systems Dubai | ANPR Camera UAE',
-  description: 'Automated parking management and gate barrier systems in Dubai. Boom barriers, ANPR cameras, long range card readers, and vehicle access control for commercial and residential properties.',
-  keywords: ['parking barrier Dubai', 'gate barrier UAE', 'ANPR camera Dubai', 'boom barrier Dubai', 'long range card reader Dubai', 'parking management system UAE'],
+  title: 'Gate Barrier Systems Dubai | Boom Barrier & ANPR Camera UAE',
+  description: 'Automated gate barrier and parking management systems in Dubai. BFT boom barriers, ANPR cameras, long range card readers, and vehicle access control. SIRA approved. Free site survey.',
+  keywords: [
+    'gate barrier Dubai', 'boom barrier Dubai', 'gate barrier UAE',
+    'parking barrier Dubai', 'ANPR camera Dubai', 'BFT barrier Dubai',
+    'long range card reader Dubai', 'vehicle access control UAE',
+    'automatic gate Dubai', 'parking management system UAE',
+    'boom gate installation Dubai', 'car park barrier UAE',
+  ],
+  alternates: { canonical: `${BASE}/services/parking-gate-barrier` },
+  openGraph: {
+    title: 'Gate Barrier Systems Dubai | Boom Barrier & ANPR Camera UAE',
+    description: 'BFT boom barriers, ANPR cameras & long range card readers for Dubai residential, commercial & industrial properties.',
+    url: `${BASE}/services/parking-gate-barrier`,
+    images: [{ url: '/images/projects/gate-barrier/barrier-2.jpg', width: 1200, height: 630, alt: 'Gate Barrier Installation Dubai' }],
+  },
 }
 
 const features = [
@@ -43,9 +58,53 @@ const installVideos = [
   { src: '/videos/gate-barrier/barrier-install-3.mp4', label: 'Commissioning & Testing' },
 ]
 
+const faqs = [
+  { q: 'What gate barrier systems do you install in Dubai?', a: 'We install BFT, FAAC, CAME, and Roger Technology boom barriers for residential compounds, commercial car parks, and industrial facilities across Dubai and the UAE.' },
+  { q: 'What is a long range card reader for gate barriers?', a: 'A long range RFID card reader allows vehicles to open boom barriers from up to 10 metres away without stopping or lowering a window. It uses passive UHF windshield tags and is ideal for high-traffic compounds and corporate car parks.' },
+  { q: 'Do you integrate ANPR cameras with gate barriers?', a: 'Yes. We integrate ANPR (Automatic Number Plate Recognition) cameras with gate barriers to allow permit-based free-flow entry for registered vehicles, eliminating the need for cards or remotes.' },
+  { q: 'How long does gate barrier installation take in Dubai?', a: 'A standard single or dual gate barrier installation takes 1 day. Larger systems with ANPR, ticketing, and payment terminals are typically completed within 2–3 days.' },
+  { q: 'Do you provide maintenance for gate barriers in Dubai?', a: 'Yes. We offer preventive maintenance contracts and 24-hour emergency call-out for all gate barrier systems we install across Dubai and the UAE.' },
+]
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home',     item: BASE },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/#services` },
+    { '@type': 'ListItem', position: 3, name: 'Gate Barrier Systems Dubai', item: `${BASE}/services/parking-gate-barrier` },
+  ],
+}
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Gate Barrier Systems Dubai',
+  alternateName: ['Boom Barrier Dubai', 'Parking Barrier UAE', 'BFT Gate Barrier Dubai'],
+  description: 'Professional gate barrier and parking management system installation in Dubai. BFT, FAAC, and CAME boom barriers with ANPR, long range card readers, and remote management.',
+  provider: { '@type': 'LocalBusiness', '@id': `${BASE}/#business` },
+  areaServed: [{ '@type': 'City', name: 'Dubai' }, { '@type': 'AdministrativeArea', name: 'UAE' }],
+  serviceType: 'Gate Barrier Installation',
+  url: `${BASE}/services/parking-gate-barrier`,
+}
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map(({ q, a }) => ({
+    '@type': 'Question',
+    name: q,
+    acceptedAnswer: { '@type': 'Answer', text: a },
+  })),
+}
+
 export default function ParkingBarrierPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+
       {/* Hero */}
       <section className="pt-32 pb-20 bg-white dot-grid">
         <div className="container-custom">
@@ -62,7 +121,7 @@ export default function ParkingBarrierPage() {
                 <Car size={14} /> Automated Vehicle Management
               </div>
               <h1 className="text-4xl md:text-5xl font-black font-heading leading-tight mb-5" style={{ color: '#0F172A' }}>
-                Parking & Gate Barrier Systems Dubai
+                Gate Barrier & Parking Systems Dubai
               </h1>
               <p className="text-gray-500 text-lg mb-8 leading-relaxed">
                 Complete automated parking management and gate barrier systems for residential compounds, commercial buildings, malls, and industrial facilities across the UAE.
@@ -100,20 +159,17 @@ export default function ParkingBarrierPage() {
               </div>
             </div>
             <div>
-              <img
-                src="/images/projects/gate-barrier/barrier-2.jpg"
+              <img src="/images/projects/gate-barrier/barrier-2.jpg"
                 alt="BFT Gate Barrier Installation Dubai by Mideatek"
-                className="rounded-2xl w-full object-cover h-80 mb-4 shadow-md"
-              />
+                className="rounded-2xl w-full object-cover h-80 mb-4 shadow-md" />
               <div className="grid grid-cols-3 gap-3">
                 <img src="/images/projects/gate-barrier/barrier-1.jpg" alt="BFT boom barrier arm" className="rounded-xl w-full h-24 object-cover" />
-                <img src="/images/projects/gate-barrier/barrier-5.jpg" alt="BFT barrier beacon" className="rounded-xl w-full h-24 object-cover" />
-                <img src="/images/projects/gate-barrier/barrier-6.jpg" alt="Mideatek team installation" className="rounded-xl w-full h-24 object-cover" />
+                <img src="/images/projects/gate-barrier/barrier-5.jpg" alt="BFT barrier beacon Dubai" className="rounded-xl w-full h-24 object-cover" />
+                <img src="/images/projects/gate-barrier/barrier-6.jpg" alt="Mideatek team gate barrier install" className="rounded-xl w-full h-24 object-cover" />
               </div>
             </div>
           </div>
 
-          {/* System types */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {systems.map((s) => (
               <div key={s.title} className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm">
@@ -128,7 +184,7 @@ export default function ParkingBarrierPage() {
         </div>
       </section>
 
-      {/* Long range card reader — featured section */}
+      {/* Long range card reader */}
       <section className="section-pad bg-white">
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -156,15 +212,10 @@ export default function ParkingBarrierPage() {
               </div>
             </div>
             <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-gray-50">
-              <video
-                src="/videos/gate-barrier/long-range-card-reader.mp4"
-                controls
-                muted
-                playsInline
-                preload="metadata"
+              <video src="/videos/gate-barrier/long-range-card-reader.mp4"
+                controls muted playsInline preload="metadata"
                 className="w-full aspect-video object-cover"
-                aria-label="Long range card reader installation for gate barrier"
-              />
+                aria-label="Long range card reader installation for gate barrier Dubai" />
               <div className="px-5 py-4">
                 <p className="text-sm font-semibold text-gray-700">Long Range Card Reader Installation</p>
                 <p className="text-xs text-gray-400 mt-0.5">Mideatek · Dubai — Gate Barrier Integration</p>
@@ -180,22 +231,13 @@ export default function ParkingBarrierPage() {
           <div className="text-center mb-10">
             <div className="section-tag">REAL INSTALLATIONS</div>
             <h2 className="section-title mb-4">Gate Barrier Installation Videos</h2>
-            <p className="section-subtitle max-w-xl mx-auto">
-              Real footage from our BFT boom barrier installations across Dubai and the UAE.
-            </p>
+            <p className="section-subtitle max-w-xl mx-auto">Real footage from our BFT boom barrier installations across Dubai and the UAE.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {installVideos.map((v) => (
               <div key={v.src} className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-white">
-                <video
-                  src={v.src}
-                  controls
-                  muted
-                  playsInline
-                  preload="metadata"
-                  className="w-full aspect-video object-cover"
-                  aria-label={v.label}
-                />
+                <video src={v.src} controls muted playsInline preload="metadata"
+                  className="w-full aspect-video object-cover" aria-label={v.label} />
                 <div className="px-4 py-3">
                   <p className="text-sm font-semibold text-gray-700">{v.label}</p>
                   <p className="text-xs text-gray-400 mt-0.5">Mideatek · Dubai</p>
@@ -219,6 +261,24 @@ export default function ParkingBarrierPage() {
               <div key={img.src} className="relative overflow-hidden rounded-2xl group aspect-[4/3]">
                 <img src={img.src} alt={img.alt}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="section-pad" style={{ background: '#F8FAFC' }}>
+        <div className="container-custom max-w-3xl">
+          <div className="text-center mb-10">
+            <div className="section-tag">FAQ</div>
+            <h2 className="section-title mb-4">Gate Barrier Dubai — Frequently Asked Questions</h2>
+          </div>
+          <div className="space-y-4">
+            {faqs.map((faq) => (
+              <div key={faq.q} className="bg-white rounded-xl p-6 border border-gray-200">
+                <h3 className="font-semibold mb-2" style={{ color: '#0F172A' }}>{faq.q}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>

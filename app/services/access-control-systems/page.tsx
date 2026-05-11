@@ -4,10 +4,31 @@ import LeadForm from '@/components/shared/LeadForm'
 import CTASection from '@/components/shared/CTASection'
 import Link from 'next/link'
 
+const BASE = 'https://www.cctvdubai.me'
+
 export const metadata: Metadata = {
-  title: 'Access Control Systems Dubai | Biometric & RFID Solutions UAE',
-  description: 'Advanced access control and time attendance systems in Dubai. Biometric fingerprint, RFID, facial recognition, and remote-managed door access for offices and residences.',
-  keywords: ['access control Dubai', 'biometric access Dubai', 'RFID access control UAE', 'time attendance Dubai', 'door access system UAE'],
+  title: 'Access Control Systems Dubai | Biometric & RFID Door Access UAE',
+  description: 'Advanced access control systems in Dubai — biometric fingerprint, facial recognition, RFID & smart door access for offices, hotels & villas. Time attendance integration. Free site survey.',
+  keywords: [
+    'access control Dubai',
+    'access control system UAE',
+    'biometric access control Dubai',
+    'RFID access control UAE',
+    'door access system Dubai',
+    'facial recognition access Dubai',
+    'time attendance Dubai',
+    'fingerprint door access UAE',
+    'smart door lock Dubai',
+    'visitor management Dubai',
+    'multi-door access control UAE',
+    'hotel access control Dubai',
+  ],
+  alternates: { canonical: `${BASE}/services/access-control-systems` },
+  openGraph: {
+    title: 'Access Control Systems Dubai | Biometric & RFID Door Access UAE',
+    description: 'Biometric, RFID & smart access control for offices, hotels & residential. Time attendance integration. Free survey.',
+    url: `${BASE}/services/access-control-systems`,
+  },
 }
 
 const features = [
@@ -28,9 +49,53 @@ const systemTypes = [
   { title: 'Hotel Door Lock Systems', desc: 'RFID key card systems, mobile key, and master key management for hospitality environments.' },
 ]
 
+const faqs = [
+  { q: 'What access control systems do you install in Dubai?', a: 'We install biometric (fingerprint and facial recognition), RFID card, PIN, and mobile app-based access control systems from leading brands including Hikvision, ZKTeco, Suprema, and HID for offices, hotels, villas, and warehouses across Dubai.' },
+  { q: 'Can access control integrate with CCTV in Dubai?', a: 'Yes. We integrate access control with CCTV systems to create a complete security ecosystem — every door opening event can trigger CCTV recording and alert notifications, giving you a full audit trail.' },
+  { q: 'Do you provide time and attendance systems in Dubai?', a: 'Yes. Our biometric access control systems include time and attendance functionality, generating detailed reports for payroll and HR compliance. Data can integrate with leading HR software systems used in the UAE.' },
+  { q: 'How many doors can one access control system manage?', a: 'Our systems can manage from a single door up to thousands of doors across multiple sites. Multi-door and multi-site systems are centrally managed from one software platform, with real-time monitoring and remote access.' },
+  { q: 'What is the best access control system for an office in Dubai?', a: 'For a typical Dubai office, we recommend a cloud-based biometric (fingerprint or facial recognition) system with mobile app access and time attendance reporting. This provides strong security, easy management, and compliance with UAE labour regulations.' },
+]
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home',     item: BASE },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/#services` },
+    { '@type': 'ListItem', position: 3, name: 'Access Control Systems Dubai', item: `${BASE}/services/access-control-systems` },
+  ],
+}
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Access Control Systems Dubai',
+  alternateName: ['Biometric Access Control Dubai', 'RFID Door Access UAE', 'Time Attendance Dubai'],
+  description: 'Advanced biometric, RFID, and smart access control system installation in Dubai for offices, hotels, warehouses, and residential compounds. Includes time attendance, visitor management, and CCTV integration.',
+  provider: { '@type': 'LocalBusiness', '@id': `${BASE}/#business` },
+  areaServed: [{ '@type': 'City', name: 'Dubai' }, { '@type': 'AdministrativeArea', name: 'UAE' }],
+  serviceType: 'Access Control Installation',
+  url: `${BASE}/services/access-control-systems`,
+}
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map(({ q, a }) => ({
+    '@type': 'Question',
+    name: q,
+    acceptedAnswer: { '@type': 'Answer', text: a },
+  })),
+}
+
 export default function AccessControlPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+
       {/* Hero */}
       <section className="pt-32 pb-20 bg-white dot-grid">
         <div className="container-custom">
@@ -50,7 +115,7 @@ export default function AccessControlPage() {
                 Access Control Systems Dubai & UAE
               </h1>
               <p className="text-gray-500 text-lg mb-8 leading-relaxed">
-                Advanced biometric, RFID, and smart access control systems for offices, hotels, warehouses, and residential compounds across Dubai and the UAE.
+                Advanced biometric, RFID, and smart access control systems for offices, hotels, warehouses, and residential compounds across Dubai and the UAE. Full time & attendance integration.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a href="tel:+971545566456" className="btn-primary py-4 px-7 text-base justify-center">
@@ -95,6 +160,24 @@ export default function AccessControlPage() {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="section-pad bg-white">
+        <div className="container-custom max-w-3xl">
+          <div className="text-center mb-10">
+            <div className="section-tag">FAQ</div>
+            <h2 className="section-title mb-4">Access Control Dubai — Frequently Asked Questions</h2>
+          </div>
+          <div className="space-y-4">
+            {faqs.map((faq) => (
+              <div key={faq.q} className="bg-gray-50 rounded-xl p-6 border border-gray-200">
+                <h3 className="font-semibold mb-2" style={{ color: '#0F172A' }}>{faq.q}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{faq.a}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

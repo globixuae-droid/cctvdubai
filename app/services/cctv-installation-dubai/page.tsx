@@ -4,10 +4,35 @@ import LeadForm from '@/components/shared/LeadForm'
 import CTASection from '@/components/shared/CTASection'
 import Link from 'next/link'
 
+const BASE = 'https://www.cctvdubai.me'
+
 export const metadata: Metadata = {
   title: 'CCTV Installation Dubai | SIRA Approved CCTV Company UAE',
-  description: 'Professional CCTV installation in Dubai. SIRA-approved cameras, DVR/NVR systems, IP surveillance & remote monitoring for homes and businesses. Call now for free survey.',
-  keywords: ['CCTV installation Dubai', 'SIRA approved CCTV', 'CCTV company Dubai', 'security camera installation UAE', 'IP CCTV Dubai'],
+  description: 'Professional CCTV installation in Dubai by SIRA-approved engineers. HD, 4K & IP cameras, DVR/NVR systems, Hikvision & Dahua, remote monitoring & AI detection. Free site survey — call +971 54 556 6456.',
+  keywords: [
+    'CCTV installation Dubai',
+    'SIRA approved CCTV Dubai',
+    'CCTV company Dubai',
+    'security camera installation UAE',
+    'IP CCTV Dubai',
+    'Hikvision installer Dubai',
+    'Dahua CCTV UAE',
+    'CCTV camera Dubai',
+    '4K CCTV installation Dubai',
+    'CCTV system Dubai',
+    'CCTV installation company Dubai',
+    'best CCTV company Dubai',
+    'SIRA CCTV approval Dubai',
+    'CCTV installation villa Dubai',
+    'CCTV office Dubai',
+  ],
+  alternates: { canonical: `${BASE}/services/cctv-installation-dubai` },
+  openGraph: {
+    title: 'CCTV Installation Dubai | SIRA Approved CCTV Company UAE',
+    description: 'SIRA-approved CCTV installation in Dubai. HD, 4K & IP cameras, NVR systems, remote monitoring. Free site survey.',
+    url: `${BASE}/services/cctv-installation-dubai`,
+    images: [{ url: '/images/projects/cctv/cctv-10.jpg', width: 1200, height: 630, alt: 'CCTV Installation Dubai' }],
+  },
 }
 
 const features = [
@@ -29,10 +54,12 @@ const processSteps = [
 ]
 
 const faqs = [
-  { q: 'Do you provide SIRA-approved CCTV systems?', a: 'Yes, all our CCTV installations in Dubai are fully SIRA-compliant. We handle the entire approval process including documentation and submissions.' },
-  { q: 'How many cameras do I need for my property?', a: 'The number depends on your property size, layout, and security requirements. Our free site survey will determine the optimal number and placement.' },
-  { q: 'What brands do you use?', a: 'We supply and install Hikvision, Dahua, Bosch, Axis, and other leading brands. We recommend the best solution based on your budget and requirements.' },
-  { q: 'How long does installation take?', a: 'A typical 8-16 camera system takes 1-2 days. Larger commercial projects are planned and executed with minimal disruption to your operations.' },
+  { q: 'Do you provide SIRA-approved CCTV systems?', a: 'Yes. All our CCTV installations in Dubai are fully SIRA-compliant. We handle the entire approval process including documentation, technical drawings, and SIRA submissions on your behalf.' },
+  { q: 'How many CCTV cameras do I need for my property?', a: 'The number depends on your property size, layout, and security requirements. A typical villa needs 6–12 cameras, while commercial properties may need 20 or more. Our free site survey determines the optimal number and placement.' },
+  { q: 'What CCTV brands do you install in Dubai?', a: 'We supply and install Hikvision, Dahua, Bosch, Axis, Uniview, and other leading brands. We recommend the best solution for your budget and requirements, with full warranty support.' },
+  { q: 'How long does CCTV installation take in Dubai?', a: 'A typical 8–16 camera system takes 1–2 days. Larger commercial CCTV projects are carefully planned and executed to minimise disruption to your operations.' },
+  { q: 'What is the cost of CCTV installation in Dubai?', a: 'CCTV installation prices in Dubai depend on the number of cameras, camera type (HD, 4K, PTZ), storage solution, and cabling requirements. Contact us for a free no-obligation quotation.' },
+  { q: 'Do you offer CCTV maintenance and support in Dubai?', a: 'Yes. We offer 24/7 technical support and scheduled maintenance contracts to keep your CCTV system operating at peak performance.' },
 ]
 
 const galleryImages = [
@@ -44,9 +71,65 @@ const galleryImages = [
   { src: '/images/projects/cctv/cctv-9.jpg',  alt: 'Dome camera installation villa Dubai' },
 ]
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home',     item: BASE },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/#services` },
+    { '@type': 'ListItem', position: 3, name: 'CCTV Installation Dubai', item: `${BASE}/services/cctv-installation-dubai` },
+  ],
+}
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  '@id': `${BASE}/services/cctv-installation-dubai#service`,
+  name: 'CCTV Installation Dubai',
+  alternateName: ['CCTV Camera Installation Dubai', 'SIRA Approved CCTV Dubai', 'Security Camera Installation UAE'],
+  description: 'Professional SIRA-approved CCTV installation in Dubai for homes, villas, offices, warehouses, and commercial properties. We supply and install Hikvision, Dahua, Bosch, and Axis IP cameras, DVR/NVR systems, and remote monitoring solutions.',
+  provider: {
+    '@type': 'LocalBusiness',
+    '@id': `${BASE}/#business`,
+    name: 'CCTV Dubai — by Mideatek',
+  },
+  areaServed: [
+    { '@type': 'City', name: 'Dubai' },
+    { '@type': 'AdministrativeArea', name: 'UAE' },
+  ],
+  serviceType: 'CCTV Installation',
+  category: 'Security Systems',
+  url: `${BASE}/services/cctv-installation-dubai`,
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'CCTV Installation Services Dubai',
+    itemListElement: [
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'HD CCTV Installation Dubai' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: '4K IP Camera Installation Dubai' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'PTZ Camera Installation UAE' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'NVR DVR System Setup Dubai' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'SIRA CCTV Compliance Dubai' } },
+    ],
+  },
+}
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map(({ q, a }) => ({
+    '@type': 'Question',
+    name: q,
+    acceptedAnswer: { '@type': 'Answer', text: a },
+  })),
+}
+
 export default function CCTVPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+
       {/* Hero */}
       <section className="pt-32 pb-20 bg-white dot-grid">
         <div className="container-custom">
@@ -92,7 +175,7 @@ export default function CCTVPage() {
               <div className="section-tag">WHAT WE OFFER</div>
               <h2 className="section-title mb-6">Complete CCTV Solutions for Dubai & UAE</h2>
               <p className="text-gray-500 mb-8 leading-relaxed">
-                Mideatek delivers end-to-end CCTV surveillance solutions that are fully compliant with SIRA requirements and Dubai Civil Defence regulations.
+                Mideatek delivers end-to-end CCTV surveillance solutions that are fully compliant with SIRA requirements and Dubai Civil Defence regulations. From single cameras to enterprise-wide 500+ camera networks, we design, supply, install, and maintain every system.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
                 {features.map((f) => (
@@ -102,7 +185,7 @@ export default function CCTVPage() {
                 ))}
               </div>
               <div className="grid grid-cols-3 gap-3">
-                {[{ value: '5000+', label: 'Cameras Installed' }, { value: '100%', label: 'SIRA Compliant' }, { value: '24/7', label: 'Support' }].map((s) => (
+                {[{ value: '5,000+', label: 'Cameras Installed' }, { value: '100%', label: 'SIRA Compliant' }, { value: '24/7', label: 'Support' }].map((s) => (
                   <div key={s.label} className="bg-white rounded-xl p-4 text-center border border-gray-200">
                     <div className="text-2xl font-black font-heading" style={{ color: '#1B3F7C' }}>{s.value}</div>
                     <div className="text-xs text-gray-500 mt-1">{s.label}</div>
@@ -112,12 +195,12 @@ export default function CCTVPage() {
             </div>
             <div>
               <img src="/images/projects/cctv/cctv-10.jpg"
-                alt="CCTV Installation Dubai by Mideatek"
+                alt="CCTV Installation Dubai by Mideatek — SIRA Approved"
                 className="rounded-2xl w-full object-cover h-80 mb-4 shadow-md" />
               <div className="grid grid-cols-3 gap-3">
-                <img src="/images/projects/cctv/cctv-1.jpg"  alt="Hikvision dome camera install" className="rounded-xl w-full h-24 object-cover" />
-                <img src="/images/projects/cctv/cctv-3.jpg"  alt="PTZ camera outdoor"            className="rounded-xl w-full h-24 object-cover" />
-                <img src="/images/projects/cctv/cctv-11.jpg" alt="Dual dome camera install"      className="rounded-xl w-full h-24 object-cover" />
+                <img src="/images/projects/cctv/cctv-1.jpg"  alt="Hikvision dome camera installation Dubai" className="rounded-xl w-full h-24 object-cover" />
+                <img src="/images/projects/cctv/cctv-3.jpg"  alt="PTZ camera outdoor installation UAE"      className="rounded-xl w-full h-24 object-cover" />
+                <img src="/images/projects/cctv/cctv-11.jpg" alt="Dual dome CCTV camera Dubai"              className="rounded-xl w-full h-24 object-cover" />
               </div>
             </div>
           </div>
@@ -148,7 +231,7 @@ export default function CCTVPage() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <div className="section-tag">HOW WE WORK</div>
-            <h2 className="section-title mb-4">Our Installation Process</h2>
+            <h2 className="section-title mb-4">Our CCTV Installation Process</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {processSteps.map((s) => (
@@ -163,12 +246,12 @@ export default function CCTVPage() {
         </div>
       </section>
 
-      {/* FAQ */}
+      {/* FAQ — structured for Google AI Overview + featured snippets */}
       <section className="section-pad bg-white">
         <div className="container-custom max-w-3xl">
           <div className="text-center mb-10">
             <div className="section-tag">FAQ</div>
-            <h2 className="section-title mb-4">Frequently Asked Questions</h2>
+            <h2 className="section-title mb-4">CCTV Installation Dubai — Frequently Asked Questions</h2>
           </div>
           <div className="space-y-4">
             {faqs.map((faq) => (

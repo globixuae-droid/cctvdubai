@@ -4,10 +4,31 @@ import LeadForm from '@/components/shared/LeadForm'
 import CTASection from '@/components/shared/CTASection'
 import Link from 'next/link'
 
+const BASE = 'https://www.cctvdubai.me'
+
 export const metadata: Metadata = {
   title: 'Intercom Systems Dubai | Video Door Phone Installation UAE',
-  description: 'Professional intercom and video door phone installation in Dubai & UAE. IP intercom, video entry systems, and building intercom solutions for villas, apartments, and commercial properties.',
-  keywords: ['intercom Dubai', 'video door phone Dubai', 'intercom system UAE', 'IP intercom Dubai', 'building intercom Dubai', 'door entry system UAE'],
+  description: 'Professional intercom & video door phone installation in Dubai. IP intercoms, colour video entry systems, apartment building intercoms & remote mobile access. Free survey — call +971 54 556 6456.',
+  keywords: [
+    'intercom Dubai',
+    'video door phone Dubai',
+    'intercom system UAE',
+    'IP intercom Dubai',
+    'building intercom Dubai',
+    'door entry system UAE',
+    'video intercom Dubai',
+    'apartment intercom Dubai',
+    'villa intercom Dubai',
+    'colour video door phone UAE',
+    'intercom installation Dubai',
+    'smart intercom Dubai',
+  ],
+  alternates: { canonical: `${BASE}/services/intercom-systems` },
+  openGraph: {
+    title: 'Intercom Systems Dubai | Video Door Phone Installation UAE',
+    description: 'IP & analogue video intercoms for villas, apartments & offices. Mobile app access. Free site survey.',
+    url: `${BASE}/services/intercom-systems`,
+  },
 }
 
 const features = [
@@ -34,9 +55,53 @@ const videos = [
   { src: '/videos/intercom/intercom-3.mp4', label: 'System Commissioning' },
 ]
 
+const faqs = [
+  { q: 'What intercom systems do you install in Dubai?', a: 'We install IP video intercoms, analogue colour video door phones, and apartment building intercom systems from brands including Hikvision, Dahua, Aiphone, 2N, and Siedle for villas, apartments, offices, and commercial properties in Dubai.' },
+  { q: 'Can I answer my intercom on my mobile phone in Dubai?', a: 'Yes. Modern IP intercom systems allow you to see and speak with visitors on your smartphone from anywhere in the world using an app. You can also remotely unlock the door directly from the app.' },
+  { q: 'What is the best intercom system for an apartment building in Dubai?', a: 'For apartment buildings in Dubai, we recommend a multi-tenant IP intercom system with individual panels for each apartment, a lobby video call station, concierge desk unit, and cloud-based management for building management teams.' },
+  { q: 'Can an intercom integrate with a gate barrier in Dubai?', a: 'Yes. We integrate video intercoms with BFT, FAAC, and other boom barriers so visitors can call from the gate, be verified on video, and be granted entry — all without the resident leaving the property.' },
+  { q: 'How long does intercom installation take in Dubai?', a: 'A single villa video door phone installation is completed in half a day. Apartment building or commercial intercom systems typically take 1–3 days depending on the number of units and cable infrastructure.' },
+]
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home',     item: BASE },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/#services` },
+    { '@type': 'ListItem', position: 3, name: 'Intercom Systems Dubai', item: `${BASE}/services/intercom-systems` },
+  ],
+}
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Intercom Systems Dubai',
+  alternateName: ['Video Door Phone Dubai', 'IP Intercom UAE', 'Building Intercom Dubai'],
+  description: 'Professional intercom and video door phone installation in Dubai for villas, apartments, offices, and commercial buildings. IP and analogue systems with mobile app access and gate barrier integration.',
+  provider: { '@type': 'LocalBusiness', '@id': `${BASE}/#business` },
+  areaServed: [{ '@type': 'City', name: 'Dubai' }, { '@type': 'AdministrativeArea', name: 'UAE' }],
+  serviceType: 'Intercom System Installation',
+  url: `${BASE}/services/intercom-systems`,
+}
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map(({ q, a }) => ({
+    '@type': 'Question',
+    name: q,
+    acceptedAnswer: { '@type': 'Answer', text: a },
+  })),
+}
+
 export default function IntercomPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+
       {/* Hero */}
       <section className="pt-32 pb-20 bg-white dot-grid">
         <div className="container-custom">
@@ -74,7 +139,7 @@ export default function IntercomPage() {
         </div>
       </section>
 
-      {/* Features + stats */}
+      {/* Features + system types */}
       <section className="section-pad" style={{ background: '#F8FAFC' }}>
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-14 items-center">
@@ -92,11 +157,7 @@ export default function IntercomPage() {
                 ))}
               </div>
               <div className="grid grid-cols-3 gap-3">
-                {[
-                  { value: '500+', label: 'Systems Installed' },
-                  { value: '100%', label: 'Tested & Certified' },
-                  { value: '24/7', label: 'Support' },
-                ].map((s) => (
+                {[{ value: '500+', label: 'Systems Installed' }, { value: '100%', label: 'Tested & Certified' }, { value: '24/7', label: 'Support' }].map((s) => (
                   <div key={s.label} className="bg-white rounded-xl p-4 text-center border border-gray-200">
                     <div className="text-2xl font-black font-heading" style={{ color: '#1B3F7C' }}>{s.value}</div>
                     <div className="text-xs text-gray-500 mt-1">{s.label}</div>
@@ -104,8 +165,6 @@ export default function IntercomPage() {
                 ))}
               </div>
             </div>
-
-            {/* System types */}
             <div className="grid grid-cols-1 gap-4">
               {systemTypes.map((s) => (
                 <div key={s.title} className="bg-white rounded-2xl p-5 border border-gray-200 shadow-sm hover:border-blue-200 transition-colors flex gap-4 items-start">
@@ -123,28 +182,19 @@ export default function IntercomPage() {
         </div>
       </section>
 
-      {/* Real installation videos */}
+      {/* Installation videos */}
       <section className="section-pad bg-white">
         <div className="container-custom">
           <div className="text-center mb-10">
             <div className="section-tag">REAL INSTALLATIONS</div>
             <h2 className="section-title mb-4">Our Intercom Work in Dubai</h2>
-            <p className="section-subtitle max-w-xl mx-auto">
-              Real installation videos from our intercom and video door phone projects across Dubai and the UAE.
-            </p>
+            <p className="section-subtitle max-w-xl mx-auto">Real installation videos from our intercom and video door phone projects across Dubai and the UAE.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {videos.map((v) => (
               <div key={v.src} className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-gray-50">
-                <video
-                  src={v.src}
-                  controls
-                  muted
-                  playsInline
-                  preload="metadata"
-                  className="w-full aspect-video object-cover"
-                  aria-label={v.label}
-                />
+                <video src={v.src} controls muted playsInline preload="metadata"
+                  className="w-full aspect-video object-cover" aria-label={v.label} />
                 <div className="px-4 py-3">
                   <p className="text-sm font-semibold text-gray-700">{v.label}</p>
                   <p className="text-xs text-gray-400 mt-0.5">Mideatek · Dubai</p>
@@ -155,10 +205,25 @@ export default function IntercomPage() {
         </div>
       </section>
 
-      <CTASection
-        title="Need an Intercom System in Dubai?"
-        subtitle="Contact Mideatek for professional intercom and video door phone installation with full warranty and support."
-      />
+      {/* FAQ */}
+      <section className="section-pad" style={{ background: '#F8FAFC' }}>
+        <div className="container-custom max-w-3xl">
+          <div className="text-center mb-10">
+            <div className="section-tag">FAQ</div>
+            <h2 className="section-title mb-4">Intercom Systems Dubai — Frequently Asked Questions</h2>
+          </div>
+          <div className="space-y-4">
+            {faqs.map((faq) => (
+              <div key={faq.q} className="bg-white rounded-xl p-6 border border-gray-200">
+                <h3 className="font-semibold mb-2" style={{ color: '#0F172A' }}>{faq.q}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{faq.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <CTASection title="Need an Intercom System in Dubai?" subtitle="Contact Mideatek for professional intercom and video door phone installation with full warranty and support." />
     </>
   )
 }
