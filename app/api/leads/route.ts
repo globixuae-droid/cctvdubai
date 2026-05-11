@@ -1,8 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
-import { Resend } from 'resend'
+import nodemailer from 'nodemailer'
 
 const TO_EMAIL = 'hammad.rehman@mideatek.com'
+
+function createTransporter() {
+  return nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: process.env.GMAIL_USER,
+      pass: process.env.GMAIL_APP_PASSWORD,
+    },
+  })
+}
 
 export async function POST(req: NextRequest) {
   try {
@@ -13,7 +23,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Name and phone are required' }, { status: 400 })
     }
 
-    // Save to DB — non-fatal if it fails (SQLite not supported on Vercel)
+    // Save to DB — non-fatal if it fails on Vercel (SQLite)
     let leadId: string | number | undefined
     try {
       const lead = await prisma.lead.create({
@@ -31,19 +41,18 @@ export async function POST(req: NextRequest) {
       console.error('DB save failed (non-fatal):', dbErr)
     }
 
-    // Send email notification — always attempt this
-    if (process.env.RESEND_API_KEY) {
-      const resend = new Resend(process.env.RESEND_API_KEY)
-      const fromEmail = process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev'
-      await resend.emails.send({
-        from: `CCTV Dubai <${fromEmail}>`,
+    // Send email via Gmail SMTP
+    if (process.env.GMAIL_USER && process.env.GMAIL_APP_PASSWORD) {
+      const transporter = createTransporter()
+      await transporter.sendMail({
+        from: `"CCTV Dubai — cctvdubai.me" <${process.env.GMAIL_USER}>`,
         to: TO_EMAIL,
         subject: `New Lead: ${name} — ${service || 'General Enquiry'} (${source || 'website'})`,
         html: `
           <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;padding:24px;border:1px solid #e5e7eb;border-radius:12px">
             <div style="background:#1B3F7C;color:white;padding:16px 24px;border-radius:8px;margin-bottom:24px">
               <h2 style="margin:0;font-size:20px">New Lead — cctvdubai.me</h2>
-              <p style="margin:4px 0 0;opacity:0.8;font-size:14px">Submitted via: ${source || 'website'}</p>
+              <p style="margin:4px 0 0;opacity:0.8;font-size:14px">Source: ${source || 'website'}</p>
             </div>
 
             <table style="width:100%;border-collapse:collapse;margin-bottom:24px">
@@ -53,8 +62,8 @@ export async function POST(req: NextRequest) {
               </tr>
               <tr>
                 <td style="padding:10px 14px;font-weight:bold;color:#374151;border-bottom:1px solid #e5e7eb">Phone</td>
-                <td style="padding:10px 14px;color:#111827;border-bottom:1px solid #e5e7eb">
-                  <a href="tel:${phone}" style="color:#1B3F7C">${phone}</a>
+                <td style="padding:10px 14px;border-bottom:1px solid #e5e7eb">
+                  <a href="tel:${phone}" style="color:#1B3F7C;font-weight:bold">${phone}</a>
                 </td>
               </tr>
               <tr style="background:#f8fafc">
@@ -86,8 +95,7 @@ export async function POST(req: NextRequest) {
             </p>
 
             <p style="text-align:center;color:#9ca3af;font-size:12px;margin-top:20px">
-              cctvdubai.me — Mideatek Lead Notification
-              ${leadId ? `· Lead #${leadId}` : ''}
+              cctvdubai.me — Mideatek Lead Notification${leadId ? ` · Lead #${leadId}` : ''}
             </p>
           </div>
         `,
