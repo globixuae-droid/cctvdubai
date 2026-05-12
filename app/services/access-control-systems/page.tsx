@@ -165,7 +165,7 @@ export default function AccessControlPage() {
         </div>
       </section>
 
-      {/* Photo Gallery */}
+      {/* Photo & Video Gallery */}
       <section className="section-pad bg-white">
         <div className="container-custom">
           <div className="text-center mb-10">
@@ -173,22 +173,49 @@ export default function AccessControlPage() {
             <h2 className="section-title mb-4">Access Control Installations in Dubai</h2>
             <p className="section-subtitle max-w-xl mx-auto">Real access control and intercom installations completed by Mideatek across Dubai.</p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
+          {/* Row 1: featured wide image + 1 image */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
             <div className="lg:col-span-2 rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
-              <Image src="/images/access-control/access-control-1.jpg" alt="Access control system installation Dubai by Mideatek" fill className="object-cover" />
+              <Image src="/images/access-control/access-control-1.jpg" alt="Outdoor intercom system installation Dubai by Mideatek" fill className="object-cover" />
             </div>
             <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
-              <Image src="/images/access-control/access-control-2.jpg" alt="Biometric access control door reader Dubai" fill className="object-cover" />
+              <Image src="/images/access-control/access-control-2.jpg" alt="Video intercom door phone system Dubai" fill className="object-cover" />
+            </div>
+          </div>
+
+          {/* Row 2: 3 images */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/access-control/access-control-3.jpg" alt="Access control panel installation Dubai office" fill className="object-cover" />
             </div>
             <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
-              <Image src="/images/access-control/access-control-3.jpg" alt="RFID access control panel UAE" fill className="object-cover" />
+              <Image src="/images/access-control/access-control-4.jpg" alt="Biometric fingerprint door reader UAE" fill className="object-cover" />
             </div>
             <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
-              <Image src="/images/access-control/access-control-4.jpg" alt="Outdoor intercom system Dubai villa" fill className="object-cover" />
+              <Image src="/images/access-control/access-control-5.jpg" alt="RFID access control system Dubai" fill className="object-cover" />
             </div>
-            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
-              <Image src="/images/access-control/access-control-5.jpg" alt="Video intercom door phone system Dubai" fill className="object-cover" />
-            </div>
+          </div>
+
+          {/* Row 3: 3 videos */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {[
+              { src: '/videos/access-control/access-control-1.mp4', label: 'Access control installation Dubai' },
+              { src: '/videos/access-control/access-control-2.mp4', label: 'Intercom system Dubai' },
+              { src: '/videos/access-control/access-control-3.mp4', label: 'Door access system UAE' },
+            ].map((v) => (
+              <div key={v.src} className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative bg-gray-900">
+                <video
+                  src={v.src}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="w-full h-full object-cover"
+                  aria-label={v.label}
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>
