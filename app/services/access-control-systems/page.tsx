@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Lock, CheckCircle, Phone, ChevronRight } from 'lucide-react'
+import Image from 'next/image'
 import LeadForm from '@/components/shared/LeadForm'
 import CTASection from '@/components/shared/CTASection'
 import Link from 'next/link'
@@ -164,8 +165,36 @@ export default function AccessControlPage() {
         </div>
       </section>
 
-      {/* FAQ */}
+      {/* Photo Gallery */}
       <section className="section-pad bg-white">
+        <div className="container-custom">
+          <div className="text-center mb-10">
+            <div className="section-tag">OUR WORK</div>
+            <h2 className="section-title mb-4">Access Control Installations in Dubai</h2>
+            <p className="section-subtitle max-w-xl mx-auto">Real access control and intercom installations completed by Mideatek across Dubai.</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="lg:col-span-2 rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/access-control/access-control-1.jpg" alt="Access control system installation Dubai by Mideatek" fill className="object-cover" />
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/access-control/access-control-2.jpg" alt="Biometric access control door reader Dubai" fill className="object-cover" />
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/access-control/access-control-3.jpg" alt="RFID access control panel UAE" fill className="object-cover" />
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/access-control/access-control-4.jpg" alt="Outdoor intercom system Dubai villa" fill className="object-cover" />
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/access-control/access-control-5.jpg" alt="Video intercom door phone system Dubai" fill className="object-cover" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="section-pad" style={{ background: '#F8FAFC' }}>
         <div className="container-custom max-w-3xl">
           <div className="text-center mb-10">
             <div className="section-tag">FAQ</div>
