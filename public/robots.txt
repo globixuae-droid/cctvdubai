@@ -73,5 +73,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
-Host: https://www.cctvdubai.me
 Sitemap: https://www.cctvdubai.me/sitemap.xml
