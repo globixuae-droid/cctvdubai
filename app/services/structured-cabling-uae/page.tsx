@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Cable, CheckCircle, Phone, ChevronRight } from 'lucide-react'
+import Image from 'next/image'
 import LeadForm from '@/components/shared/LeadForm'
 import CTASection from '@/components/shared/CTASection'
 import Link from 'next/link'
@@ -167,8 +168,67 @@ export default function StructuredCablingPage() {
         </div>
       </section>
 
-      {/* FAQ */}
+      {/* Photo Gallery */}
       <section className="section-pad bg-white">
+        <div className="container-custom">
+          <div className="text-center mb-10">
+            <div className="section-tag">OUR WORK</div>
+            <h2 className="section-title mb-4">Structured Cabling Installations in Dubai</h2>
+            <p className="section-subtitle max-w-xl mx-auto">Real Cat6, fiber optic, and patch panel installations completed by Mideatek across Dubai.</p>
+          </div>
+          {/* Row 1: featured wide + 1 */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+            <div className="lg:col-span-2 rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/structured-cabling/structured-cabling-1.jpg" alt="Cat6 structured cabling installation Dubai by Mideatek" fill className="object-cover" />
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/structured-cabling/structured-cabling-4.jpg" alt="Fiber optic cabling installation Dubai" fill className="object-cover" />
+            </div>
+          </div>
+          {/* Row 2: 3 equal */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/structured-cabling/structured-cabling-3.jpg" alt="Cat6 patch panel termination Dubai office" fill className="object-cover" />
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/structured-cabling/structured-cabling-5.jpg" alt="Fiber optic termination UAE" fill className="object-cover" />
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/structured-cabling/structured-cabling-6.jpg" alt="Fiber optic cable pulling installation Dubai" fill className="object-cover" />
+            </div>
+          </div>
+          {/* Row 3: 1 wide + 2 */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/structured-cabling/structured-cabling-7.jpg" alt="Network rack cabling Dubai data centre" fill className="object-cover" />
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/structured-cabling/structured-cabling-8.jpg" alt="Structured cabling server room UAE" fill className="object-cover" />
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/structured-cabling/structured-cabling-9.jpg" alt="Cat6A cabling installation Dubai office" fill className="object-cover" />
+            </div>
+          </div>
+          {/* Row 4: 4 equal */}
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/structured-cabling/structured-cabling-10.jpg" alt="Network cabling UAE commercial building" fill className="object-cover" />
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/structured-cabling/structured-cabling-11.jpg" alt="TIA EIA structured cabling Dubai" fill className="object-cover" />
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/structured-cabling/structured-cabling-12.jpg" alt="Cable management and labeling Dubai" fill className="object-cover" />
+            </div>
+            <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm aspect-video relative">
+              <Image src="/images/structured-cabling/structured-cabling-13.jpg" alt="Ethernet cabling installation UAE" fill className="object-cover" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="section-pad" style={{ background: '#F8FAFC' }}>
         <div className="container-custom max-w-3xl">
           <div className="text-center mb-10">
             <div className="section-tag">FAQ</div>
@@ -176,7 +236,7 @@ export default function StructuredCablingPage() {
           </div>
           <div className="space-y-4">
             {faqs.map((faq) => (
-              <div key={faq.q} className="bg-gray-50 rounded-xl p-6 border border-gray-200">
+              <div key={faq.q} className="bg-white rounded-xl p-6 border border-gray-200">
                 <h3 className="font-semibold mb-2" style={{ color: '#0F172A' }}>{faq.q}</h3>
                 <p className="text-gray-500 text-sm leading-relaxed">{faq.a}</p>
               </div>
