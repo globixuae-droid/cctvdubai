@@ -95,7 +95,6 @@ export default function Header() {
             </div>
 
             <Link href="/projects" className="text-sm font-medium text-gray-600 hover:text-blue-700 transition-colors">Projects</Link>
-            <Link href="/blog"     className="text-sm font-medium text-gray-600 hover:text-blue-700 transition-colors">Blog</Link>
             <Link href="/about"    className="text-sm font-medium text-gray-600 hover:text-blue-700 transition-colors">About</Link>
             <Link href="/contact"  className="text-sm font-medium text-gray-600 hover:text-blue-700 transition-colors">Contact</Link>
           </div>
@@ -144,7 +143,6 @@ export default function Header() {
                 </div>
               )}
               <Link href="/projects" className="block py-3 px-4 text-gray-700 hover:text-blue-700 hover:bg-blue-50 rounded-lg text-sm font-medium" onClick={() => setMobileOpen(false)}>Projects</Link>
-              <Link href="/blog"     className="block py-3 px-4 text-gray-700 hover:text-blue-700 hover:bg-blue-50 rounded-lg text-sm font-medium" onClick={() => setMobileOpen(false)}>Blog</Link>
               <Link href="/about"    className="block py-3 px-4 text-gray-700 hover:text-blue-700 hover:bg-blue-50 rounded-lg text-sm font-medium" onClick={() => setMobileOpen(false)}>About</Link>
               <Link href="/contact"  className="block py-3 px-4 text-gray-700 hover:text-blue-700 hover:bg-blue-50 rounded-lg text-sm font-medium" onClick={() => setMobileOpen(false)}>Contact</Link>
               <div className="pt-3 flex flex-col gap-2 border-t border-gray-100 mt-2">
