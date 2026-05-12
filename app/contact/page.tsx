@@ -37,9 +37,9 @@ const contactMethods = [
   {
     icon: MapPin,
     label: 'Our Office',
-    value: 'Barsha Heights, Dubai',
+    value: 'Karama, Dubai',
     sub: 'By appointment',
-    href: 'https://maps.google.com/?q=Damac+Smart+Heights+Barsha+Heights+Dubai',
+    href: 'https://maps.google.com/?q=Offices+Land+Building+Karama+Dubai+UAE',
     color: 'bg-purple-600',
   },
 ]
@@ -149,7 +149,7 @@ export default function ContactPage() {
           <h2 className="section-title text-center mb-8">Find Our Office</h2>
           <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200 h-80">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.7624455978!2d55.15465!3d25.09478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b5b8b9b9b9b%3A0x0!2sDamac%20Smart%20Heights%2C%20Barsha%20Heights%2C%20Dubai!5e0!3m2!1sen!2sae!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.5!2d55.30562!3d25.24763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c983%3A0xb995615b9f7eaef2!2sAl%20Karama%2C%20Dubai!5e0!3m2!1sen!2sae!4v1684500000000!5m2!1sen!2sae"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -161,7 +161,7 @@ export default function ContactPage() {
           </div>
           <p className="text-center text-gray-500 text-sm mt-4">
             <MapPin size={14} className="inline mr-1" />
-            Office 1204, Damac Smart Heights, Barsha Heights, Dubai, UAE
+            First Floor, Offices Land Building, Karama, Dubai, UAE
           </p>
         </div>
       </section>
