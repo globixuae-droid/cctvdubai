@@ -20,8 +20,8 @@ const projects = [
     category: 'Access Control',
     location: 'Dubai, UAE',
     description: 'Gated community access control with biometric entry, boom barriers, ANPR cameras, and CCTV perimeter surveillance.',
-    image: '/images/projects/pearl-creek/pearl-creek-1.jpg',
-    fallback: '/images/projects/pearl-creek/pearl-creek-2.jpg',
+    image: '/images/projects/access-control/access-control-1.jpg',
+    fallback: '/images/projects/access-control/access-control-2.jpg',
     tags: ['Access Control', 'Gate Barrier', 'CCTV'],
   },
   {
