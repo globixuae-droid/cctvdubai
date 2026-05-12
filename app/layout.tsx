@@ -156,7 +156,7 @@ const localBusinessSchema = {
     ],
   },
   sameAs: [
-    'https://facebook.com/mideatek',
+    'https://www.facebook.com/Mideatek2014',
     'https://instagram.com/mideatek',
     'https://linkedin.com/company/mideatek',
     'https://youtube.com/@mideatek',

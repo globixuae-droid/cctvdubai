@@ -39,7 +39,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-2.5">
               {[
-                { href: 'https://facebook.com/mideatek',         icon: Facebook },
+                { href: 'https://www.facebook.com/Mideatek2014',  icon: Facebook },
                 { href: 'https://instagram.com/mideatek',        icon: Instagram },
                 { href: 'https://linkedin.com/company/mideatek', icon: Linkedin },
                 { href: 'https://youtube.com/@mideatek',         icon: Youtube },

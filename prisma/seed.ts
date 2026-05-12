@@ -154,7 +154,7 @@ async function main() {
     { key: 'email', value: 'info@mideatek.com' },
     { key: 'address', value: 'Office 1204, Damac Smart Heights, Barsha Heights, Dubai, UAE' },
     { key: 'whatsapp', value: '+971508207931' },
-    { key: 'facebook', value: 'https://facebook.com/mideatek' },
+    { key: 'facebook', value: 'https://www.facebook.com/Mideatek2014' },
     { key: 'instagram', value: 'https://instagram.com/mideatek' },
     { key: 'linkedin', value: 'https://linkedin.com/company/mideatek' },
   ]
