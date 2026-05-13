@@ -66,26 +66,11 @@ export const metadata: Metadata = {
     siteName:  'CCTV Dubai — cctvdubai.me',
     title:     'CCTV Dubai | #1 SIRA Approved CCTV Installation Company UAE',
     description: 'SIRA-approved CCTV installation, gate barriers, structured cabling, access control and intercom systems. Free site survey. WhatsApp: 054 556 6456.',
-    images: [{
-      url:    '/og-image.jpg',
-      width:  1200,
-      height: 630,
-      alt:    'CCTV Dubai — SIRA Approved CCTV Installation by Mideatek',
-    }],
   },
   twitter: {
     card:        'summary_large_image',
     title:       'CCTV Dubai | #1 SIRA Approved CCTV & Security Systems UAE',
     description: 'SIRA-approved CCTV, gate barriers, access control, structured cabling & intercom. Free survey. cctvdubai.me',
-    images:      ['/og-image.jpg'],
-  },
-  icons: {
-    icon:  [
-      { url: '/favicon.ico' },
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-    ],
-    apple: '/apple-touch-icon.png',
   },
   alternates: {
     canonical: BASE,
@@ -119,7 +104,6 @@ const localBusinessSchema = {
     streetAddress: 'First Floor, Offices Land Building, Karama',
     addressLocality: 'Dubai',
     addressRegion: 'Dubai',
-    postalCode: '00000',
     addressCountry: 'AE',
   },
   geo: {
@@ -135,13 +119,6 @@ const localBusinessSchema = {
       closes: '18:00',
     },
   ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '120',
-    bestRating: '5',
-    worstRating: '1',
-  },
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
     name: 'Security & ELV Services Dubai',
@@ -180,12 +157,6 @@ const organizationSchema = {
   '@id': `${BASE}/#organization`,
   name: 'Mideatek',
   url: BASE,
-  logo: {
-    '@type': 'ImageObject',
-    url: `${BASE}/logo.png`,
-    width: 200,
-    height: 60,
-  },
   contactPoint: [
     {
       '@type': 'ContactPoint',
@@ -193,7 +164,6 @@ const organizationSchema = {
       contactType: 'customer service',
       areaServed: 'AE',
       availableLanguage: ['English', 'Arabic'],
-      contactOption: 'TollFree',
     },
     {
       '@type': 'ContactPoint',

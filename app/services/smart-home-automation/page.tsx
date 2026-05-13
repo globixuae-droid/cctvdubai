@@ -7,20 +7,24 @@ import Link from 'next/link'
 const BASE = 'https://www.cctvdubai.me'
 
 export const metadata: Metadata = {
-  title: 'Smart Home Automation Dubai | Home Automation UAE | Crestron Lutron',
-  description: 'Complete smart home automation in Dubai — Crestron, Lutron, Control4 systems. Lighting, climate, security, entertainment & voice control. Luxury smart villas & apartments. Free consultation.',
+  title: 'Smart Home Automation Dubai | Crestron, Lutron & Control4 UAE | Free Consultation',
+  description: 'Complete smart home automation in Dubai — Crestron, Lutron, Control4 & KNX systems. Automated lighting, climate control, security integration, home theatre & voice control. Serving Palm Jumeirah, Emirates Hills & all Dubai. Free consultation — call +971 54 556 6456.',
   keywords: [
     'smart home Dubai', 'home automation UAE', 'smart home automation Dubai',
     'Crestron Dubai', 'Lutron Dubai', 'Control4 Dubai', 'Savant Dubai',
     'smart villa Dubai', 'smart lighting Dubai', 'home automation system UAE',
     'smart home company Dubai', 'KNX Dubai', 'HDL automation Dubai',
     'smart apartment Dubai', 'home automation installation UAE',
+    'smart home Palm Jumeirah', 'smart villa Emirates Hills',
+    'home automation Downtown Dubai', 'smart curtains Dubai',
+    'smart HVAC Dubai', 'home automation contractor UAE',
   ],
   alternates: { canonical: `${BASE}/services/smart-home-automation` },
   openGraph: {
     title: 'Smart Home Automation Dubai | Crestron, Lutron & Control4 UAE',
     description: 'Luxury smart home automation for Dubai villas & apartments. Lighting, climate, security & AV control. Free consultation.',
     url: `${BASE}/services/smart-home-automation`,
+    images: [{ url: '/images/projects/cctv/cctv-8.jpg', width: 1200, height: 630, alt: 'Smart Home Automation Dubai by Mideatek' }],
   },
 }
 

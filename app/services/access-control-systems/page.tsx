@@ -8,8 +8,8 @@ import Link from 'next/link'
 const BASE = 'https://www.cctvdubai.me'
 
 export const metadata: Metadata = {
-  title: 'Access Control Systems Dubai | Biometric & RFID Door Access UAE',
-  description: 'Advanced access control systems in Dubai — biometric fingerprint, facial recognition, RFID & smart door access for offices, hotels & villas. Time attendance integration. Free site survey.',
+  title: 'Access Control Systems Dubai | Biometric & RFID Door Access UAE | Free Survey',
+  description: 'Advanced access control in Dubai — biometric fingerprint, facial recognition, RFID card & smart door access for offices, hotels, warehouses & villas. SIRA approved. Time attendance integration. Free site survey — call +971 54 556 6456.',
   keywords: [
     'access control Dubai',
     'access control system UAE',
@@ -23,12 +23,19 @@ export const metadata: Metadata = {
     'visitor management Dubai',
     'multi-door access control UAE',
     'hotel access control Dubai',
+    'access control installation Dubai',
+    'card reader access control UAE',
+    'ZKTeco Dubai',
+    'Hikvision access control Dubai',
+    'office access control Dubai',
+    'SIRA access control Dubai',
   ],
   alternates: { canonical: `${BASE}/services/access-control-systems` },
   openGraph: {
     title: 'Access Control Systems Dubai | Biometric & RFID Door Access UAE',
-    description: 'Biometric, RFID & smart access control for offices, hotels & residential. Time attendance integration. Free survey.',
+    description: 'Biometric, RFID & smart access control for offices, hotels & residential in Dubai. Time attendance integration. Free survey.',
     url: `${BASE}/services/access-control-systems`,
+    images: [{ url: '/images/access-control/access-control-1.jpg', width: 1200, height: 630, alt: 'Access Control System Installation Dubai' }],
   },
 }
 

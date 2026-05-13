@@ -7,20 +7,24 @@ import Link from 'next/link'
 const BASE = 'https://www.cctvdubai.me'
 
 export const metadata: Metadata = {
-  title: 'Audio Visual Systems Dubai | Video Wall & AV Company UAE',
-  description: 'Premium audio visual & video wall solutions in Dubai — LED & LCD video walls, background music, conference AV, digital signage, home theatre. Sony, Samsung, Bose, QSC. Free consultation.',
+  title: 'Audio Visual Systems Dubai | Video Wall, BGM & AV Company UAE | Free Consultation',
+  description: 'Premium audio visual & video wall solutions in Dubai — LED & LCD video walls, background music (BGM), conference AV, digital signage & home theatre. Sony, Samsung, Bose, QSC. Serving hotels, malls, offices & luxury villas. Free consultation — call +971 54 556 6456.',
   keywords: [
     'audio visual Dubai', 'AV company UAE', 'video wall Dubai',
     'LED video wall Dubai', 'background music Dubai', 'BGM system UAE',
     'conference room AV Dubai', 'digital signage Dubai', 'home theatre Dubai',
     'video wall installation Dubai', 'AV installation UAE', 'outdoor PA system Dubai',
     'Samsung video wall Dubai', 'LG video wall UAE', 'Crestron AV Dubai',
+    'background music hotel Dubai', 'BGM restaurant Dubai',
+    'conference AV system UAE', 'AV contractor Dubai',
+    'Dante audio Dubai', 'QSC audio Dubai',
   ],
   alternates: { canonical: `${BASE}/services/audio-visual-systems` },
   openGraph: {
-    title: 'Audio Visual Systems Dubai | Video Wall & AV Company UAE',
-    description: 'LED & LCD video walls, background music, conference AV & digital signage in Dubai. Free consultation.',
+    title: 'Audio Visual Systems Dubai | Video Wall, BGM & AV Company UAE',
+    description: 'LED & LCD video walls, background music, conference AV & digital signage in Dubai. Sony, Samsung, Bose, QSC. Free consultation.',
     url: `${BASE}/services/audio-visual-systems`,
+    images: [{ url: '/images/projects/cctv/cctv-12.jpg', width: 1200, height: 630, alt: 'Audio Visual Systems Dubai by Mideatek' }],
   },
 }
 

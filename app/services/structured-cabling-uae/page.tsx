@@ -8,8 +8,8 @@ import Link from 'next/link'
 const BASE = 'https://www.cctvdubai.me'
 
 export const metadata: Metadata = {
-  title: 'Structured Cabling Dubai | Cat6 & Fiber Optic Network Cabling UAE',
-  description: 'Expert structured cabling in Dubai & UAE. Cat6, Cat6A, fiber optic, server room & data centre infrastructure. Etisalat & du certified. TIA/EIA compliant. Free site survey.',
+  title: 'Structured Cabling Dubai | Cat6, Cat6A & Fiber Optic Network Cabling UAE',
+  description: 'Expert structured cabling installation in Dubai & UAE. Cat6, Cat6A, fiber optic, server room & data centre infrastructure. TRA, Etisalat & du certified. TIA/EIA-568 compliant. Serving offices, warehouses & hotels across Dubai. Free site survey — call +971 54 556 6456.',
   keywords: [
     'structured cabling Dubai',
     'network cabling UAE',

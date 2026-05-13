@@ -7,8 +7,8 @@ import Link from 'next/link'
 const BASE = 'https://www.cctvdubai.me'
 
 export const metadata: Metadata = {
-  title: 'CCTV Installation Dubai | SIRA Approved CCTV Company UAE',
-  description: 'Professional CCTV installation in Dubai by SIRA-approved engineers. HD, 4K & IP cameras, DVR/NVR systems, Hikvision & Dahua, remote monitoring & AI detection. Free site survey — call +971 54 556 6456.',
+  title: 'CCTV Installation Dubai | SIRA Approved CCTV Company UAE | Free Survey',
+  description: 'Professional CCTV installation in Dubai by SIRA-approved engineers. HD, 4K & IP cameras, DVR/NVR systems, Hikvision & Dahua, remote monitoring & AI detection. Serving Downtown, Marina, Business Bay & all Dubai. Free site survey — call +971 54 556 6456.',
   keywords: [
     'CCTV installation Dubai',
     'SIRA approved CCTV Dubai',
@@ -25,6 +25,14 @@ export const metadata: Metadata = {
     'SIRA CCTV approval Dubai',
     'CCTV installation villa Dubai',
     'CCTV office Dubai',
+    'CCTV installation Downtown Dubai',
+    'CCTV installation Dubai Marina',
+    'CCTV installation Business Bay',
+    'dome camera installation Dubai',
+    'PTZ camera Dubai',
+    'ANPR camera Dubai',
+    'CCTV maintenance Dubai',
+    'CCTV cost Dubai',
   ],
   alternates: { canonical: `${BASE}/services/cctv-installation-dubai` },
   openGraph: {
@@ -53,13 +61,73 @@ const processSteps = [
   { step: '04', title: 'Commissioning',     desc: 'Full system test, remote access setup, staff training, and SIRA submission support.' },
 ]
 
+const cameraTypes = [
+  {
+    type: 'Dome Camera',
+    icon: '⬤',
+    desc: 'The most widely used camera in Dubai — ceiling-mounted, vandal-resistant, and discreet. Ideal for indoor areas like offices, hotel lobbies, and apartment corridors. Available in HD, 4K, and fisheye variants.',
+    use: 'Offices, hotels, corridors, retail',
+  },
+  {
+    type: 'Bullet Camera',
+    icon: '▶',
+    desc: 'Long-range outdoor cameras for car parks, perimeter walls, and building facades. Excellent for low-light environments with built-in IR night vision up to 100m. Deterrent effect due to visible housing.',
+    use: 'Perimeters, car parks, warehouses',
+  },
+  {
+    type: 'PTZ Camera',
+    icon: '↺',
+    desc: 'Pan-Tilt-Zoom cameras offer 360° coverage and can track moving subjects. Controlled remotely via software or joystick. Used in large open areas, stadiums, and critical infrastructure in Dubai.',
+    use: 'Large open areas, stadiums, ports',
+  },
+  {
+    type: 'ANPR Camera',
+    icon: '🔢',
+    desc: 'Automatic Number Plate Recognition cameras integrated with gate barriers and parking systems. Reads plates at up to 120km/h. Required for SIRA-compliant vehicle access control in Dubai.',
+    use: 'Gate barriers, car parks, border control',
+  },
+  {
+    type: 'Fisheye / 360° Camera',
+    icon: '◎',
+    desc: 'Single camera covers an entire room with zero blind spots. One fisheye can replace 4–6 conventional cameras, reducing cabling costs. De-warping software provides multiple virtual camera views.',
+    use: 'Open-plan offices, retail floors',
+  },
+  {
+    type: 'Thermal Camera',
+    icon: '🌡',
+    desc: 'Detects heat signatures in complete darkness, fog, or smoke — invisible to conventional cameras. Used for perimeter protection in high-security facilities and critical infrastructure across the UAE.',
+    use: 'High-security perimeters, critical assets',
+  },
+]
+
+const pricingData = [
+  { type: 'Studio / 1BR Apartment', cameras: '2–3', price: 'AED 1,500 – 3,000' },
+  { type: '2–3BR Villa / Townhouse', cameras: '4–8', price: 'AED 3,500 – 8,000' },
+  { type: 'Large Villa (5+ BR)', cameras: '8–16', price: 'AED 8,000 – 20,000' },
+  { type: 'Small Office / Retail Shop', cameras: '4–8', price: 'AED 4,000 – 10,000' },
+  { type: 'Commercial Building / Warehouse', cameras: '16–32+', price: 'AED 20,000 – 50,000+' },
+]
+
+const areas = [
+  'Downtown Dubai', 'Dubai Marina', 'Business Bay', 'DIFC', 'JBR',
+  'Palm Jumeirah', 'Jumeirah', 'Al Quoz', 'Deira', 'Bur Dubai',
+  'Al Barsha', 'Mirdif', 'Dubai Silicon Oasis', 'Dubai South', 'Jebel Ali',
+  'International City', 'Discovery Gardens', 'Motor City', 'Al Nahda', 'Hor Al Anz',
+]
+
 const faqs = [
   { q: 'Do you provide SIRA-approved CCTV systems?', a: 'Yes. All our CCTV installations in Dubai are fully SIRA-compliant. We handle the entire approval process including documentation, technical drawings, and SIRA submissions on your behalf.' },
   { q: 'How many CCTV cameras do I need for my property?', a: 'The number depends on your property size, layout, and security requirements. A typical villa needs 6–12 cameras, while commercial properties may need 20 or more. Our free site survey determines the optimal number and placement.' },
   { q: 'What CCTV brands do you install in Dubai?', a: 'We supply and install Hikvision, Dahua, Bosch, Axis, Uniview, and other leading brands. We recommend the best solution for your budget and requirements, with full warranty support.' },
   { q: 'How long does CCTV installation take in Dubai?', a: 'A typical 8–16 camera system takes 1–2 days. Larger commercial CCTV projects are carefully planned and executed to minimise disruption to your operations.' },
-  { q: 'What is the cost of CCTV installation in Dubai?', a: 'CCTV installation prices in Dubai depend on the number of cameras, camera type (HD, 4K, PTZ), storage solution, and cabling requirements. Contact us for a free no-obligation quotation.' },
-  { q: 'Do you offer CCTV maintenance and support in Dubai?', a: 'Yes. We offer 24/7 technical support and scheduled maintenance contracts to keep your CCTV system operating at peak performance.' },
+  { q: 'What is the cost of CCTV installation in Dubai?', a: 'CCTV installation prices in Dubai range from AED 1,500 for a basic home system to AED 50,000+ for large commercial projects. Key factors include number of cameras, resolution (HD, 4K), NVR storage, cabling runs, and SIRA approval fees. We provide free site surveys and itemised quotations.' },
+  { q: 'Do you offer CCTV maintenance and support in Dubai?', a: 'Yes. We offer 24/7 technical support and scheduled maintenance contracts (AMC) to keep your CCTV system operating at peak performance. Our AMC contracts include preventive maintenance visits, camera cleaning, firmware updates, and priority response.' },
+  { q: 'Can I view my CCTV cameras remotely on my phone?', a: 'Yes. All our CCTV systems include remote monitoring via mobile app (Hikvision iVMS-4500, Dahua DMSS, or brand-specific apps). You can view live and recorded footage from anywhere in the world with an internet connection.' },
+  { q: 'What is the difference between DVR and NVR in Dubai?', a: 'A DVR (Digital Video Recorder) works with older analog CCTV cameras, while an NVR (Network Video Recorder) connects to modern IP cameras over your network. We recommend NVR-based IP systems for all new installations in Dubai as they offer higher resolution, better scalability, and easier remote access.' },
+  { q: 'How long is CCTV footage stored in Dubai?', a: 'SIRA regulations in Dubai require a minimum of 30 days of recorded footage for most commercial properties. High-security facilities (banks, government buildings) may require 90 days. We size your NVR storage accordingly — typically 2TB to 8TB depending on camera count and resolution.' },
+  { q: 'Do you install CCTV in apartments and residential buildings?', a: 'Yes. We install CCTV for individual apartments, villas, townhouses, and entire residential buildings. For buildings with multiple units, we design systems with dedicated security rooms, digital recording, and management access for building security staff.' },
+  { q: 'What areas in Dubai do you cover for CCTV installation?', a: 'We cover all areas of Dubai including Downtown Dubai, Dubai Marina, Business Bay, DIFC, JBR, Palm Jumeirah, Jumeirah, Al Quoz, Deira, Bur Dubai, Al Barsha, Mirdif, and all other communities. We also serve Abu Dhabi, Sharjah, and across the UAE.' },
+  { q: 'Is CCTV installation mandatory in Dubai?', a: 'CCTV is mandatory for many property types in Dubai under SIRA regulations — including hotels, restaurants, parking areas, and most commercial premises. For residential properties, while not always mandatory, SIRA requires that any installed system be done by a SIRA-approved company. We can advise on your specific legal obligations.' },
 ]
 
 const galleryImages = [
@@ -207,6 +275,31 @@ export default function CCTVPage() {
         </div>
       </section>
 
+      {/* Camera Types */}
+      <section className="section-pad bg-white">
+        <div className="container-custom">
+          <div className="text-center mb-10">
+            <div className="section-tag">CAMERA TYPES</div>
+            <h2 className="section-title mb-4">CCTV Camera Types We Install in Dubai</h2>
+            <p className="section-subtitle max-w-2xl mx-auto">Every property has different security requirements. We select the right camera type for each location during the free site survey.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {cameraTypes.map((c) => (
+              <div key={c.type} className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
+                <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 text-xl" style={{ background: '#EFF6FF' }}>
+                  {c.icon}
+                </div>
+                <h3 className="font-bold font-heading text-lg mb-2" style={{ color: '#0F172A' }}>{c.type}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed mb-3">{c.desc}</p>
+                <div className="text-xs font-medium px-3 py-1 rounded-full inline-block" style={{ background: '#EFF6FF', color: '#1B3F7C' }}>
+                  Best for: {c.use}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Photo Gallery */}
       <section className="section-pad bg-white">
         <div className="container-custom">
@@ -222,6 +315,43 @@ export default function CCTVPage() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing */}
+      <section className="section-pad bg-white">
+        <div className="container-custom">
+          <div className="text-center mb-10">
+            <div className="section-tag">PRICING GUIDE</div>
+            <h2 className="section-title mb-4">CCTV Installation Cost in Dubai 2025</h2>
+            <p className="section-subtitle max-w-2xl mx-auto">Transparent pricing guide. Exact cost depends on camera count, resolution, cable runs, and SIRA approval — our free site survey gives you a precise itemised quote.</p>
+          </div>
+          <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+            <table className="w-full text-sm">
+              <thead>
+                <tr style={{ background: '#1B3F7C' }}>
+                  <th className="px-6 py-4 text-left text-white font-semibold">Property Type</th>
+                  <th className="px-6 py-4 text-left text-white font-semibold">Cameras</th>
+                  <th className="px-6 py-4 text-left text-white font-semibold">Estimated Cost (AED)</th>
+                </tr>
+              </thead>
+              <tbody>
+                {pricingData.map((row, i) => (
+                  <tr key={row.type} style={{ background: i % 2 === 0 ? '#F8FAFC' : 'white' }}>
+                    <td className="px-6 py-4 font-medium" style={{ color: '#0F172A' }}>{row.type}</td>
+                    <td className="px-6 py-4 text-gray-500">{row.cameras}</td>
+                    <td className="px-6 py-4 font-semibold" style={{ color: '#1B3F7C' }}>{row.price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-center text-gray-400 text-sm mt-4">All prices include supply, installation, NVR, cabling, and SIRA submission. VAT may apply.</p>
+          <div className="text-center mt-6">
+            <a href="tel:+971545566456" className="btn-primary py-4 px-8 text-base inline-flex items-center gap-2">
+              Get Your Free Quote
+            </a>
           </div>
         </div>
       </section>
@@ -242,6 +372,38 @@ export default function CCTVPage() {
                 <p className="text-gray-500 text-sm">{s.desc}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Areas Served */}
+      <section className="section-pad bg-white">
+        <div className="container-custom">
+          <div className="text-center mb-10">
+            <div className="section-tag">COVERAGE</div>
+            <h2 className="section-title mb-4">CCTV Installation Across All Dubai Areas</h2>
+            <p className="section-subtitle max-w-2xl mx-auto">Our SIRA-approved engineers provide CCTV installation across every community in Dubai, Abu Dhabi, and Sharjah. Same-day site surveys available.</p>
+          </div>
+          <div className="flex flex-wrap gap-3 justify-center mb-8">
+            {areas.map((area) => (
+              <span key={area} className="px-4 py-2 rounded-full text-sm font-medium border border-gray-200 bg-gray-50" style={{ color: '#1B3F7C' }}>
+                {area}
+              </span>
+            ))}
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="bg-blue-50 rounded-2xl p-6 border border-blue-100">
+              <h3 className="font-bold font-heading mb-2" style={{ color: '#1B3F7C' }}>CCTV Installation Downtown Dubai</h3>
+              <p className="text-gray-600 text-sm">Serving Burj Khalifa, Dubai Mall, and all Downtown towers. SIRA-compliant systems for residential and commercial properties.</p>
+            </div>
+            <div className="bg-blue-50 rounded-2xl p-6 border border-blue-100">
+              <h3 className="font-bold font-heading mb-2" style={{ color: '#1B3F7C' }}>CCTV Installation Dubai Marina</h3>
+              <p className="text-gray-600 text-sm">Apartments, JBR, and Marina Walk coverage. Discrete dome cameras for high-rise buildings, car parks, and lobby areas.</p>
+            </div>
+            <div className="bg-blue-50 rounded-2xl p-6 border border-blue-100">
+              <h3 className="font-bold font-heading mb-2" style={{ color: '#1B3F7C' }}>CCTV Installation Business Bay & DIFC</h3>
+              <p className="text-gray-600 text-sm">Enterprise-grade IP CCTV for offices, banks, and commercial towers. Full SIRA and DCD compliance. NVR systems with 30–90 day recording.</p>
+            </div>
           </div>
         </div>
       </section>

@@ -490,6 +490,418 @@ export const blogPosts: BlogPost[] = [
 <p>Contact Mideatek for a free site survey and barrier quotation for your Dubai property. We install and service BFT, FAAC, CAME, and Roger Technology barriers across Dubai, Abu Dhabi, and Sharjah. Call <a href="tel:+971545566456">+971 54 556 6456</a> or <a href="/contact">request a free survey online</a>.</p>
     `,
   },
+  {
+    slug: 'cctv-camera-types-dubai-guide-2025',
+    title: 'CCTV Camera Types in Dubai 2025 — Dome, Bullet, PTZ, ANPR & More',
+    excerpt: 'Not all CCTV cameras are the same. This guide explains every camera type available in Dubai — dome, bullet, PTZ, ANPR, fisheye, and thermal — and which one is right for your property.',
+    category: 'CCTV',
+    date: '2025-05-15',
+    readTime: '9 min read',
+    keywords: ['CCTV camera types Dubai', 'dome camera Dubai', 'bullet camera UAE', 'PTZ camera Dubai', 'ANPR camera Dubai', 'fisheye camera Dubai', 'thermal camera UAE'],
+    content: `
+<h2>Which CCTV Camera Type Do You Need in Dubai?</h2>
+<p>Choosing the wrong camera type is one of the most common and costly mistakes in CCTV installation. A camera that works perfectly in a hotel lobby will perform poorly on a perimeter wall — and vice versa. This guide covers every CCTV camera type available in Dubai and exactly where each one belongs.</p>
+
+<h2>1. Dome Cameras — The Most Popular CCTV Camera in Dubai</h2>
+<p>Dome cameras are the most widely installed CCTV type in Dubai, found in virtually every hotel, office, and apartment building. They get their name from the dome-shaped housing that protects the lens and makes it difficult to determine exactly where the camera is pointing — a deterrent in itself.</p>
+
+<h3>Key Features</h3>
+<ul>
+  <li><strong>Indoor & outdoor versions</strong>: Indoor domes use lightweight plastic housings; outdoor dome cameras are vandal-resistant (IK10 rating) and IP66 weatherproof</li>
+  <li><strong>Resolutions</strong>: Available in 2MP (1080p), 4MP, 5MP, and 8MP (4K)</li>
+  <li><strong>IR night vision</strong>: Up to 30–50m in complete darkness</li>
+  <li><strong>Fixed or varifocal lens</strong>: Varifocal domes allow zoom adjustment during installation</li>
+</ul>
+
+<h3>Best For</h3>
+<p>Hotel corridors, office reception areas, retail shops, apartment lobbies, lift interiors, and any indoor space where aesthetics matter. Also widely used in Dubai restaurants and F&B establishments.</p>
+
+<h3>Popular Dome Camera Models in Dubai</h3>
+<ul>
+  <li><strong>Hikvision DS-2CD2143G2-I</strong> — 4MP AcuSense dome, excellent for medium-sized spaces</li>
+  <li><strong>Dahua IPC-HDW2849H-S-IL</strong> — Smart dual-light, budget-friendly 8MP</li>
+  <li><strong>Axis P3245-V</strong> — Enterprise grade for banks and DIFC offices</li>
+</ul>
+
+<h2>2. Bullet Cameras — Long-Range Outdoor Surveillance</h2>
+<p>Bullet cameras are cylindrical cameras designed for long-range outdoor surveillance. Their elongated shape accommodates larger lenses and more IR LEDs, giving them superior range compared to dome cameras. The visible housing acts as a strong visual deterrent.</p>
+
+<h3>Key Features</h3>
+<ul>
+  <li><strong>Range</strong>: IR night vision from 50m up to 200m for long-range bullet cameras</li>
+  <li><strong>Weatherproofing</strong>: IP67 rated — suitable for Dubai's sandy, high-humidity coastal environments</li>
+  <li><strong>Varifocal lens</strong>: Most outdoor bullets use motorised varifocal lenses for precise focus at distance</li>
+  <li><strong>Mounting</strong>: Wall or pole-mounted; adjustable bracket for precise aiming</li>
+</ul>
+
+<h3>Best For</h3>
+<p>Perimeter walls, car park entrances, building facades, construction sites, and any outdoor application requiring surveillance over a long distance. Essential for Dubai warehouses and industrial properties in Al Quoz and Jebel Ali.</p>
+
+<h2>3. PTZ Cameras — Pan, Tilt & Zoom for Wide-Area Coverage</h2>
+<p>PTZ (Pan-Tilt-Zoom) cameras are motorised cameras that can rotate horizontally, tilt vertically, and zoom in on subjects — all controlled remotely via software, joystick, or automatic tracking. One PTZ can do the work of 4–6 fixed cameras in open areas.</p>
+
+<h3>Key Features</h3>
+<ul>
+  <li><strong>Pan range</strong>: 360° continuous rotation</li>
+  <li><strong>Tilt range</strong>: -90° to +30° (floor to ceiling coverage)</li>
+  <li><strong>Optical zoom</strong>: 20x to 40x optical zoom — read number plates at 100m+</li>
+  <li><strong>Auto-tracking</strong>: Modern PTZ cameras can automatically follow moving subjects using AI</li>
+  <li><strong>Preset positions</strong>: Programme 300+ preset camera positions for automated patrols</li>
+</ul>
+
+<h3>Best For</h3>
+<p>Large open areas such as hotel pool decks, stadium concourses, port terminals, Dubai Mall common areas, construction sites, and anywhere a human operator needs to actively monitor and respond to incidents.</p>
+
+<h2>4. ANPR Cameras — Automatic Number Plate Recognition</h2>
+<p>ANPR (Automatic Number Plate Recognition) cameras are specialist cameras designed specifically to capture and read vehicle number plates — even at speed, in poor lighting, and at challenging angles. In Dubai, they are mandatory for SIRA-compliant gate barrier and car park management systems.</p>
+
+<h3>Key Features</h3>
+<ul>
+  <li><strong>Reading speed</strong>: Reads plates at up to 120–150km/h</li>
+  <li><strong>Day & night operation</strong>: Built-in IR illuminators for 24/7 operation without triggering driver distraction</li>
+  <li><strong>Integration</strong>: Connects to gate barriers, parking management software, and access control databases</li>
+  <li><strong>UAE plate support</strong>: Specifically calibrated for UAE and GCC number plate formats</li>
+</ul>
+
+<h3>Best For</h3>
+<p>Residential compounds, commercial car parks, hotel car parks, industrial gates, and any vehicle access point. Required for SIRA-compliant parking management systems in Dubai.</p>
+
+<h2>5. Fisheye / 360° Cameras — Zero Blind Spots</h2>
+<p>Fisheye cameras use ultra-wide-angle lenses (typically 180°–360°) to capture an entire room or area in a single camera. The curved image is "de-warped" by software into multiple usable views — providing corridor, quad, PTZ, and panorama modes from one camera.</p>
+
+<h3>Key Features</h3>
+<ul>
+  <li><strong>Coverage</strong>: 360° horizontal, zero blind spots in open spaces</li>
+  <li><strong>Resolution</strong>: High megapixel sensors (12MP–20MP) to compensate for the wide angle</li>
+  <li><strong>Virtual PTZ</strong>: Software-based zoom and pan without moving parts</li>
+  <li><strong>Cost saving</strong>: One fisheye camera can replace 3–6 conventional cameras, reducing NVR channels and cabling costs</li>
+</ul>
+
+<h3>Best For</h3>
+<p>Open-plan offices, retail shop floors, conference rooms, and casino-style environments where complete situational awareness is needed. Popular in Dubai co-working spaces and supermarkets.</p>
+
+<h2>6. Thermal Cameras — Detection in Complete Darkness</h2>
+<p>Thermal cameras detect heat signatures rather than visible light. They work in complete darkness, heavy fog, smoke, and sandstorms — conditions where conventional cameras are blind. While not used for general surveillance, they are the gold standard for perimeter protection in high-security environments.</p>
+
+<h3>Key Features</h3>
+<ul>
+  <li><strong>Range</strong>: Detect humans at 200m+, vehicles at 500m+</li>
+  <li><strong>Zero-light operation</strong>: No illumination required at all — completely passive detection</li>
+  <li><strong>False alarm immunity</strong>: Advanced AI algorithms distinguish humans from animals and vehicles</li>
+  <li><strong>Integration</strong>: Triggers alarms, lights, and PTZ cameras for verification</li>
+</ul>
+
+<h3>Best For</h3>
+<p>Critical infrastructure protection, data centre perimeters, power stations, petroleum facilities, and high-security compound walls across the UAE. Also used in Dubai police and government applications.</p>
+
+<h2>Which Camera Type is Right for Your Dubai Property?</h2>
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+  <thead><tr style="background:#1B3F7C;color:white"><th style="padding:10px;text-align:left">Application</th><th style="padding:10px;text-align:left">Recommended Camera</th></tr></thead>
+  <tbody>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Hotel corridor / office lobby</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">Dome (indoor)</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Building exterior / car park entrance</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">Bullet (outdoor)</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Large open area / pool deck</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">PTZ</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Gate barrier / parking management</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">ANPR</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Open-plan office / retail floor</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">Fisheye / 360°</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">High-security perimeter / compound</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">Thermal</td></tr>
+  </tbody>
+</table>
+
+<p>Not sure which camera type your Dubai property needs? Our SIRA-approved engineers conduct free site surveys and recommend the exact camera types, positions, and quantities for your specific requirements. Call <a href="tel:+971545566456">+971 54 556 6456</a> to book your free survey today.</p>
+    `,
+  },
+  {
+    slug: 'how-to-choose-cctv-company-dubai-2025',
+    title: 'How to Choose the Right CCTV Company in Dubai 2025 — Expert Guide',
+    excerpt: 'With hundreds of CCTV companies in Dubai, how do you find one you can trust? This guide explains the 7 questions to ask before hiring any CCTV installer in Dubai — and the red flags to avoid.',
+    category: 'CCTV',
+    date: '2025-05-18',
+    readTime: '7 min read',
+    keywords: ['best CCTV company Dubai', 'how to choose CCTV company Dubai', 'CCTV installer Dubai', 'SIRA approved CCTV installer', 'CCTV company UAE'],
+    content: `
+<h2>Why Choosing the Right CCTV Company in Dubai Matters</h2>
+<p>A poorly installed CCTV system doesn't just waste money — it creates a <em>false sense of security</em>. Cameras with blind spots, poor-quality recording, or systems installed by non-SIRA-approved companies can leave you legally exposed and completely unprotected when you need the footage most.</p>
+<p>With over 400 SIRA-approved CCTV companies in Dubai, and hundreds more operating without approval, knowing how to choose the right one is essential. This guide gives you the exact framework our clients use to evaluate any CCTV company before signing a contract.</p>
+
+<h2>1. Verify SIRA Approval First — Non-Negotiable</h2>
+<p>This is the single most important check. In Dubai, it is <strong>illegal</strong> to install CCTV without using a SIRA (Security Industry Regulatory Agency) approved company. Any company that cannot immediately provide their current SIRA approval certificate should be disqualified — no exceptions.</p>
+
+<h3>How to Verify SIRA Approval</h3>
+<ul>
+  <li>Ask for the company's SIRA licence number and approval certificate</li>
+  <li>Verify directly on the SIRA online portal (sira.gov.ae)</li>
+  <li>Check that the approval is current (not expired)</li>
+  <li>Confirm the approval covers CCTV installation specifically (not just guards or alarms)</li>
+</ul>
+
+<p><strong>Red flag:</strong> Any company that says "SIRA approval is optional" or "we can get approval after installation" is both incorrect and operating outside the law.</p>
+
+<h2>2. Ask for a Free Site Survey — and Evaluate the Survey Quality</h2>
+<p>Every reputable CCTV company in Dubai offers a free site survey before providing a quotation. The survey is not just a formality — it is how a competent company designs your system. The quality of the survey tells you everything about the company's competence.</p>
+
+<h3>What a Good Site Survey Includes</h3>
+<ul>
+  <li><strong>Physical inspection</strong> of all areas to be covered, not just a phone call</li>
+  <li><strong>Camera position recommendations</strong> with specific reasons for each location</li>
+  <li><strong>Coverage map</strong> showing camera fields of view and any blind spots</li>
+  <li><strong>Bill of Quantities (BOQ)</strong> listing every component with specifications</li>
+  <li><strong>SIRA compliance review</strong> for your property type and usage</li>
+</ul>
+
+<p><strong>Red flag:</strong> Any company that provides a price quote without visiting the site is guessing. A quote without a site visit is meaningless — cable runs, camera heights, and mounting positions vary enormously between properties.</p>
+
+<h2>3. Check Their Portfolio — Real Installations, Not Stock Photos</h2>
+<p>Ask to see photos and case studies from actual installations the company has completed in Dubai. Any established CCTV company will have a portfolio of real projects — hotels, offices, villas, warehouses, and commercial buildings they have actually worked on.</p>
+
+<h3>Questions to Ask About Their Portfolio</h3>
+<ul>
+  <li>Can you show me a project similar to mine (in size, property type, or industry)?</li>
+  <li>Can you provide references from clients in Dubai I can contact?</li>
+  <li>How many CCTV cameras have you installed in total?</li>
+  <li>Do you have experience with SIRA submissions for properties like mine?</li>
+</ul>
+
+<p><strong>Red flag:</strong> Generic stock photos of cameras rather than actual installation photos. Legitimate companies always photograph their work.</p>
+
+<h2>4. Evaluate the Brands They Propose</h2>
+<p>The brand of camera matters. Dubai has a significant market for counterfeit and grey-market cameras sold as genuine Hikvision or Dahua products. A trustworthy CCTV company will supply cameras purchased through authorised UAE distributors, with genuine manufacturer warranties.</p>
+
+<h3>Trusted CCTV Brands in Dubai</h3>
+<ul>
+  <li><strong>Enterprise tier</strong>: Axis Communications, Bosch, Sony, Hanwha</li>
+  <li><strong>Professional tier</strong>: Hikvision, Dahua, Uniview, CP Plus</li>
+  <li><strong>Budget (acceptable for homes)</strong>: Reolink, Imou (Dahua sub-brand)</li>
+</ul>
+
+<p><strong>Red flag:</strong> Unknown Chinese brands with no UAE warranty support, or companies unable to provide product datasheets and firmware update information.</p>
+
+<h2>5. Clarify What Is Included in the Price</h2>
+<p>Hidden costs are the biggest complaint about CCTV companies in Dubai. An itemised quotation should clearly list every component and service. Vague quotes like "8-camera system — AED 5,000" without itemisation are a warning sign.</p>
+
+<h3>What Your CCTV Quote Should Include</h3>
+<ul>
+  <li>Camera model, specification, and quantity</li>
+  <li>NVR/DVR model, channel count, and storage capacity</li>
+  <li>Cabling type (Cat6, RG59, fibre) and estimated metres</li>
+  <li>Power supply units (PoE switch or individual adapters)</li>
+  <li>Installation labour (by day, not vague "included")</li>
+  <li>SIRA approval fee (if applicable)</li>
+  <li>VAT (5% in UAE)</li>
+  <li>Warranty terms: length, what is covered, who covers it</li>
+</ul>
+
+<h2>6. Ask About After-Sales Support and Maintenance</h2>
+<p>A CCTV system is not a one-time purchase — it requires ongoing maintenance to continue functioning correctly. Dubai's climate (extreme heat, dust, high humidity from sea air) degrades cameras and NVRs faster than temperate climates. Ask about what happens after installation.</p>
+
+<h3>After-Sales Questions to Ask</h3>
+<ul>
+  <li>What is the warranty on cameras and NVR? Who handles warranty claims?</li>
+  <li>Do you offer an Annual Maintenance Contract (AMC)?</li>
+  <li>What is your response time for service calls in Dubai?</li>
+  <li>Do you provide remote support, or must an engineer visit?</li>
+  <li>Will you train our staff to use the NVR and mobile app?</li>
+</ul>
+
+<h2>7. Read Google Reviews — and Read Them Critically</h2>
+<p>Google reviews are one of the most reliable indicators of a CCTV company's real-world service quality. Look for reviews that describe specific jobs, not generic "great service" posts. Pay attention to how the company responds to negative reviews — professional, solution-focused responses indicate a mature business.</p>
+
+<h3>Review Red Flags</h3>
+<ul>
+  <li>All 5-star reviews posted within a short period (potentially bought)</li>
+  <li>Reviews with no detail — "good company" with no specifics</li>
+  <li>Defensive or aggressive responses to negative reviews</li>
+  <li>No reviews at all for a company claiming years of experience</li>
+</ul>
+
+<h2>Why Dubai Businesses Choose Mideatek</h2>
+<p>Mideatek is a fully SIRA and TRA approved CCTV installation company with 10+ years of experience and 500+ projects completed across Dubai and the UAE. We offer:</p>
+<ul>
+  <li>Free site surveys with detailed BOQ and coverage maps</li>
+  <li>Genuine Hikvision, Dahua, Bosch, and Axis products from authorised UAE distributors</li>
+  <li>Full SIRA submission handling — we manage the entire approval process</li>
+  <li>24/7 technical support and flexible AMC contracts</li>
+  <li>Transparent, itemised quotations with no hidden costs</li>
+</ul>
+
+<p>Call <a href="tel:+971545566456">+971 54 556 6456</a> or <a href="/contact">request a free site survey online</a>. Our SIRA-approved engineer will visit your property within 24 hours.</p>
+    `,
+  },
+  {
+    slug: 'cctv-maintenance-dubai-amc-contract-guide-2025',
+    title: 'CCTV Maintenance in Dubai 2025 — AMC Contracts, Costs & What to Expect',
+    excerpt: 'What does a CCTV maintenance contract in Dubai include? This guide covers AMC contract types, costs, what maintenance tasks are performed, and how to avoid expensive CCTV failures.',
+    category: 'CCTV',
+    date: '2025-05-20',
+    readTime: '6 min read',
+    keywords: ['CCTV maintenance Dubai', 'CCTV AMC contract Dubai', 'CCTV service contract UAE', 'annual maintenance contract CCTV Dubai', 'CCTV repair Dubai'],
+    content: `
+<h2>Why CCTV Maintenance is Essential in Dubai</h2>
+<p>Dubai's climate is one of the harshest environments for electronic equipment in the world. Summer temperatures regularly exceed 45°C, ambient humidity fluctuates from near-zero in winter to 90%+ in summer, and year-round dust and sand infiltrate housings and lenses. A CCTV system without regular maintenance in Dubai will degrade significantly faster than the same system installed in a temperate climate.</p>
+
+<p>More importantly: a CCTV system that appears to be working — lights on, cameras showing on the monitor — may be recording nothing useful. Hard drive failures, corrupted footage, lens contamination, and IR LED failures are all silent problems that a maintenance contract prevents.</p>
+
+<h2>What is a CCTV AMC Contract?</h2>
+<p>AMC stands for <strong>Annual Maintenance Contract</strong>. A CCTV AMC is a service agreement between you and a SIRA-approved maintenance company that covers regular preventive maintenance visits, priority response for breakdowns, and (depending on the contract type) replacement of faulty components.</p>
+
+<h3>Three Types of CCTV AMC in Dubai</h3>
+
+<h4>1. Comprehensive AMC (All-Inclusive)</h4>
+<p>Covers all parts, labour, and emergency callouts. Best for mission-critical systems in hotels, hospitals, and commercial properties where downtime is unacceptable. Highest cost but zero surprise expenses.</p>
+
+<h4>2. Non-Comprehensive AMC (Labour Only)</h4>
+<p>Covers labour for visits and repairs, but replacement parts are charged separately. Most common type for office buildings and residential properties. Provides predictable labour costs while you pay for parts at cost.</p>
+
+<h4>3. Preventive Maintenance Only</h4>
+<p>Scheduled maintenance visits only — no emergency breakdown coverage. Lowest cost option. Suitable for smaller systems where downtime for 24–48 hours is acceptable while parts are sourced.</p>
+
+<h2>What Does a CCTV Maintenance Visit Include?</h2>
+
+<h3>Camera Inspection and Cleaning</h3>
+<ul>
+  <li>Clean camera domes and lens covers — Dubai dust severely reduces image quality</li>
+  <li>Check and clean IR LEDs — ensure night vision is functioning at rated range</li>
+  <li>Verify camera housing seals are intact — prevents moisture and dust ingress</li>
+  <li>Check camera mounting brackets for corrosion or loosening</li>
+  <li>Verify field of view has not shifted (cameras on external walls can drift with thermal expansion)</li>
+</ul>
+
+<h3>NVR / DVR Maintenance</h3>
+<ul>
+  <li>Check hard drive health status and available storage</li>
+  <li>Verify recording schedules are active and all cameras are recording</li>
+  <li>Test footage playback — confirm recordings are accessible and not corrupted</li>
+  <li>Clean NVR fans and ventilation to prevent thermal throttling</li>
+  <li>Check network connectivity — all IP cameras visible and streaming</li>
+  <li>Update firmware to latest stable version</li>
+</ul>
+
+<h3>Electrical and Infrastructure Check</h3>
+<ul>
+  <li>Check all cable connections for corrosion or loosening</li>
+  <li>Test UPS battery — replace if capacity has degraded below 80%</li>
+  <li>Verify PoE switch is operating within thermal limits</li>
+  <li>Check conduit and cable trunking integrity</li>
+</ul>
+
+<h3>Remote Access Verification</h3>
+<ul>
+  <li>Confirm remote monitoring is working on client's mobile app</li>
+  <li>Test motion detection alerts — confirm notifications are being sent</li>
+  <li>Update app on client devices if new version is available</li>
+</ul>
+
+<h2>CCTV Maintenance Cost in Dubai 2025</h2>
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+  <thead><tr style="background:#1B3F7C;color:white"><th style="padding:10px;text-align:left">System Size</th><th style="padding:10px;text-align:left">Visits/Year</th><th style="padding:10px;text-align:left">AMC Cost (AED/year)</th></tr></thead>
+  <tbody>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">4–8 cameras (home/small office)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">2</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">500 – 1,500</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">8–16 cameras (villa/medium office)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">2–4</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">1,500 – 3,500</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">16–32 cameras (commercial)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">4</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">3,500 – 8,000</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">32+ cameras (enterprise/hotel)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">Monthly</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">8,000 – 25,000+</td></tr>
+  </tbody>
+</table>
+
+<h2>Signs Your CCTV System Needs Immediate Maintenance</h2>
+<ul>
+  <li><strong>Cameras showing a blue or black screen</strong> — IP camera offline or NVR not detecting it</li>
+  <li><strong>Blurry or foggy image</strong> — Lens contamination, condensation, or IR reflection from dirty dome</li>
+  <li><strong>NVR showing "HDD full" or "no HDD"</strong> — Hard drive has failed or reached capacity without auto-overwrite</li>
+  <li><strong>No footage from specific times</strong> — Recording schedule issue or HDD corruption</li>
+  <li><strong>Night vision not working</strong> — IR LED failure, very common after 3–5 years</li>
+  <li><strong>Cannot access remotely</strong> — Port forwarding issue, DDNS expiry, or app authentication failure</li>
+</ul>
+
+<h2>How Often Should CCTV Be Maintained in Dubai?</h2>
+<p>For residential properties: <strong>twice yearly</strong> (before summer in April, and after summer in October) is the minimum. For commercial properties with SIRA compliance requirements: <strong>quarterly</strong>. For 24/7 critical security environments (hotels, hospitals, data centres): <strong>monthly</strong>.</p>
+
+<p>Mideatek offers flexible CCTV maintenance contracts across Dubai, Abu Dhabi, and Sharjah. Our AMC contracts include priority response within 4 hours for emergencies, genuine replacement parts, and a detailed service report after every visit. Call <a href="tel:+971545566456">+971 54 556 6456</a> to get an AMC quotation for your system.</p>
+    `,
+  },
+  {
+    slug: 'ip-camera-vs-analog-cctv-dubai-guide-2025',
+    title: 'IP Camera vs Analog CCTV in Dubai 2025 — Which System Should You Choose?',
+    excerpt: 'IP cameras vs analog CCTV — what is the real difference, which is better for Dubai properties, and is it worth upgrading? This guide compares both technologies across resolution, cost, scalability, and SIRA compliance.',
+    category: 'CCTV',
+    date: '2025-05-22',
+    readTime: '8 min read',
+    keywords: ['IP camera vs analog CCTV Dubai', 'IP CCTV Dubai', 'analog CCTV vs IP Dubai', 'best CCTV system Dubai 2025', 'CCTV upgrade Dubai'],
+    content: `
+<h2>IP Camera vs Analog CCTV — The Short Answer</h2>
+<p>For any <strong>new CCTV installation in Dubai in 2025</strong>, the answer is clear: <strong>IP cameras are the right choice</strong>. They offer higher resolution, better scalability, easier remote access, and are the system type required for SIRA compliance in most commercial applications.</p>
+<p>However, if you have an existing analog system that is working well, upgrading is not always immediately necessary — understanding both technologies helps you make the right decision for your situation.</p>
+
+<h2>What is an Analog CCTV System?</h2>
+<p>Analog CCTV is the traditional surveillance technology that has been in use since the 1970s. Cameras send a continuous analog video signal over coaxial cable (RG59 or RG6) to a DVR (Digital Video Recorder), which converts and stores the footage digitally.</p>
+
+<h3>Types of Analog CCTV</h3>
+<ul>
+  <li><strong>Traditional analog (AHD/TVI/CVI)</strong>: Lower resolution (up to 2MP), older technology, being phased out in Dubai</li>
+  <li><strong>HD-over-Coax (HD-TVI / HD-CVI / AHD)</strong>: Modern analog using existing coaxial cable but supporting 2MP–8MP resolution — a cost-effective upgrade path for existing analog wiring</li>
+</ul>
+
+<h2>What is an IP Camera System?</h2>
+<p>IP (Internet Protocol) cameras convert video to digital data inside the camera itself and transmit it over standard network cable (Cat5e/Cat6) to an NVR (Network Video Recorder) or directly to cloud storage. Each camera has its own IP address and is addressable individually over the network.</p>
+
+<h2>Head-to-Head Comparison: IP vs Analog CCTV in Dubai</h2>
+
+<h3>Resolution</h3>
+<p><strong>IP cameras win clearly.</strong> IP cameras are available from 2MP up to 32MP (8K). Modern IP cameras at 4MP or 8MP (4K) provide extraordinary detail — you can digitally zoom into footage and still read a number plate or identify a face from 20m away.</p>
+<p>Analog HD-TVI cameras max out at 8MP (4K) for the newest models, but most installed analog systems in Dubai are 2MP or lower.</p>
+
+<h3>Image Quality</h3>
+<p><strong>IP cameras win.</strong> Digital processing inside the IP camera enables features like Wide Dynamic Range (WDR), 3D noise reduction, and AI-enhanced image clarity that analog cameras cannot match. Dubai's high-contrast environments (bright sunlight vs shaded areas) particularly benefit from WDR technology.</p>
+
+<h3>Cabling</h3>
+<p><strong>Analog is simpler for retrofits.</strong> Analog cameras use coaxial cable, which is already installed in many older Dubai buildings. IP cameras require Cat5e/Cat6 network cable — which is more versatile but requires new cabling in older buildings.</p>
+<p>PoE (Power over Ethernet) IP cameras combine data and power in one Cat6 cable, actually simplifying installation in new buildings by eliminating separate power runs.</p>
+
+<h3>Scalability</h3>
+<p><strong>IP cameras win significantly.</strong> Adding cameras to an IP system requires only connecting to the network — no new cable runs to a central DVR. IP systems can be distributed across multiple buildings using existing network infrastructure. Analog systems require physical cable runs to a central DVR for every camera.</p>
+
+<h3>Remote Access</h3>
+<p><strong>IP cameras are inherently networked.</strong> Every IP camera can be accessed remotely over the internet via VPN, DDNS, or cloud platform — it is designed into the technology. Analog systems can be accessed remotely via the DVR's network port, but with limitations.</p>
+
+<h3>AI and Smart Features</h3>
+<p><strong>IP cameras win comprehensively.</strong> Modern IP cameras from Hikvision and Dahua include on-camera AI: facial recognition, people counting, intrusion detection, line crossing, vehicle detection, and licence plate reading — processed on the camera chip without requiring an AI server. Analog cameras have none of these capabilities.</p>
+
+<h3>Cost</h3>
+<p><strong>Analog is cheaper for small, simple systems.</strong> For a 4-camera home system where existing coaxial cable is already in place, analog can be the most cost-effective solution. For commercial systems above 8 cameras, the total cost of ownership usually favours IP.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+  <thead><tr style="background:#1B3F7C;color:white"><th style="padding:10px;text-align:left">Factor</th><th style="padding:10px;text-align:center">Analog HD</th><th style="padding:10px;text-align:center">IP Camera</th></tr></thead>
+  <tbody>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Max Resolution</td><td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:center">8MP (4K)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:center">32MP+</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Cabling</td><td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:center">Coaxial (RG59)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:center">Cat5e / Cat6</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">AI Features</td><td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:center">None</td><td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:center">Full AI (facial, LPR, intrusion)</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Scalability</td><td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:center">Limited by DVR</td><td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:center">Unlimited (network)</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Hardware cost (per camera)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:center">Lower</td><td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:center">Slightly higher</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Best for</td><td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:center">Retrofits with existing coax</td><td style="padding:10px;border-bottom:1px solid #e5e7eb;text-align:center">New installations</td></tr>
+  </tbody>
+</table>
+
+<h2>SIRA Compliance: Does It Matter Which System You Choose?</h2>
+<p>SIRA in Dubai does not specifically mandate IP cameras over analog for most applications — what matters is that the system meets the required resolution, recording duration, and is installed by a SIRA-approved company. However, SIRA's 2026 guidelines require <strong>minimum 4MP resolution</strong> for high-security and commercial premises — which effectively means IP cameras for new commercial installations.</p>
+
+<h2>Should You Upgrade from Analog to IP in Dubai?</h2>
+<p>Upgrade if:</p>
+<ul>
+  <li>Your existing cameras are below 2MP (showing pixelated footage)</li>
+  <li>You need to add more cameras than your DVR supports</li>
+  <li>You want AI features (facial recognition, intrusion detection, ANPR)</li>
+  <li>Remote access is unreliable or limited</li>
+  <li>Your SIRA renewal requires higher resolution compliance</li>
+</ul>
+
+<p>Consider keeping analog if:</p>
+<ul>
+  <li>Your existing HD-TVI/CVI system is less than 3 years old and performing well</li>
+  <li>You have extensive coaxial cabling that would be costly to replace</li>
+  <li>Your system is smaller than 8 cameras and the resolution is adequate</li>
+</ul>
+
+<p>Mideatek installs and upgrades both analog and IP CCTV systems across Dubai. We can assess your existing system and recommend the most cost-effective upgrade path. Call <a href="tel:+971545566456">+971 54 556 6456</a> for a free survey.</p>
+    `,
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {

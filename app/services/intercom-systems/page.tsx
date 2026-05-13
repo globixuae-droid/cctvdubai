@@ -7,8 +7,8 @@ import Link from 'next/link'
 const BASE = 'https://www.cctvdubai.me'
 
 export const metadata: Metadata = {
-  title: 'Intercom Systems Dubai | Video Door Phone Installation UAE',
-  description: 'Professional intercom & video door phone installation in Dubai. IP intercoms, colour video entry systems, apartment building intercoms & remote mobile access. Free survey — call +971 54 556 6456.',
+  title: 'Intercom Systems Dubai | Video Door Phone & IP Intercom UAE | Free Survey',
+  description: 'Professional intercom & video door phone installation in Dubai. IP intercoms, 2-wire colour video entry, apartment building intercoms, villa intercoms & remote mobile access via app. SIRA approved. Free site survey — call +971 54 556 6456.',
   keywords: [
     'intercom Dubai',
     'video door phone Dubai',
@@ -22,12 +22,19 @@ export const metadata: Metadata = {
     'colour video door phone UAE',
     'intercom installation Dubai',
     'smart intercom Dubai',
+    '2-wire intercom Dubai',
+    'video door bell Dubai',
+    'Comelit intercom Dubai',
+    'Hikvision intercom Dubai',
+    'residential intercom UAE',
+    'intercom with mobile app Dubai',
   ],
   alternates: { canonical: `${BASE}/services/intercom-systems` },
   openGraph: {
-    title: 'Intercom Systems Dubai | Video Door Phone Installation UAE',
-    description: 'IP & analogue video intercoms for villas, apartments & offices. Mobile app access. Free site survey.',
+    title: 'Intercom Systems Dubai | Video Door Phone & IP Intercom UAE',
+    description: 'IP & analogue video intercoms for villas, apartments & offices in Dubai. Remote mobile app access. Free site survey.',
     url: `${BASE}/services/intercom-systems`,
+    images: [{ url: '/images/projects/cctv/cctv-7.jpg', width: 1200, height: 630, alt: 'Intercom System Installation Dubai' }],
   },
 }
 

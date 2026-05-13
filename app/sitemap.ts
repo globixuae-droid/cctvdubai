@@ -106,5 +106,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
+    {
+      url: `${BASE}/blog/cctv-camera-types-dubai-guide-2025`,
+      lastModified: new Date('2025-05-15'),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
+      url: `${BASE}/blog/how-to-choose-cctv-company-dubai-2025`,
+      lastModified: new Date('2025-05-18'),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
+      url: `${BASE}/blog/cctv-maintenance-dubai-amc-contract-guide-2025`,
+      lastModified: new Date('2025-05-20'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${BASE}/blog/ip-camera-vs-analog-cctv-dubai-guide-2025`,
+      lastModified: new Date('2025-05-22'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
   ]
 }

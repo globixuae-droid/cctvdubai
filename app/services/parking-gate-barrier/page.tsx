@@ -7,8 +7,8 @@ import Link from 'next/link'
 const BASE = 'https://www.cctvdubai.me'
 
 export const metadata: Metadata = {
-  title: 'Gate Barrier Systems Dubai | Boom Barrier & ANPR Camera UAE',
-  description: 'Automated gate barrier and parking management systems in Dubai. BFT boom barriers, ANPR cameras, long range card readers, and vehicle access control. SIRA approved. Free site survey.',
+  title: 'Gate Barrier Systems Dubai | Boom Barrier, ANPR & Parking Management UAE',
+  description: 'Automated gate barrier & parking management systems in Dubai. BFT, FAAC & CAME boom barriers, ANPR cameras, long-range RFID card readers & vehicle access control. SIRA approved. Serving residential compounds, malls & warehouses. Free site survey — call +971 54 556 6456.',
   keywords: [
     'gate barrier Dubai', 'boom barrier Dubai', 'gate barrier UAE',
     'parking barrier Dubai', 'ANPR camera Dubai', 'BFT barrier Dubai',
