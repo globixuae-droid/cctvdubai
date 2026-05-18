@@ -58,7 +58,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     publisher: {
       '@type': 'Organization',
       name: 'Mideatek',
-      logo: { '@type': 'ImageObject', url: `${BASE}/logo.png` },
+      url: BASE,
     },
     url: `${BASE}/blog/${post.slug}`,
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${BASE}/blog/${post.slug}` },

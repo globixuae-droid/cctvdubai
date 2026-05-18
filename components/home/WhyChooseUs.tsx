@@ -39,7 +39,7 @@ export default function WhyChooseUs() {
                     <r.icon size={16} className="text-blue-700" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-sm mb-1" style={{ color: '#0F172A' }}>{r.title}</h4>
+                    <h3 className="font-bold text-sm mb-1" style={{ color: '#0F172A' }}>{r.title}</h3>
                     <p className="text-gray-500 text-xs leading-relaxed">{r.desc}</p>
                   </div>
                 </div>
