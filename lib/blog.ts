@@ -902,6 +902,481 @@ export const blogPosts: BlogPost[] = [
 <p>Mideatek installs and upgrades both analog and IP CCTV systems across Dubai. We can assess your existing system and recommend the most cost-effective upgrade path. Call <a href="tel:+971545566456">+971 54 556 6456</a> for a free survey.</p>
     `,
   },
+  {
+    slug: 'cctv-installation-dubai-marina-2026',
+    title: 'CCTV Installation Dubai Marina — SIRA Approved Security for Apartments & Towers',
+    excerpt: 'Complete guide to CCTV installation in Dubai Marina. Covers camera types, SIRA requirements, how many cameras you need for Marina apartments and towers, costs, and which company to call.',
+    category: 'CCTV',
+    date: '2026-05-01',
+    readTime: '6 min read',
+    keywords: ['CCTV installation Dubai Marina', 'CCTV Dubai Marina apartment', 'security camera Dubai Marina', 'SIRA CCTV Marina Dubai', 'CCTV company Dubai Marina'],
+    content: `
+<h2>CCTV Installation in Dubai Marina — What You Need to Know</h2>
+<p>Dubai Marina is one of the most densely populated residential and hospitality districts in the UAE — a waterfront community of over 200 high-rise towers, hotels, restaurants, and retail outlets packed into 4.5 km² along the Marina canal. With this density comes a high demand for professional, SIRA-compliant CCTV systems for apartments, building lobbies, car parks, and F&B outlets.</p>
+<p>Mideatek installs and maintains CCTV systems across every tower and community in Dubai Marina. This guide covers exactly what you need — camera types, quantities, costs, and SIRA compliance.</p>
+
+<h2>Why Dubai Marina Properties Need Professional CCTV</h2>
+<ul>
+  <li><strong>High footfall</strong>: Marina Walk and JBR see millions of visitors annually — lobbies, car parks, and common areas require continuous surveillance</li>
+  <li><strong>SIRA mandatory for most buildings</strong>: Dubai law requires CCTV in all commercial premises, hotels, and most residential buildings above a certain occupancy</li>
+  <li><strong>Parking management</strong>: High-rise towers with basement and podium parking need ANPR cameras and barrier integration</li>
+  <li><strong>Insurance requirements</strong>: Many building insurers in Dubai Marina now require SIRA-certified CCTV as a condition of coverage</li>
+</ul>
+
+<h2>Recommended CCTV Setup for Dubai Marina Properties</h2>
+
+<h3>Residential Apartment (1–3BR)</h3>
+<p>For an individual apartment in Dubai Marina, a typical setup covers the front door and any external balcony access points. Most residents in Marina towers opt for a 2–4 camera IP system with an NVR connected to their home network for remote mobile viewing.</p>
+<ul>
+  <li>2MP or 4MP dome cameras for indoor use</li>
+  <li>4-channel NVR with 1TB storage (30 days at 1080p)</li>
+  <li>Mobile app remote access via Hikvision iVMS or Dahua DMSS</li>
+  <li>Estimated cost: <strong>AED 1,800 – AED 4,500</strong></li>
+</ul>
+
+<h3>Marina Tower — Common Areas & Car Park (Building Management)</h3>
+<p>For building management companies and OAs managing Dubai Marina towers, a comprehensive building CCTV system covers lobbies, lifts, stairwells, car parks, and perimeter areas.</p>
+<ul>
+  <li>Dome cameras (2MP/4MP) for lobbies, corridors, and lift interiors</li>
+  <li>Bullet cameras for car park entrances and perimeter</li>
+  <li>PTZ camera for Marina-facing podium or pool deck</li>
+  <li>ANPR at car park entry/exit integrated with boom barrier</li>
+  <li>32–64 channel NVR in a dedicated security room with 8–16TB storage</li>
+  <li>Estimated cost: <strong>AED 25,000 – AED 80,000+</strong> depending on tower size</li>
+</ul>
+
+<h3>Restaurant or Retail — Dubai Marina Walk / JBR</h3>
+<p>Restaurants and retail units on Marina Walk and JBR are required by Dubai Municipality and SIRA to have CCTV covering entrances, dining areas, cash desks, and back-of-house. A typical Marina restaurant needs 8–16 cameras.</p>
+<ul>
+  <li>Indoor dome cameras for dining room and bar area</li>
+  <li>Bullet camera for external entrance / valet area</li>
+  <li>High-res 4MP camera covering cash/POS area</li>
+  <li>Estimated cost: <strong>AED 6,000 – AED 18,000</strong></li>
+</ul>
+
+<h2>SIRA Requirements for Dubai Marina CCTV</h2>
+<p>All CCTV installations in Dubai Marina must comply with SIRA (Security Industry Regulatory Agency) regulations. Key requirements:</p>
+<ul>
+  <li>Minimum 2MP resolution for all cameras (4MP recommended for 2026 compliance)</li>
+  <li>Minimum 30 days of continuous recording storage</li>
+  <li>Installation by a SIRA-approved company only</li>
+  <li>SIRA technical drawings and submission required for commercial properties</li>
+  <li>Remote access capability for Dubai Police upon request</li>
+</ul>
+
+<h2>CCTV Installation Cost in Dubai Marina</h2>
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+  <thead><tr style="background:#1B3F7C;color:white"><th style="padding:10px;text-align:left">Property Type</th><th style="padding:10px;text-align:left">Cameras</th><th style="padding:10px;text-align:left">Cost (AED)</th></tr></thead>
+  <tbody>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">1–3BR Apartment</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">2–4</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">1,800 – 4,500</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Penthouse / Duplex</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">6–10</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">5,000 – 12,000</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Restaurant / Café</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">8–16</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">6,000 – 18,000</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Retail Unit</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">4–8</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">4,000 – 10,000</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Residential Tower (full building)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">32–100+</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">25,000 – 100,000+</td></tr>
+  </tbody>
+</table>
+
+<p>Mideatek provides free site surveys for all properties in Dubai Marina. Our SIRA-approved engineers are familiar with the buildings, security rooms, and infrastructure across the Marina community. Call <a href="tel:+971545566456">+971 54 556 6456</a> or <a href="/contact">request a free survey</a> — we typically visit within 24 hours.</p>
+    `,
+  },
+  {
+    slug: 'cctv-installation-jumeirah-village-circle-2026',
+    title: 'CCTV Installation JVC (Jumeirah Village Circle) — Villas, Apartments & Retail 2026',
+    excerpt: 'CCTV installation guide for Jumeirah Village Circle (JVC). Covers villa and apartment security camera systems, SIRA compliance, costs, and the best CCTV setup for JVC properties.',
+    category: 'CCTV',
+    date: '2026-05-03',
+    readTime: '6 min read',
+    keywords: ['CCTV installation JVC', 'CCTV Jumeirah Village Circle', 'security camera JVC Dubai', 'CCTV villa JVC', 'SIRA CCTV JVC'],
+    content: `
+<h2>CCTV Installation in JVC (Jumeirah Village Circle) — The Complete Guide</h2>
+<p>Jumeirah Village Circle is one of Dubai's fastest-growing residential communities — a mixed-use neighbourhood of villas, townhouses, low-rise and mid-rise apartment buildings, and neighbourhood retail. JVC's rapid expansion and diverse property mix make it one of the highest-demand areas for CCTV installation in Dubai.</p>
+<p>Mideatek is an active CCTV installer across all clusters in JVC. Here is everything you need to know about getting a SIRA-compliant CCTV system installed at your JVC property.</p>
+
+<h2>Types of JVC Properties and Their CCTV Needs</h2>
+
+<h3>JVC Villas and Townhouses</h3>
+<p>JVC has hundreds of standalone villas and townhouse clusters. A typical JVC villa needs cameras covering the front gate, driveway, front door, rear garden, and all external corners. Most JVC villas are 3–5 bedrooms with a private garden and covered parking — typically requiring 6–12 cameras.</p>
+<ul>
+  <li><strong>Front gate</strong>: 4MP bullet camera with IR night vision, aimed at the gate and driveway</li>
+  <li><strong>Front door</strong>: 2MP dome or fisheye for entrance area</li>
+  <li><strong>Rear garden / pool area</strong>: 2MP dome or bullet cameras covering all blind spots</li>
+  <li><strong>Driveway / parking</strong>: Bullet camera covering parked vehicles</li>
+  <li>8-channel NVR with 2TB storage for 30+ days recording</li>
+  <li>Estimated cost: <strong>AED 4,500 – AED 12,000</strong></li>
+</ul>
+
+<h3>JVC Apartments</h3>
+<p>JVC has a large stock of studio, 1BR, and 2BR apartments in low-rise buildings. For individual apartments, a minimal 2–4 camera system covering the front door and main living areas is typical. For building management, a full common-area system is required.</p>
+<ul>
+  <li>Individual apartment: 2–4 cameras, AED 1,800 – AED 4,000</li>
+  <li>Building common areas + car park: 16–32 cameras, AED 15,000 – AED 40,000</li>
+</ul>
+
+<h3>JVC Retail and F&B</h3>
+<p>JVC's neighbourhood retail strip and community centres require SIRA-compliant CCTV as a condition of their trade licence. Typical setup: 4–8 cameras covering the shop floor, cash desk, and entrance.</p>
+
+<h2>Is CCTV Mandatory in JVC?</h2>
+<p>For commercial properties (retail, restaurants, gyms, nurseries) in JVC — yes, CCTV is effectively mandatory under Dubai's licensing requirements. For residential villas and apartments, CCTV is strongly recommended but not legally required unless the property is rented out commercially. All systems must be installed by a SIRA-approved company regardless.</p>
+
+<h2>SIRA Compliance for JVC</h2>
+<p>JVC falls under Dubai jurisdiction for SIRA compliance. All the standard SIRA requirements apply:</p>
+<ul>
+  <li>SIRA-approved installer (Mideatek is fully licensed)</li>
+  <li>Minimum 30 days recording</li>
+  <li>Minimum 2MP resolution (4MP recommended for new installs)</li>
+  <li>Commercial properties require SIRA technical drawings and submission</li>
+</ul>
+
+<h2>CCTV Cost in JVC Dubai</h2>
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+  <thead><tr style="background:#1B3F7C;color:white"><th style="padding:10px;text-align:left">Property Type</th><th style="padding:10px;text-align:left">Cameras</th><th style="padding:10px;text-align:left">Cost (AED)</th></tr></thead>
+  <tbody>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Studio / 1BR Apartment</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">2–3</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">1,800 – 3,500</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">3–4BR Villa</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">6–10</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">4,500 – 10,000</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">5BR+ Villa / Townhouse</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">10–16</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">9,000 – 18,000</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Retail / Café</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">4–8</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">4,000 – 10,000</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Apartment Building</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">16–48</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">15,000 – 50,000</td></tr>
+  </tbody>
+</table>
+
+<p>Call Mideatek on <a href="tel:+971545566456">+971 54 556 6456</a> for a free site survey at your JVC property. We cover all clusters in JVC and can typically visit within 24 hours of your call.</p>
+    `,
+  },
+  {
+    slug: 'cctv-installation-business-bay-dubai-2026',
+    title: 'CCTV Installation Business Bay Dubai — Offices, Hotels & Residential Towers 2026',
+    excerpt: 'Professional CCTV installation guide for Business Bay, Dubai. Office buildings, hotel apartments, residential towers and retail units. SIRA approved. Free site survey.',
+    category: 'CCTV',
+    date: '2026-05-05',
+    readTime: '6 min read',
+    keywords: ['CCTV installation Business Bay', 'CCTV Business Bay Dubai', 'office CCTV Business Bay', 'SIRA CCTV Business Bay', 'security camera Business Bay Dubai'],
+    content: `
+<h2>CCTV Installation in Business Bay — Dubai's Central Business District</h2>
+<p>Business Bay is Dubai's fastest-growing mixed-use business district — a dense cluster of commercial towers, hotel apartments, luxury residences, and waterfront retail stretching along the Dubai Canal from Downtown to Al Quoz. With some of the highest commercial property values in the UAE, Business Bay landlords, building managers, and business owners demand enterprise-grade CCTV that is both SIRA-compliant and capable of protecting high-value assets.</p>
+
+<h2>Business Bay Property Types and CCTV Requirements</h2>
+
+<h3>Commercial Office Towers</h3>
+<p>Business Bay's commercial towers — including Bay Square, Aspect Tower, Ontario Tower, and dozens of others — require comprehensive CCTV covering lobbies, lifts, stairwells, car parks, and office floors. Requirements are driven by both SIRA regulations and corporate security policies.</p>
+<ul>
+  <li><strong>Ground floor lobby</strong>: 4MP dome cameras with WDR for high-contrast lighting, PTZ for wide lobby areas</li>
+  <li><strong>Lifts and stairwells</strong>: 2MP fisheye cameras for complete coverage with one unit per lift</li>
+  <li><strong>Car park</strong>: 4MP bullet cameras plus ANPR at entry/exit integrated with boom barriers</li>
+  <li><strong>Office floors</strong>: Coverage at reception, server rooms, and access-controlled areas</li>
+  <li>Typical system: 40–120 cameras, 64-channel NVR, 16–32TB storage</li>
+  <li>Estimated cost: <strong>AED 40,000 – AED 200,000+</strong></li>
+</ul>
+
+<h3>Hotel Apartments and Serviced Residences</h3>
+<p>Business Bay has a high concentration of hotel apartments and serviced residences (The Oberoi, Damac Maison, Paramount Hotel, etc.). These require CCTV for common areas, car parks, pool decks, gym facilities, and all guest-facing areas — with footage available to Dubai Police on request.</p>
+
+<h3>Residential Towers</h3>
+<p>Business Bay residential towers (Aykon City, Damac Towers, etc.) require building management CCTV for lobbies, podium floors, car parks, and service areas. Individual unit owners also increasingly install apartment-level cameras for personal security.</p>
+
+<h3>Canal-Facing Retail</h3>
+<p>Business Bay's growing waterfront retail and F&B strip on the canal walk requires SIRA-compliant CCTV covering indoor dining areas, outdoor terraces, and entrance points.</p>
+
+<h2>SIRA and DCD Compliance in Business Bay</h2>
+<p>Business Bay falls under Dubai SIRA jurisdiction. Commercial properties also typically need to comply with Dubai Civil Defence (DCD) requirements, which may require CCTV integration with the building's fire and security systems. Key SIRA requirements for Business Bay commercial premises:</p>
+<ul>
+  <li>Minimum 4MP resolution for all cameras in commercial applications</li>
+  <li>Minimum 30 days recording; critical areas 90 days</li>
+  <li>24/7 recording with time-stamped footage</li>
+  <li>SIRA technical drawings and submission before installation</li>
+  <li>Remote access capability for Dubai Police</li>
+</ul>
+
+<h2>CCTV Cost in Business Bay</h2>
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+  <thead><tr style="background:#1B3F7C;color:white"><th style="padding:10px;text-align:left">Property</th><th style="padding:10px;text-align:left">Cameras</th><th style="padding:10px;text-align:left">Cost (AED)</th></tr></thead>
+  <tbody>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Individual apartment / office unit</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">2–6</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">2,500 – 8,000</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Restaurant / café</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">8–16</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">7,000 – 20,000</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Small commercial office (1 floor)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">8–20</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">8,000 – 25,000</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Full commercial tower (common areas)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">40–120</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">40,000 – 200,000+</td></tr>
+  </tbody>
+</table>
+
+<p>Mideatek has completed CCTV projects across multiple Business Bay towers. Our SIRA-approved engineers understand the specific requirements of Business Bay buildings and can manage the entire SIRA and DCD approval process on your behalf. Call <a href="tel:+971545566456">+971 54 556 6456</a> for a free survey.</p>
+    `,
+  },
+  {
+    slug: 'villa-cctv-installation-dubai-guide-2026',
+    title: 'Villa CCTV Installation Dubai 2026 — Complete Guide for Dubai Villas',
+    excerpt: 'How many cameras does a Dubai villa need? Where should they go? How much does villa CCTV cost? This guide answers everything for villa owners in Dubai — from Emirates Hills to Arabian Ranches.',
+    category: 'CCTV',
+    date: '2026-05-07',
+    readTime: '7 min read',
+    keywords: ['villa CCTV Dubai', 'CCTV installation villa Dubai', 'home CCTV Dubai villa', 'security cameras Dubai villa', 'villa surveillance system Dubai'],
+    content: `
+<h2>CCTV for Dubai Villas — Everything You Need to Know</h2>
+<p>Dubai villas represent the premium end of the residential property market — and they face unique security challenges. Large plots, multiple access points, extensive gardens, private pools, and often live-in staff create a more complex security requirement than a standard apartment. A well-designed villa CCTV system gives you complete visibility of your property from anywhere in the world via your phone.</p>
+
+<h2>How Many CCTV Cameras Does a Dubai Villa Need?</h2>
+<p>The number of cameras depends on your villa's size, plot area, number of access points, and personal security requirements. As a general rule:</p>
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+  <thead><tr style="background:#1B3F7C;color:white"><th style="padding:10px;text-align:left">Villa Size</th><th style="padding:10px;text-align:left">Cameras Needed</th><th style="padding:10px;text-align:left">Estimated Cost (AED)</th></tr></thead>
+  <tbody>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">3BR Villa / Small Townhouse</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">6–8</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">4,000 – 8,000</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">4–5BR Standard Villa</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">8–14</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">7,000 – 16,000</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">6–7BR Large Villa</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">12–20</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">14,000 – 28,000</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Luxury Villa / Mansion (Emirates Hills, Palm)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">20–40+</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">25,000 – 70,000+</td></tr>
+  </tbody>
+</table>
+
+<h2>Where Should CCTV Cameras Be Placed in a Dubai Villa?</h2>
+
+<h3>Must-Have Camera Positions</h3>
+<ul>
+  <li><strong>Main entrance gate</strong>: One bullet camera covering the gate, driveway, and street. This is the most critical camera — it captures every visitor entering and leaving.</li>
+  <li><strong>Front door</strong>: One dome or doorbell-style camera at the main entrance door, capturing faces at close range.</li>
+  <li><strong>All external corners</strong>: Cameras at each external corner of the villa, angled to provide overlapping coverage with no blind spots along the walls.</li>
+  <li><strong>Rear garden / pool area</strong>: 1–3 cameras covering the garden, pool, and any rear access gates. This is the most common point of entry for opportunistic theft.</li>
+  <li><strong>Covered parking / garage</strong>: One bullet camera covering all vehicles. Covers theft from cars and any incidents in the parking area.</li>
+</ul>
+
+<h3>Additional Recommended Positions</h3>
+<ul>
+  <li><strong>Staff quarters / service entrance</strong>: A camera covering the staff entrance and domestic staff area is standard for larger villas with live-in staff.</li>
+  <li><strong>Internal common areas</strong>: Ground floor hallway, staircase landing, and living room entrance for internal monitoring if required.</li>
+  <li><strong>Maids room / storage</strong>: Discreet dome cameras in valuable storage areas where jewellery, cash, or electronics are kept.</li>
+</ul>
+
+<h2>Best Camera Types for Dubai Villas</h2>
+<ul>
+  <li><strong>Entrance gate</strong>: 4MP Hikvision ColorVu bullet camera — colour night vision for reliable identification in low light without IR wash-out</li>
+  <li><strong>External walls and corners</strong>: 4MP varifocal dome (weatherproof, vandal-resistant) — adjustable lens to cover exact angle needed</li>
+  <li><strong>Pool and garden</strong>: 4MP bullet with 60m IR range — covers large outdoor distances</li>
+  <li><strong>Internal / front door</strong>: 2MP fisheye dome — wide-angle coverage with no distortion at close range</li>
+</ul>
+
+<h2>Villa CCTV in Dubai — Community-Specific Notes</h2>
+<ul>
+  <li><strong>Emirates Hills, Al Barari, Jumeirah Golf Estates</strong>: Large plots with long perimeters. Typically require 16–24+ cameras. Some communities have HOA guidelines on camera visibility.</li>
+  <li><strong>Arabian Ranches, The Springs, The Meadows</strong>: Mid-size villas 6–12 cameras standard. Community security supplements but does not replace individual villa CCTV.</li>
+  <li><strong>Palm Jumeirah villas</strong>: Beachfront exposure and sea-facing cameras require IP67+ weatherproofing and corrosion-resistant housings for salt air.</li>
+  <li><strong>Jumeirah, Umm Suqeim</strong>: Older-style villas often require concealed cable runs through existing walls — plan for higher cabling labour cost.</li>
+  <li><strong>Dubai Hills, Damac Hills</strong>: Modern villas with pre-installed conduit — cabling cost is lower and camera installation is cleaner.</li>
+</ul>
+
+<h2>Remote Viewing for Villa CCTV</h2>
+<p>Every Mideatek villa CCTV system includes full remote viewing setup. You can watch live and recorded footage from anywhere in the world — whether you are in your Dubai office, travelling abroad, or on holiday. We set up the Hikvision or Dahua mobile app on your phone and tablet during commissioning, and provide training so you know exactly how to use it.</p>
+
+<p>Call <a href="tel:+971545566456">+971 54 556 6456</a> to book a free site survey at your Dubai villa. We cover Emirates Hills, Palm Jumeirah, Arabian Ranches, Jumeirah, JVC, Al Barsha, Mirdif, and all other Dubai villa communities.</p>
+    `,
+  },
+  {
+    slug: 'warehouse-cctv-installation-dubai-guide-2026',
+    title: 'Warehouse CCTV Installation Dubai 2026 — Security Cameras for Warehouses & Logistics',
+    excerpt: 'Complete guide to CCTV for warehouses in Dubai. Covers camera placement, outdoor perimeter security, ANPR, loading bay surveillance, Al Quoz and Jebel Ali warehouses, costs and SIRA compliance.',
+    category: 'CCTV',
+    date: '2026-05-09',
+    readTime: '7 min read',
+    keywords: ['warehouse CCTV Dubai', 'CCTV installation warehouse UAE', 'warehouse security cameras Dubai', 'industrial CCTV Dubai', 'Al Quoz warehouse CCTV'],
+    content: `
+<h2>Warehouse CCTV in Dubai — Why Standard Systems Are Not Enough</h2>
+<p>Warehouses in Dubai have some of the most demanding CCTV requirements of any property type. Large open floor areas, high racking, loading docks, staff entrances, perimeter fencing, and 24/7 operations all require a surveillance system designed specifically for industrial use — not the same cameras sold for homes and offices.</p>
+<p>Mideatek has installed CCTV in warehouses across Al Quoz Industrial Area, Jebel Ali Free Zone, Dubai Investment Park, Dubai South, Al Quoz 1–4, and DAFZA. Here is what you need to know.</p>
+
+<h2>Key Security Challenges for Dubai Warehouses</h2>
+<ul>
+  <li><strong>Large floor areas</strong>: A 5,000 m² warehouse floor cannot be covered with standard dome cameras — you need long-range bullet cameras or PTZ units on elevated mounting points</li>
+  <li><strong>High racking / blind spots</strong>: Tall racking creates visibility blind spots. Cameras must be positioned above rack height or at the end of aisles</li>
+  <li><strong>Loading dock theft</strong>: The loading bay during shift changes and truck loading/unloading is the highest-risk area for stock shrinkage</li>
+  <li><strong>Perimeter security</strong>: Outdoor perimeter fencing, vehicle gates, and container yards require long-range cameras with reliable night vision</li>
+  <li><strong>Staff monitoring</strong>: Time-stamped footage for HR compliance and investigation of stock discrepancies</li>
+  <li><strong>Vehicle entry / ANPR</strong>: Logging all trucks, vans, and vehicles entering and leaving the facility</li>
+</ul>
+
+<h2>Recommended CCTV Setup for Dubai Warehouses</h2>
+
+<h3>Indoor Warehouse Floor</h3>
+<ul>
+  <li><strong>PTZ cameras on elevated mounts</strong>: For large open floor areas, 2–4 PTZ cameras on 6m columns provide 360° coverage and can zoom in on specific rack locations or staff activities</li>
+  <li><strong>Fixed bullet cameras at aisle ends</strong>: Cover each main aisle with a 4MP bullet camera. For a 12-aisle warehouse, this means 12 cameras for full aisle coverage.</li>
+  <li><strong>Fisheye dome at entrance/reception</strong>: Complete 360° coverage of the warehouse entrance and office area with one camera</li>
+</ul>
+
+<h3>Loading Dock and Goods-In/Out Area</h3>
+<ul>
+  <li>4MP cameras with WDR (Wide Dynamic Range) to handle the contrast between bright exterior and darker indoor dock areas</li>
+  <li>One camera per loading bay door covering the full bay area</li>
+  <li>Overhead camera covering the goods-in counter for detailed recording of all incoming stock</li>
+</ul>
+
+<h3>Outdoor Perimeter and Vehicle Gate</h3>
+<ul>
+  <li><strong>Long-range bullet cameras</strong>: 4MP cameras with 50–100m IR range mounted on perimeter fence posts or building corners</li>
+  <li><strong>ANPR camera at vehicle gate</strong>: Records every vehicle number plate entering and leaving. Integrated with gate barrier system and linked to your logistics/fleet management software</li>
+  <li><strong>PTZ on the roof</strong>: For large yard areas or container storage — one PTZ on the roofline can cover the entire vehicle yard</li>
+</ul>
+
+<h3>Staff Areas — Canteen, Locker Room Corridor, Time-Attendance</h3>
+<ul>
+  <li>Standard 2MP dome cameras in staff areas (not in locker rooms or prayer rooms — privacy compliance)</li>
+  <li>Camera covering the time-attendance terminal for fraud prevention</li>
+</ul>
+
+<h2>NVR and Storage for Warehouses</h2>
+<p>Warehouses typically need 32–64 channel NVR systems with substantial storage. A 50-camera system recording 24/7 at 1080p requires approximately 20–30TB for 30 days of footage. We recommend a RAID-configured NVR in a dedicated server room or security cabinet for redundancy.</p>
+
+<h2>SIRA Compliance for Dubai Warehouses</h2>
+<p>All commercial and industrial properties in Dubai require SIRA-approved CCTV. For warehouses, SIRA requirements include:</p>
+<ul>
+  <li>Minimum 4MP resolution (2MP for indoor staff areas)</li>
+  <li>30 days minimum recording</li>
+  <li>SIRA-approved installer and technical drawings</li>
+  <li>For JAFZA and DIP: additional free zone authority compliance may apply</li>
+</ul>
+
+<h2>Warehouse CCTV Cost in Dubai</h2>
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+  <thead><tr style="background:#1B3F7C;color:white"><th style="padding:10px;text-align:left">Warehouse Size</th><th style="padding:10px;text-align:left">Cameras</th><th style="padding:10px;text-align:left">Cost (AED)</th></tr></thead>
+  <tbody>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Small (up to 500 m²)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">8–16</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">8,000 – 20,000</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Medium (500–2,000 m²)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">16–32</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">18,000 – 45,000</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Large (2,000–10,000 m²)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">32–80</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">40,000 – 120,000</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Logistics Hub / Distribution Centre</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">80–200+</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">100,000 – 400,000+</td></tr>
+  </tbody>
+</table>
+
+<p>Call Mideatek on <a href="tel:+971545566456">+971 54 556 6456</a> for a free warehouse CCTV survey. We cover Al Quoz, Jebel Ali, Dubai Industrial City, Dubai South, DAFZA, DIP, and all industrial areas across the UAE.</p>
+    `,
+  },
+  {
+    slug: 'restaurant-cctv-installation-dubai-guide-2026',
+    title: 'Restaurant CCTV Installation Dubai 2026 — SIRA Compliance, Costs & Camera Guide',
+    excerpt: 'SIRA-compliant CCTV for Dubai restaurants. Covers mandatory camera positions, Dubai Municipality requirements, how many cameras you need, costs, and which system works best for F&B outlets.',
+    category: 'CCTV',
+    date: '2026-05-11',
+    readTime: '6 min read',
+    keywords: ['restaurant CCTV Dubai', 'CCTV installation restaurant UAE', 'F&B CCTV Dubai', 'SIRA CCTV restaurant Dubai', 'cafe CCTV Dubai'],
+    content: `
+<h2>Is CCTV Mandatory for Restaurants in Dubai?</h2>
+<p>Yes — CCTV is effectively mandatory for restaurants and cafés in Dubai. Dubai Municipality (DM) requires CCTV as part of the food establishment permit process, and SIRA (Security Industry Regulatory Agency) regulates the technical standards of any installed system. Operating a Dubai restaurant without a SIRA-compliant CCTV system risks your trade licence renewal and can result in fines during DM inspections.</p>
+<p>The good news: a well-designed restaurant CCTV system typically requires only 8–16 cameras and can be installed in a single day with minimal disruption to operations.</p>
+
+<h2>Where Must CCTV Cameras Be Placed in a Dubai Restaurant?</h2>
+<p>Based on Dubai Municipality and SIRA guidelines, cameras must cover:</p>
+<ul>
+  <li><strong>All entrance and exit doors</strong>: Every door — including staff exits and emergency exits — must be covered</li>
+  <li><strong>Cash desk / POS terminals</strong>: High-resolution camera (4MP minimum) covering every point of sale from an angle that captures both the cashier and customer</li>
+  <li><strong>Dining area</strong>: Full coverage of all dining tables — ceiling-mounted fisheye or dome cameras typically achieve this with minimum camera count</li>
+  <li><strong>Bar area</strong> (if applicable): Full coverage of bar service area and back-bar stock</li>
+  <li><strong>Kitchen entrance</strong>: Camera at the pass between kitchen and dining room — required by Dubai Municipality</li>
+  <li><strong>Outdoor terrace</strong> (if applicable): Weatherproof cameras for outdoor dining areas</li>
+</ul>
+
+<p><strong>Note:</strong> Cameras inside the kitchen are encouraged by Dubai Municipality for food safety compliance monitoring but are not mandatory under SIRA.</p>
+
+<h2>Recommended CCTV System for Dubai Restaurants</h2>
+
+<h3>Small Café or Quick Service Restaurant (up to 30 seats)</h3>
+<ul>
+  <li>4–6 cameras total</li>
+  <li>2x 4MP dome cameras for dining area (one at each end)</li>
+  <li>1x 4MP camera at cash desk</li>
+  <li>1x bullet camera at entrance</li>
+  <li>1x camera at kitchen pass</li>
+  <li>8-channel NVR, 2TB storage</li>
+  <li>Cost: <strong>AED 4,500 – AED 8,000</strong></li>
+</ul>
+
+<h3>Mid-Size Restaurant (30–100 seats)</h3>
+<ul>
+  <li>8–12 cameras</li>
+  <li>Ceiling-mounted fisheye domes for main dining hall sections</li>
+  <li>4MP cameras at each POS terminal</li>
+  <li>Outdoor bullet camera for terrace / entrance</li>
+  <li>16-channel NVR, 4TB storage</li>
+  <li>Cost: <strong>AED 8,000 – AED 18,000</strong></li>
+</ul>
+
+<h3>Large Restaurant / Hotel F&B (100+ seats, multiple sections)</h3>
+<ul>
+  <li>16–32 cameras covering main dining, private dining rooms, outdoor terrace, bar, POS terminals, and all exits</li>
+  <li>32-channel NVR with 8TB storage for 30-day retention</li>
+  <li>Cost: <strong>AED 18,000 – AED 50,000</strong></li>
+</ul>
+
+<h2>SIRA + Dubai Municipality Compliance for Restaurants</h2>
+<ul>
+  <li>System must be installed by a SIRA-approved company (Mideatek is fully licensed)</li>
+  <li>Minimum 2MP resolution; 4MP recommended for POS and entrance cameras</li>
+  <li>30 days continuous recording — DM inspectors may request footage from any date within this window</li>
+  <li>SIRA technical drawings required for new installations</li>
+  <li>System must be operational at all times during trading hours</li>
+</ul>
+
+<h2>Camera Placement Tips for Restaurants</h2>
+<ul>
+  <li><strong>Use fisheye cameras in open dining areas</strong>: One 12MP fisheye on the ceiling can cover an entire 50-seat dining room. This minimises camera count and keeps the aesthetic clean.</li>
+  <li><strong>Avoid obvious camera placement at cash desks</strong>: A covert or semi-covert high-res camera at POS terminals is more effective for loss prevention than an obvious dome that staff can avoid.</li>
+  <li><strong>Cover all delivery entrances</strong>: The back-of-house delivery area is a common point for supplier fraud — always include a camera here.</li>
+  <li><strong>Use WDR cameras at entrances</strong>: Dubai restaurant entrances have extreme contrast between bright outdoor sunlight and darker interior — Wide Dynamic Range cameras handle this well.</li>
+</ul>
+
+<p>Mideatek has installed CCTV in restaurants across Dubai Marina, Downtown Dubai, JLT, DIFC, Business Bay, Deira, and all other areas. We manage the SIRA approval process completely and deliver a system that satisfies Dubai Municipality inspection requirements. Call <a href="tel:+971545566456">+971 54 556 6456</a> for a free survey — we can typically install within 48 hours of your approval.</p>
+    `,
+  },
+  {
+    slug: 'office-cctv-installation-dubai-guide-2026',
+    title: 'Office CCTV Installation Dubai 2026 — Security Cameras for Offices & Commercial Spaces',
+    excerpt: 'How to set up CCTV for your Dubai office. Covers camera positions, how many cameras you need, SIRA compliance, access control integration, and costs for small, medium and large offices.',
+    category: 'CCTV',
+    date: '2026-05-13',
+    readTime: '6 min read',
+    keywords: ['office CCTV Dubai', 'CCTV installation office Dubai', 'commercial CCTV Dubai', 'office security cameras UAE', 'SIRA CCTV office Dubai'],
+    content: `
+<h2>Office CCTV in Dubai — What the Law Requires and What You Actually Need</h2>
+<p>Commercial offices in Dubai are required by SIRA regulations to have a CCTV system installed and operational. Whether you occupy a single floor in a Business Bay tower or an entire office building in DIFC, a SIRA-compliant CCTV system is a legal requirement — and a practical one. Well-positioned office cameras deter theft, protect your staff, assist in HR investigations, and can provide critical evidence in the event of a security incident.</p>
+
+<h2>SIRA Requirements for Office CCTV in Dubai</h2>
+<p>Under Dubai's SIRA regulations, all commercial premises — including offices — must:</p>
+<ul>
+  <li>Install CCTV using a SIRA-approved company only</li>
+  <li>Achieve minimum 2MP resolution (4MP recommended for 2026 compliance)</li>
+  <li>Record continuously for a minimum of 30 days</li>
+  <li>Cover all entrance and exit points</li>
+  <li>Provide remote access to footage upon request by Dubai Police or SIRA</li>
+</ul>
+<p>SIRA technical drawings must be submitted and approved before installation for all commercial properties. Mideatek handles this entire process — you do not need to manage any paperwork.</p>
+
+<h2>How Many Cameras Does an Office Need in Dubai?</h2>
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+  <thead><tr style="background:#1B3F7C;color:white"><th style="padding:10px;text-align:left">Office Size</th><th style="padding:10px;text-align:left">Cameras</th><th style="padding:10px;text-align:left">Cost (AED)</th></tr></thead>
+  <tbody>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Small office (up to 10 staff)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">4–6</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">3,500 – 7,000</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Medium office (10–50 staff, 1 floor)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">8–16</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">7,000 – 18,000</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Large office (50–200 staff, 2–3 floors)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">16–40</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">15,000 – 45,000</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Corporate HQ / full building</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">40–120+</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">40,000 – 150,000+</td></tr>
+  </tbody>
+</table>
+
+<h2>Where Should Cameras Be Placed in an Office?</h2>
+
+<h3>Essential Camera Positions</h3>
+<ul>
+  <li><strong>Main entrance / reception</strong>: A 4MP camera covering the reception desk and entrance door — captures every visitor entering. A fisheye dome can cover the entire reception area with one camera.</li>
+  <li><strong>All access doors</strong>: Every access-controlled door and fire exit should have a camera. This creates a record of every person entering and leaving each secure area.</li>
+  <li><strong>Server room / IT room</strong>: A 4MP camera inside the server room is essential for any office handling sensitive data or client information. Required by many ISO and security certifications.</li>
+  <li><strong>Finance / accounts area</strong>: Camera covering the accounts team desks and any cash-handling areas.</li>
+  <li><strong>Main open-plan office floor</strong>: Ceiling-mounted fisheye cameras give complete coverage of open-plan areas without intruding on individual workstations.</li>
+  <li><strong>Car park / building entrance</strong>: If the office has dedicated parking, ANPR at the entry and dome cameras in the car park are recommended.</li>
+</ul>
+
+<h3>Areas NOT to Cover with CCTV</h3>
+<p>UAE privacy law prohibits CCTV in toilets, prayer rooms, changing rooms, and in areas where there is a reasonable expectation of privacy. Mideatek will advise you on exactly which areas can and cannot be covered during the site survey.</p>
+
+<h2>CCTV + Access Control Integration for Offices</h2>
+<p>For offices with 10+ staff, integrating your CCTV system with an access control system significantly enhances security. Every door access event (card swipe, fingerprint scan) is linked to the corresponding camera footage — so you can instantly see who was at any door at any time. Mideatek installs combined CCTV and access control systems for offices across Dubai.</p>
+
+<h2>Remote Monitoring for Office CCTV</h2>
+<p>Every Mideatek office CCTV system includes remote monitoring setup. The business owner, CEO, or security manager can view live and recorded footage from any device — phone, tablet, or laptop — from anywhere in the world. We set up the app and provide training during commissioning, and our 24/7 support team is available if you need help accessing footage at any time.</p>
+
+<p>Call <a href="tel:+971545566456">+971 54 556 6456</a> for a free office CCTV survey. We cover all major office districts in Dubai including DIFC, Business Bay, Downtown Dubai, JLT, Dubai Media City, Dubai Internet City, and Sheikh Zayed Road. We handle all SIRA paperwork and can install within 48 hours of approval.</p>
+    `,
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {

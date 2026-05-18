@@ -130,5 +130,47 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
+    {
+      url: `${BASE}/blog/cctv-installation-dubai-marina-2026`,
+      lastModified: new Date('2026-05-01'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE}/blog/cctv-installation-jumeirah-village-circle-2026`,
+      lastModified: new Date('2026-05-03'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE}/blog/cctv-installation-business-bay-dubai-2026`,
+      lastModified: new Date('2026-05-05'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE}/blog/villa-cctv-installation-dubai-guide-2026`,
+      lastModified: new Date('2026-05-07'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${BASE}/blog/warehouse-cctv-installation-dubai-guide-2026`,
+      lastModified: new Date('2026-05-09'),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
+      url: `${BASE}/blog/restaurant-cctv-installation-dubai-guide-2026`,
+      lastModified: new Date('2026-05-11'),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
+      url: `${BASE}/blog/office-cctv-installation-dubai-guide-2026`,
+      lastModified: new Date('2026-05-13'),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
   ]
 }
