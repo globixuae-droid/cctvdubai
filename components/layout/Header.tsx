@@ -18,10 +18,22 @@ const services = [
   { name: 'Parking & Gate Barriers', href: '/services/parking-gate-barrier' },
 ]
 
+const popularAreas = [
+  { name: 'Dubai Marina',      href: '/cctv-installation-dubai-marina' },
+  { name: 'Palm Jumeirah',     href: '/cctv-installation-palm-jumeirah' },
+  { name: 'Downtown Dubai',    href: '/cctv-installation-downtown-dubai' },
+  { name: 'Business Bay',      href: '/cctv-installation-business-bay' },
+  { name: 'Dubai Hills',       href: '/cctv-installation-dubai-hills' },
+  { name: 'JVC',               href: '/cctv-installation-jvc' },
+  { name: 'Al Barsha',         href: '/cctv-installation-al-barsha' },
+  { name: 'Mirdif',            href: '/cctv-installation-mirdif' },
+]
+
 export default function Header() {
   const [scrolled, setScrolled]     = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [svcOpen, setSvcOpen]       = useState(false)
+  const [areasOpen, setAreasOpen]   = useState(false)
 
   useEffect(() => {
     const fn = () => setScrolled(window.scrollY > 30)
@@ -94,6 +106,28 @@ export default function Header() {
               </div>
             </div>
 
+            <div className="relative group">
+              <button className="flex items-center gap-1 text-sm font-medium text-gray-600 hover:text-blue-700 transition-colors py-2">
+                Areas <ChevronDown size={13} className="group-hover:rotate-180 transition-transform duration-200" />
+              </button>
+              <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-64 bg-white rounded-xl overflow-hidden
+                              opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200"
+                style={{ border: '1px solid #E2E8F0', boxShadow: '0 8px 40px rgba(0,0,0,0.12)' }}>
+                {popularAreas.map((a) => (
+                  <Link key={a.href} href={a.href}
+                    className="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-700 hover:bg-blue-50
+                               transition-colors border-b border-gray-50 font-medium">
+                    {a.name}
+                  </Link>
+                ))}
+                <Link href="/areas"
+                  className="block px-4 py-3 text-sm font-bold text-white hover:opacity-90 transition-opacity"
+                  style={{ background: '#1B3F7C' }}>
+                  View all 41 areas →
+                </Link>
+              </div>
+            </div>
+
             <Link href="/projects" className="text-sm font-medium text-gray-600 hover:text-blue-700 transition-colors">Projects</Link>
             <Link href="/about"    className="text-sm font-medium text-gray-600 hover:text-blue-700 transition-colors">About</Link>
             <Link href="/contact"  className="text-sm font-medium text-gray-600 hover:text-blue-700 transition-colors">Contact</Link>
@@ -140,6 +174,23 @@ export default function Header() {
                       className="block py-2.5 px-4 text-gray-600 hover:text-blue-700 text-sm font-medium"
                       onClick={() => setMobileOpen(false)}>{s.name}</Link>
                   ))}
+                </div>
+              )}
+              <button onClick={() => setAreasOpen(!areasOpen)}
+                className="flex items-center justify-between w-full py-3 px-4 text-gray-700 hover:text-blue-700 hover:bg-blue-50 rounded-lg text-sm font-medium">
+                Areas <ChevronDown size={14} className={areasOpen ? 'rotate-180 transition-transform' : 'transition-transform'} />
+              </button>
+              {areasOpen && (
+                <div className="pl-4 bg-gray-50 rounded-xl mx-1">
+                  {popularAreas.map((a) => (
+                    <Link key={a.href} href={a.href}
+                      className="block py-2.5 px-4 text-gray-600 hover:text-blue-700 text-sm font-medium"
+                      onClick={() => setMobileOpen(false)}>{a.name}</Link>
+                  ))}
+                  <Link href="/areas"
+                    className="block py-2.5 px-4 text-sm font-bold"
+                    style={{ color: '#1B3F7C' }}
+                    onClick={() => setMobileOpen(false)}>View all 41 areas →</Link>
                 </div>
               )}
               <Link href="/projects" className="block py-3 px-4 text-gray-700 hover:text-blue-700 hover:bg-blue-50 rounded-lg text-sm font-medium" onClick={() => setMobileOpen(false)}>Projects</Link>

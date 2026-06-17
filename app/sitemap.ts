@@ -1,8 +1,16 @@
 import { MetadataRoute } from 'next'
+import { LOCATIONS } from '@/lib/locations'
 
 const BASE = 'https://www.cctvdubai.me'
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const locationEntries: MetadataRoute.Sitemap = LOCATIONS.map((l) => ({
+    url: `${BASE}/cctv-installation-${l.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.88,
+  }))
+
   return [
     {
       url: BASE,
@@ -76,6 +84,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
+    {
+      url: `${BASE}/areas`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.85,
+    },
+    ...locationEntries,
     {
       url: `${BASE}/blog/cctv-installation-cost-dubai-2025`,
       lastModified: new Date('2025-05-01'),

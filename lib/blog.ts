@@ -915,6 +915,11 @@ export const blogPosts: BlogPost[] = [
 <p>Dubai Marina is one of the most densely populated residential and hospitality districts in the UAE — a waterfront community of over 200 high-rise towers, hotels, restaurants, and retail outlets packed into 4.5 km² along the Marina canal. With this density comes a high demand for professional, SIRA-compliant CCTV systems for apartments, building lobbies, car parks, and F&B outlets.</p>
 <p>Mideatek installs and maintains CCTV systems across every tower and community in Dubai Marina. This guide covers exactly what you need — camera types, quantities, costs, and SIRA compliance.</p>
 
+<div style="background:#EFF6FF;border-left:4px solid #1B3F7C;padding:18px 22px;border-radius:12px;margin:24px 0;">
+<p style="margin:0 0 6px;font-weight:700;color:#1B3F7C;">→ Get a quote for Dubai Marina</p>
+<p style="margin:0;color:#374151;line-height:1.6;">Visit our dedicated <a href="/cctv-installation-dubai-marina">Dubai Marina CCTV installation page</a> for sub-community pricing (Marina Walk, JBR, Princess Tower, Cayan), area-specific FAQs, and a free same-day site survey.</p>
+</div>
+
 <h2>Why Dubai Marina Properties Need Professional CCTV</h2>
 <ul>
   <li><strong>High footfall</strong>: Marina Walk and JBR see millions of visitors annually — lobbies, car parks, and common areas require continuous surveillance</li>
@@ -992,6 +997,11 @@ export const blogPosts: BlogPost[] = [
 <p>Jumeirah Village Circle is one of Dubai's fastest-growing residential communities — a mixed-use neighbourhood of villas, townhouses, low-rise and mid-rise apartment buildings, and neighbourhood retail. JVC's rapid expansion and diverse property mix make it one of the highest-demand areas for CCTV installation in Dubai.</p>
 <p>Mideatek is an active CCTV installer across all clusters in JVC. Here is everything you need to know about getting a SIRA-compliant CCTV system installed at your JVC property.</p>
 
+<div style="background:#EFF6FF;border-left:4px solid #1B3F7C;padding:18px 22px;border-radius:12px;margin:24px 0;">
+<p style="margin:0 0 6px;font-weight:700;color:#1B3F7C;">→ Get a quote for JVC</p>
+<p style="margin:0;color:#374151;line-height:1.6;">Visit our dedicated <a href="/cctv-installation-jvc">JVC CCTV installation page</a> for District-by-District pricing, NOC turnaround per building (Belgravia, Diamond Views, Imperial Residence), and a free same-day site survey.</p>
+</div>
+
 <h2>Types of JVC Properties and Their CCTV Needs</h2>
 
 <h3>JVC Villas and Townhouses</h3>
@@ -1054,6 +1064,11 @@ export const blogPosts: BlogPost[] = [
 <h2>CCTV Installation in Business Bay — Dubai's Central Business District</h2>
 <p>Business Bay is Dubai's fastest-growing mixed-use business district — a dense cluster of commercial towers, hotel apartments, luxury residences, and waterfront retail stretching along the Dubai Canal from Downtown to Al Quoz. With some of the highest commercial property values in the UAE, Business Bay landlords, building managers, and business owners demand enterprise-grade CCTV that is both SIRA-compliant and capable of protecting high-value assets.</p>
 
+<div style="background:#EFF6FF;border-left:4px solid #1B3F7C;padding:18px 22px;border-radius:12px;margin:24px 0;">
+<p style="margin:0 0 6px;font-weight:700;color:#1B3F7C;">→ Get a quote for Business Bay</p>
+<p style="margin:0;color:#374151;line-height:1.6;">Visit our dedicated <a href="/cctv-installation-business-bay">Business Bay CCTV installation page</a> for tower-specific NOC turnaround, DCD fire integration pricing, Bay Square retail packages, and a free same-day survey.</p>
+</div>
+
 <h2>Business Bay Property Types and CCTV Requirements</h2>
 
 <h3>Commercial Office Towers</h3>
@@ -1111,6 +1126,11 @@ export const blogPosts: BlogPost[] = [
     content: `
 <h2>CCTV for Dubai Villas — Everything You Need to Know</h2>
 <p>Dubai villas represent the premium end of the residential property market — and they face unique security challenges. Large plots, multiple access points, extensive gardens, private pools, and often live-in staff create a more complex security requirement than a standard apartment. A well-designed villa CCTV system gives you complete visibility of your property from anywhere in the world via your phone.</p>
+
+<div style="background:#EFF6FF;border-left:4px solid #1B3F7C;padding:18px 22px;border-radius:12px;margin:24px 0;">
+<p style="margin:0 0 6px;font-weight:700;color:#1B3F7C;">→ Get a villa CCTV quote for your area</p>
+<p style="margin:0;color:#374151;line-height:1.6;">We install villa CCTV across all 41 Dubai communities. Jump straight to your area: <a href="/cctv-installation-dubai-hills">Dubai Hills</a>, <a href="/cctv-installation-arabian-ranches">Arabian Ranches</a>, <a href="/cctv-installation-emirates-hills">Emirates Hills</a>, <a href="/cctv-installation-palm-jumeirah">Palm Jumeirah</a>, <a href="/cctv-installation-mirdif">Mirdif</a> — or see all <a href="/areas">areas we serve</a>.</p>
+</div>
 
 <h2>How Many CCTV Cameras Does a Dubai Villa Need?</h2>
 <p>The number of cameras depends on your villa's size, plot area, number of access points, and personal security requirements. As a general rule:</p>
@@ -1177,6 +1197,11 @@ export const blogPosts: BlogPost[] = [
 <h2>Warehouse CCTV in Dubai — Why Standard Systems Are Not Enough</h2>
 <p>Warehouses in Dubai have some of the most demanding CCTV requirements of any property type. Large open floor areas, high racking, loading docks, staff entrances, perimeter fencing, and 24/7 operations all require a surveillance system designed specifically for industrial use — not the same cameras sold for homes and offices.</p>
 <p>Mideatek has installed CCTV in warehouses across Al Quoz Industrial Area, Jebel Ali Free Zone, Dubai Investment Park, Dubai South, Al Quoz 1–4, and DAFZA. Here is what you need to know.</p>
+
+<div style="background:#EFF6FF;border-left:4px solid #1B3F7C;padding:18px 22px;border-radius:12px;margin:24px 0;">
+<p style="margin:0 0 6px;font-weight:700;color:#1B3F7C;">→ Get a warehouse CCTV quote for your zone</p>
+<p style="margin:0;color:#374151;line-height:1.6;">Jump to your industrial zone: <a href="/cctv-installation-dip">DIP (Dubai Investment Park)</a>, <a href="/cctv-installation-jebel-ali">Jebel Ali / JAFZA</a>, <a href="/cctv-installation-al-quoz">Al Quoz</a> — or see all <a href="/areas">41 areas we serve</a>.</p>
+</div>
 
 <h2>Key Security Challenges for Dubai Warehouses</h2>
 <ul>
@@ -1256,6 +1281,11 @@ export const blogPosts: BlogPost[] = [
 <p>Yes — CCTV is effectively mandatory for restaurants and cafés in Dubai. Dubai Municipality (DM) requires CCTV as part of the food establishment permit process, and SIRA (Security Industry Regulatory Agency) regulates the technical standards of any installed system. Operating a Dubai restaurant without a SIRA-compliant CCTV system risks your trade licence renewal and can result in fines during DM inspections.</p>
 <p>The good news: a well-designed restaurant CCTV system typically requires only 8–16 cameras and can be installed in a single day with minimal disruption to operations.</p>
 
+<div style="background:#EFF6FF;border-left:4px solid #1B3F7C;padding:18px 22px;border-radius:12px;margin:24px 0;">
+<p style="margin:0 0 6px;font-weight:700;color:#1B3F7C;">→ Get a restaurant CCTV quote for your area</p>
+<p style="margin:0;color:#374151;line-height:1.6;">Popular F&B districts: <a href="/cctv-installation-business-bay">Business Bay</a>, <a href="/cctv-installation-jbr">JBR Walk</a>, <a href="/cctv-installation-city-walk">City Walk</a>, <a href="/cctv-installation-downtown-dubai">Downtown</a>, <a href="/cctv-installation-bur-dubai">Bur Dubai</a>, <a href="/cctv-installation-karama">Karama</a> — or see all <a href="/areas">41 areas we serve</a>.</p>
+</div>
+
 <h2>Where Must CCTV Cameras Be Placed in a Dubai Restaurant?</h2>
 <p>Based on Dubai Municipality and SIRA guidelines, cameras must cover:</p>
 <ul>
@@ -1330,6 +1360,11 @@ export const blogPosts: BlogPost[] = [
     content: `
 <h2>Office CCTV in Dubai — What the Law Requires and What You Actually Need</h2>
 <p>Commercial offices in Dubai are required by SIRA regulations to have a CCTV system installed and operational. Whether you occupy a single floor in a Business Bay tower or an entire office building in DIFC, a SIRA-compliant CCTV system is a legal requirement — and a practical one. Well-positioned office cameras deter theft, protect your staff, assist in HR investigations, and can provide critical evidence in the event of a security incident.</p>
+
+<div style="background:#EFF6FF;border-left:4px solid #1B3F7C;padding:18px 22px;border-radius:12px;margin:24px 0;">
+<p style="margin:0 0 6px;font-weight:700;color:#1B3F7C;">→ Get an office CCTV quote for your district</p>
+<p style="margin:0;color:#374151;line-height:1.6;">Popular office districts: <a href="/cctv-installation-business-bay">Business Bay</a>, <a href="/cctv-installation-jlt">JLT</a>, <a href="/cctv-installation-barsha-heights">Barsha Heights (Tecom)</a>, <a href="/cctv-installation-silicon-oasis">Silicon Oasis</a>, <a href="/cctv-installation-jebel-ali">JAFZA</a> — or see all <a href="/areas">41 areas we serve</a>.</p>
+</div>
 
 <h2>SIRA Requirements for Office CCTV in Dubai</h2>
 <p>Under Dubai's SIRA regulations, all commercial premises — including offices — must:</p>

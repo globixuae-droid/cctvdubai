@@ -108,11 +108,27 @@ const pricingData = [
   { type: 'Commercial Building / Warehouse', cameras: '16–32+', price: 'AED 20,000 – 50,000+' },
 ]
 
-const areas = [
-  'Downtown Dubai', 'Dubai Marina', 'Business Bay', 'DIFC', 'JBR',
-  'Palm Jumeirah', 'Jumeirah', 'Al Quoz', 'Deira', 'Bur Dubai',
-  'Al Barsha', 'Mirdif', 'Dubai Silicon Oasis', 'Dubai South', 'Jebel Ali',
-  'International City', 'Discovery Gardens', 'Motor City', 'Al Nahda', 'Hor Al Anz',
+const areas: { name: string; slug?: string }[] = [
+  { name: 'Downtown Dubai',       slug: 'downtown-dubai' },
+  { name: 'Dubai Marina',         slug: 'dubai-marina' },
+  { name: 'Business Bay',         slug: 'business-bay' },
+  { name: 'DIFC' },
+  { name: 'JBR',                  slug: 'jbr' },
+  { name: 'Palm Jumeirah',        slug: 'palm-jumeirah' },
+  { name: 'Jumeirah',             slug: 'jumeirah' },
+  { name: 'Al Quoz',              slug: 'al-quoz' },
+  { name: 'Deira',                slug: 'deira' },
+  { name: 'Bur Dubai',            slug: 'bur-dubai' },
+  { name: 'Al Barsha',            slug: 'al-barsha' },
+  { name: 'Mirdif',               slug: 'mirdif' },
+  { name: 'Dubai Silicon Oasis',  slug: 'silicon-oasis' },
+  { name: 'Dubai South' },
+  { name: 'Jebel Ali',            slug: 'jebel-ali' },
+  { name: 'International City',   slug: 'international-city' },
+  { name: 'Discovery Gardens',    slug: 'discovery-gardens' },
+  { name: 'Motor City',           slug: 'motor-city' },
+  { name: 'JVC',                  slug: 'jvc' },
+  { name: 'Dubai Hills',          slug: 'dubai-hills' },
 ]
 
 const faqs = [
@@ -384,12 +400,25 @@ export default function CCTVPage() {
             <h2 className="section-title mb-4">CCTV Installation Across All Dubai Areas</h2>
             <p className="section-subtitle max-w-2xl mx-auto">Our SIRA-approved engineers provide CCTV installation across every community in Dubai, Abu Dhabi, and Sharjah. Same-day site surveys available.</p>
           </div>
-          <div className="flex flex-wrap gap-3 justify-center mb-8">
-            {areas.map((area) => (
-              <span key={area} className="px-4 py-2 rounded-full text-sm font-medium border border-gray-200 bg-gray-50" style={{ color: '#1B3F7C' }}>
-                {area}
-              </span>
-            ))}
+          <div className="flex flex-wrap gap-3 justify-center mb-6">
+            {areas.map((area) =>
+              area.slug ? (
+                <Link key={area.name} href={`/cctv-installation-${area.slug}`}
+                  className="px-4 py-2 rounded-full text-sm font-medium border border-gray-200 bg-gray-50 hover:bg-blue-50 hover:border-blue-200 transition-colors"
+                  style={{ color: '#1B3F7C' }}>
+                  {area.name}
+                </Link>
+              ) : (
+                <span key={area.name} className="px-4 py-2 rounded-full text-sm font-medium border border-gray-200 bg-gray-50" style={{ color: '#1B3F7C' }}>
+                  {area.name}
+                </span>
+              )
+            )}
+          </div>
+          <div className="text-center mb-8">
+            <Link href="/areas" className="text-sm font-semibold inline-flex items-center gap-1.5 hover:gap-2 transition-all" style={{ color: '#1B3F7C' }}>
+              View all 41 Dubai areas we serve <ChevronRight size={15} />
+            </Link>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-blue-50 rounded-2xl p-6 border border-blue-100">
