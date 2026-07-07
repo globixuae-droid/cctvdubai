@@ -54,14 +54,33 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     description: post.excerpt,
     datePublished: post.date,
     dateModified: post.date,
-    author: { '@type': 'Organization', name: 'Mideatek', url: BASE },
+    image: {
+      '@type': 'ImageObject',
+      url: `${BASE}/images/projects/cctv/cctv-10.jpg`,
+      width: 1200,
+      height: 630,
+    },
+    author: {
+      '@type': 'Person',
+      name: 'Mideatek Engineering Team',
+      url: `${BASE}/about`,
+    },
     publisher: {
       '@type': 'Organization',
       name: 'Mideatek',
       url: BASE,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${BASE}/images/logo.png`,
+        width: 200,
+        height: 60,
+      },
     },
     url: `${BASE}/blog/${post.slug}`,
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${BASE}/blog/${post.slug}` },
+    keywords: post.keywords.join(', '),
+    articleSection: post.category,
+    inLanguage: 'en-AE',
   }
 
   const breadcrumbSchema = {

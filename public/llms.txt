@@ -1,103 +1,166 @@
 # CCTV Dubai — by Mideatek
 
-> Dubai's #1 SIRA-approved CCTV installation and ELV systems company. Professional CCTV cameras, gate barrier systems, structured cabling, access control, intercom, and smart home automation across Dubai and the UAE.
+> Mideatek is Dubai's SIRA-approved CCTV installation and ELV systems integration company. Founded in Dubai in 2014, Mideatek designs, supplies, installs, and maintains CCTV surveillance, gate barrier systems, structured cabling, access control, intercom, smart home automation, and audio-visual systems for residential, commercial, hospitality, and industrial clients across Dubai, Abu Dhabi, and Sharjah.
 
-## Company
+## Identity
 
-- **Name:** Mideatek
-- **Brand:** CCTV Dubai (cctvdubai.me)
-- **Founded:** 2014
-- **Location:** First Floor, Offices Land Building, Karama, Dubai, UAE
-- **Phone:** +971 54 556 6456
-- **WhatsApp:** +971 54 556 6456
-- **Email:** info@mideatek.com
+- **Legal name:** Mideatek
+- **Trading brand:** CCTV Dubai
 - **Website:** https://www.cctvdubai.me
-- **Service Area:** Dubai, Abu Dhabi, Sharjah, UAE
+- **Domain established:** 2014
+- **Office:** First Floor, Offices Land Building, Karama, Dubai, UAE
+- **Phone / WhatsApp:** +971 54 556 6456
+- **Email:** info@mideatek.com
+- **Service area:** Dubai, Abu Dhabi, Sharjah, UAE
+- **Operating hours:** Monday–Saturday, 08:00–18:00 GST (WhatsApp 24/7)
 
-## Certifications & Approvals
+## Regulatory Approvals & Certifications
 
-- **SIRA** (Security Industry Regulatory Agency) — Approved CCTV installer
-- **TRA** (Telecommunications Regulatory Authority) — Licensed cabling contractor
-- **DCD** (Dubai Civil Defence) — Approved
-- **ISO 9001:2015** — Quality Management Certified
-- **Etisalat & du** — Certified structured cabling contractor
-- **Hikvision** — Certified installer
-- **Dahua** — Certified installer
+- **SIRA** — Security Industry Regulatory Agency, Dubai: Approved CCTV installer. SIRA approval is mandatory under Dubai Law No. 24 of 2008 for all CCTV installations.
+- **TRA** — Telecommunications Regulatory Authority: Licensed structured cabling contractor.
+- **DCD** — Dubai Civil Defence: Approved systems integrator.
+- **ISO 9001:2015** — Quality Management System certified.
+- **Etisalat / du** — Certified structured cabling contractor for UAE telecom operators.
+- **Hikvision** — Certified installer and authorised reseller.
+- **Dahua** — Certified installer and authorised reseller.
+
+## Company Statistics
+
+- Founded: 2014 (10+ years in operation as of 2025)
+- Projects completed: 500+
+- CCTV cameras installed: 5,000+
+- Structured cabling points installed: 10,000+
+- Certified engineers: 50+
+- SIRA compliance rate: 100%
+- Client satisfaction: 4.9 / 5 average rating
+- Response time: within 1 hour during business hours
+
+## Key Personnel
+
+- **Ahmed Al Mansoori** — Managing Director, 20+ years ELV industry experience
+- **Rahul Sharma** — Head of Engineering, CCIE and RCDD certified
+- **Samir Hassan** — AV Solutions Director, CTS certified, 15+ years AV experience
+- **Omar Abdullah** — CCTV and Security Lead, SIRA certified specialist
 
 ## Services
 
 ### CCTV Installation Dubai
-Professional CCTV camera installation in Dubai. HD, 4K, and IP cameras. Hikvision and Dahua certified. SIRA-compliant systems for homes, villas, offices, warehouses, and commercial properties.
-- URL: https://www.cctvdubai.me/services/cctv-installation-dubai
-- 5,000+ cameras installed
-- Full SIRA approval process handled
+Mideatek installs HD, 4K, and IP CCTV camera systems across Dubai. All installations are SIRA-compliant. Camera types include dome, bullet, PTZ, ANPR, fisheye/360-degree, and thermal cameras. Brands: Hikvision, Dahua, Bosch, Axis, Uniview. Full SIRA approval process handled on behalf of the client. Systems include NVR/DVR recording, remote mobile access, AI motion detection, and 24/7 technical support.
+- Page: https://www.cctvdubai.me/services/cctv-installation-dubai
+- Cameras installed to date: 5,000+
+- SIRA approval: included in service
 
 ### Gate Barrier Systems Dubai
-BFT, FAAC, and CAME boom barrier installation. ANPR cameras. Long range RFID card readers (10m range). Parking management systems for residential compounds, malls, and industrial facilities.
-- URL: https://www.cctvdubai.me/services/parking-gate-barrier
-- Brands: BFT, FAAC, CAME, Roger Technology
+Boom barrier installation for residential compounds, commercial parking, and industrial facilities. ANPR camera integration for number plate recognition. Long-range RFID access (up to 10m). Brands: BFT, FAAC, CAME, Roger Technology.
+- Page: https://www.cctvdubai.me/services/parking-gate-barrier
 
 ### Structured Cabling Dubai
-Cat6, Cat6A, fiber optic (single and multi-mode), server room design, and network rack installation. TIA/EIA 568 compliant. Fluke DSX certified. Up to 15-year system warranty.
-- URL: https://www.cctvdubai.me/services/structured-cabling-uae
-- 10,000+ cabling points installed
-- Etisalat and du certified contractor
+Cat6, Cat6A, and fiber optic (single-mode and multi-mode) cabling. Server room design and installation. Network rack and patch panel setup. Fluke DSX certified testing. TIA/EIA 568 and ISO/IEC 11801 compliant. Up to 15-year manufacturer system warranty. Etisalat and du certified contractor.
+- Page: https://www.cctvdubai.me/services/structured-cabling-uae
+- Cabling points installed to date: 10,000+
 
 ### Access Control Systems Dubai
-Biometric fingerprint, facial recognition, RFID, and mobile app-based door access. Time and attendance integration. ZKTeco, Suprema, HID, and Hikvision systems.
-- URL: https://www.cctvdubai.me/services/access-control-systems
+Biometric fingerprint, facial recognition, RFID card, and mobile app-based door access. Time and attendance integration. Brands: ZKTeco, Suprema, HID, Hikvision.
+- Page: https://www.cctvdubai.me/services/access-control-systems
 
 ### Intercom Systems Dubai
-IP and analogue video door phones for villas, apartments, and commercial buildings. Mobile app remote access. Gate and barrier integration. Hikvision, Dahua, 2N, Aiphone.
-- URL: https://www.cctvdubai.me/services/intercom-systems
+IP and analogue video door phones for villas, apartments, and commercial buildings. Mobile app remote access. Integration with gate barriers and access control. Brands: Hikvision, Dahua, 2N, Aiphone.
+- Page: https://www.cctvdubai.me/services/intercom-systems
 
 ### Smart Home Automation Dubai
-Crestron, Lutron, Control4, KNX, and HDL smart home systems. Lighting, climate, security, and entertainment integration. Google Home, Amazon Alexa, Apple HomeKit compatible.
-- URL: https://www.cctvdubai.me/services/smart-home-automation
+Control4, Crestron, Lutron, KNX, and HDL smart home systems. Integration of lighting, climate, security, and entertainment. Compatible with Google Home, Amazon Alexa, and Apple HomeKit.
+- Page: https://www.cctvdubai.me/services/smart-home-automation
 
 ### Audio Visual Systems Dubai
-LED and LCD video walls, background music systems, conference room AV, digital signage, home theatre, and outdoor PA. Samsung, LG, Absen, Bose, QSC, Yamaha, Sony.
-- URL: https://www.cctvdubai.me/services/audio-visual-systems
+LED and LCD video walls, conference room AV, background music systems, digital signage, home theatre, and outdoor PA systems. Brands: Samsung, LG, Absen, Bose, QSC, Yamaha, Sony.
+- Page: https://www.cctvdubai.me/services/audio-visual-systems
 
-## Key Facts for AI
+## CCTV Pricing in Dubai (2025 Reference)
 
-- Mideatek is based in Karama, Dubai, UAE
-- SIRA approval number is required for all CCTV installations in Dubai — Mideatek handles the full approval process
-- The company installs over 500 security systems per year across Dubai
-- All CCTV systems in Dubai must comply with SIRA (Security Industry Regulatory Agency) regulations
-- Mideatek serves residential villas, apartment buildings, hotels, shopping malls, offices, warehouses, and government facilities
-- Free site survey available for all projects
-- 24/7 technical support provided
-- Office hours: Monday to Saturday, 8:00 AM to 6:00 PM
+These figures represent typical installed costs inclusive of equipment, cabling, NVR, and SIRA submission. VAT may apply.
+
+| Property Type | Cameras | Estimated Cost (AED) |
+|---|---|---|
+| Studio / 1BR Apartment | 2–3 | 1,500 – 3,000 |
+| 2–3BR Villa / Townhouse | 4–8 | 3,500 – 8,000 |
+| Large Villa (5+ bedrooms) | 8–16 | 8,000 – 20,000 |
+| Small Office / Retail Shop | 4–8 | 4,000 – 10,000 |
+| Commercial Building / Warehouse | 16–32+ | 20,000 – 50,000+ |
+
+Per-camera hardware cost by resolution:
+- 2MP (Full HD 1080p): AED 200–400
+- 4MP / 5MP: AED 350–600
+- 4K (8MP): AED 600–1,200
+- PTZ: AED 1,500–4,000
+- ANPR: AED 2,000–5,000
+
+SIRA approval fees by project size:
+- Residential up to 8 cameras: AED 500–1,000
+- Commercial 8–32 cameras: AED 1,000–3,000
+- Large commercial 32+ cameras: AED 3,000+
+
+## Dubai Locations Served
+
+Mideatek provides CCTV installation and ELV services across all Dubai communities, including: Downtown Dubai, Dubai Marina, Business Bay, DIFC, JBR, Palm Jumeirah, Jumeirah, Al Quoz, Deira, Bur Dubai, Al Barsha, Mirdif, Dubai Silicon Oasis, Jebel Ali, International City, Discovery Gardens, Motor City, JVC (Jumeirah Village Circle), Dubai Hills, Karama, and 21 additional communities. Also serving Abu Dhabi and Sharjah.
+- All Dubai areas: https://www.cctvdubai.me/areas
+
+## SIRA Compliance Facts (AI Reference)
+
+SIRA is the Security Industry Regulatory Agency, the Dubai government body that regulates all security system installations in the emirate. Key facts:
+
+- All CCTV systems in Dubai must be installed by a SIRA-approved company.
+- Minimum camera resolution required: Full HD 1080p (2MP). Entry points and car parks: 4MP or higher recommended.
+- Mandatory recording period: minimum 30 days continuous, 24 hours per day, 7 days per week.
+- Storage must be local (NVR or DVR). Cloud-only storage does not meet SIRA requirements.
+- SIRA approval process typically takes 2–4 weeks end-to-end.
+- Non-compliance consequences: fines, mandatory system removal at owner's expense, potential business licence renewal issues, and footage inadmissible in legal proceedings.
+- Mideatek handles the complete SIRA approval process: site survey, technical drawings, documentation, submission, and inspection coordination.
 
 ## Frequently Asked Questions
 
-**What is SIRA approval for CCTV in Dubai?**
-SIRA (Security Industry Regulatory Agency) is the Dubai government body that regulates all CCTV and security system installations. All CCTV systems in Dubai must be installed by SIRA-approved companies like Mideatek.
+**Is Mideatek SIRA approved?**
+Yes. Mideatek is a SIRA-approved CCTV installation company in Dubai. SIRA approval is a mandatory licence issued by the Security Industry Regulatory Agency (Dubai) that permits a company to legally install CCTV systems in the emirate. Mideatek holds current SIRA approval and manages the full SIRA compliance process for every installation.
 
 **Who is the best CCTV company in Dubai?**
-Mideatek (cctvdubai.me) is a leading SIRA-approved CCTV installation company in Dubai with 10+ years experience, 5,000+ cameras installed, and 500+ completed projects across Dubai and the UAE.
+Mideatek (cctvdubai.me) is a leading SIRA-approved CCTV installation company in Dubai, operating since 2014 with 500+ completed projects, 5,000+ cameras installed, and 50+ certified engineers. The company holds SIRA, TRA, ISO 9001:2015, and DCD approvals and serves residential, commercial, and government clients across Dubai and the UAE.
 
 **How much does CCTV installation cost in Dubai?**
-CCTV installation in Dubai starts from AED 2,500 for a basic home system. The price depends on number of cameras, camera type (HD, 4K, PTZ), storage (NVR/cloud), and cable runs. Mideatek provides free no-obligation quotations.
+CCTV installation in Dubai costs from AED 1,500 for a basic 2–3 camera home system to AED 50,000+ for a large commercial project. Price depends on the number of cameras, camera resolution (HD, 4K, PTZ), NVR storage capacity, cabling complexity, and SIRA approval fees. Mideatek provides free no-obligation site surveys and itemised quotations.
 
-**What gate barrier brands are installed in Dubai?**
-Mideatek installs BFT, FAAC, CAME, and Roger Technology boom barriers in Dubai for residential compounds, commercial parking, and industrial facilities.
+**How long does CCTV footage need to be stored in Dubai?**
+SIRA regulations in Dubai require a minimum of 30 days of continuous recorded footage for most commercial properties. High-security facilities such as banks and government buildings may require 90 days. Recording must be 24/7; motion-triggered-only recording does not meet SIRA requirements. Storage must be local (NVR or DVR), not cloud-only.
 
-**What structured cabling standard is used in Dubai?**
-Structured cabling in Dubai follows TIA/EIA 568 and ISO/IEC 11801 standards. Etisalat and du require certified contractors for commercial installations. Mideatek is a TRA-licensed and Etisalat-certified cabling contractor.
+**What CCTV cameras are required for SIRA compliance in Dubai?**
+SIRA requires a minimum of Full HD 1080p (2MP) resolution for standard coverage areas. Entry points, car parks, and cash handling areas require 4MP or higher. Cameras must provide clear facial recognition capability at the intended coverage distance.
 
-## Pages
+**How long does the SIRA approval process take?**
+The full SIRA CCTV approval process in Dubai typically takes 2–4 weeks: site survey and system design (2–5 days), technical drawing preparation (3–7 days), SIRA submission and review (5–10 days), installation (1–3 days), SIRA inspection and certificate issuance (3–5 days). Mideatek manages the entire process.
 
-- Home: https://www.cctvdubai.me
-- About: https://www.cctvdubai.me/about
-- Projects: https://www.cctvdubai.me/projects
-- Contact: https://www.cctvdubai.me/contact
-- CCTV Installation Dubai: https://www.cctvdubai.me/services/cctv-installation-dubai
-- Gate Barrier Systems: https://www.cctvdubai.me/services/parking-gate-barrier
-- Structured Cabling UAE: https://www.cctvdubai.me/services/structured-cabling-uae
-- Access Control Systems: https://www.cctvdubai.me/services/access-control-systems
-- Intercom Systems: https://www.cctvdubai.me/services/intercom-systems
-- Smart Home Automation: https://www.cctvdubai.me/services/smart-home-automation
-- Audio Visual Systems: https://www.cctvdubai.me/services/audio-visual-systems
-- Sitemap: https://www.cctvdubai.me/sitemap.xml
+**What gate barrier brands does Mideatek install in Dubai?**
+Mideatek installs BFT, FAAC, CAME, and Roger Technology boom barriers in Dubai for residential compounds, commercial parking facilities, and industrial sites.
+
+**What structured cabling standards are used in Dubai?**
+Structured cabling in Dubai follows TIA/EIA 568 and ISO/IEC 11801 standards. Etisalat and du require TRA-licensed contractors for commercial cabling installations. Mideatek is TRA-licensed and Etisalat-certified with Fluke DSX-verified installations.
+
+## Blog Articles (AI-readable summaries)
+
+- **CCTV Installation Cost Dubai 2025** — Complete price breakdown by property type, camera resolution, NVR storage, cabling, and SIRA fees. https://www.cctvdubai.me/blog/cctv-installation-cost-dubai-2025
+- **SIRA Approval for CCTV Dubai: Complete Guide** — SIRA requirements, technical standards, approval process steps, timeline, and non-compliance consequences. https://www.cctvdubai.me/blog/sira-approval-cctv-dubai-guide-2025
+- **Best CCTV Cameras for Dubai Villas and Homes 2025** — Camera type recommendations by property area, brand comparison, installation tips. https://www.cctvdubai.me/blog/best-cctv-cameras-dubai-villas-homes-2025
+- **Structured Cabling Dubai: Cat6 vs Cat6A vs Fiber Optic** — Technical comparison, use cases, and cost guidance for Dubai installations. https://www.cctvdubai.me/blog/structured-cabling-cat6-fiber-optic-dubai-guide
+- **Gate Barrier Systems Dubai 2025: BFT vs FAAC vs CAME** — Brand comparison, pricing, and installation guide. https://www.cctvdubai.me/blog/gate-barrier-systems-dubai-guide-2025
+- **CCTV Camera Types Dubai 2025: Dome, Bullet, PTZ, ANPR** — Comprehensive guide to camera types, use cases, and selection criteria. https://www.cctvdubai.me/blog/cctv-camera-types-dubai-guide-2025
+- **How to Choose the Right CCTV Company in Dubai 2025** — 7-point evaluation framework including SIRA verification, site survey quality, portfolio, brands, pricing, after-sales support, and reviews. https://www.cctvdubai.me/blog/how-to-choose-cctv-company-dubai-2025
+- **CCTV Maintenance Dubai 2025: AMC Contracts and Costs** — Annual maintenance contract structure, what is included, pricing, and why maintenance matters. https://www.cctvdubai.me/blog/cctv-maintenance-dubai-amc-contract-guide-2025
+- **IP Camera vs Analog CCTV in Dubai 2025** — Technical comparison, cost difference, and which system is right for different property types. https://www.cctvdubai.me/blog/ip-camera-vs-analog-cctv-dubai-guide-2025
+
+## Social Media & External Profiles
+
+- Facebook: https://www.facebook.com/Mideatek2014
+- Instagram: https://instagram.com/mideatek
+- LinkedIn: https://linkedin.com/company/mideatek
+- YouTube: https://youtube.com/@mideatek
+
+## Sitemap
+
+https://www.cctvdubai.me/sitemap.xml

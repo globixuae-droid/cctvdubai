@@ -170,24 +170,6 @@ export default function LocationPage({ params }: { params: { locationSlug: strin
     },
   }
 
-  const localBusinessSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    '@id': `${BASE}/${URL_PREFIX}${loc.slug}#localbusiness`,
-    name: 'Mideatek — CCTV Dubai',
-    description: `SIRA-approved CCTV installation company serving ${loc.name} and all of Dubai.`,
-    url: `${BASE}/${URL_PREFIX}${loc.slug}`,
-    telephone: '+971545566456',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: 'First Floor, Offices Land Building, Karama',
-      addressLocality: 'Dubai',
-      addressCountry: 'AE',
-    },
-    areaServed: { '@type': 'Place', name: `${loc.name}, Dubai` },
-    openingHours: 'Mo-Sa 08:00-18:00',
-  }
-
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -202,7 +184,6 @@ export default function LocationPage({ params }: { params: { locationSlug: strin
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Hero */}
