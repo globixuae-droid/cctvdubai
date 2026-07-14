@@ -3,6 +3,7 @@ import { Cable, CheckCircle, Phone, ChevronRight } from 'lucide-react'
 import Image from 'next/image'
 import LeadForm from '@/components/shared/LeadForm'
 import CTASection from '@/components/shared/CTASection'
+import RelatedServices from '@/components/shared/RelatedServices'
 import Link from 'next/link'
 
 const BASE = 'https://www.cctvdubai.me'
@@ -59,7 +60,7 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home',     item: BASE },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/#services` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/services` },
     { '@type': 'ListItem', position: 3, name: 'Structured Cabling UAE', item: `${BASE}/services/structured-cabling-uae` },
   ],
 }
@@ -99,7 +100,7 @@ export default function StructuredCablingPage() {
           <div className="flex items-center gap-2 text-gray-400 text-sm mb-4">
             <Link href="/" className="hover:text-blue-700 transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/#services" className="hover:text-blue-700 transition-colors">Services</Link>
+            <Link href="/services" className="hover:text-blue-700 transition-colors">Services</Link>
             <span>/</span>
             <span style={{ color: '#0F172A' }}>Structured Cabling UAE</span>
           </div>
@@ -244,6 +245,8 @@ export default function StructuredCablingPage() {
           </div>
         </div>
       </section>
+
+      <RelatedServices exclude="/services/structured-cabling-uae" title="Complete Your Building's ELV Systems" />
 
       <CTASection title="Need Structured Cabling in Dubai?" subtitle="Contact Mideatek for enterprise-grade network infrastructure with full TIA/EIA compliance and certification." />
     </>

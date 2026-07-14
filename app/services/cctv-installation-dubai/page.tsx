@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
-import { Shield, CheckCircle, Phone, ChevronRight } from 'lucide-react'
+import { Shield, CheckCircle, Phone, ChevronRight, Building2, Home as HomeIcon, Factory } from 'lucide-react'
 import LeadForm from '@/components/shared/LeadForm'
 import CTASection from '@/components/shared/CTASection'
+import RelatedServices from '@/components/shared/RelatedServices'
 import Link from 'next/link'
 
 const BASE = 'https://www.cctvdubai.me'
@@ -155,12 +156,47 @@ const galleryImages = [
   { src: '/images/projects/cctv/cctv-9.jpg',  alt: 'Dome camera installation villa Dubai' },
 ]
 
+const brandComparison = [
+  { brand: 'Hikvision', tier: 'Premium', best: 'Commercial buildings, SIRA projects', colorVu: '✓', ai: '✓', anpr: '✓', fourK: '✓', notes: 'Global #1 brand. Most widely SIRA-accepted in Dubai.' },
+  { brand: 'Dahua', tier: 'Professional', best: 'Villas, offices, warehouses', colorVu: '✓', ai: '✓', anpr: '✓', fourK: '✓', notes: 'Excellent colour-night cameras. Strong value for residential.' },
+  { brand: 'Uniview', tier: 'Professional', best: 'Mid-range commercial', colorVu: '✓', ai: '✓', anpr: '✗', fourK: '✓', notes: 'OEM technology from the original Hikvision engineers.' },
+  { brand: 'Axis', tier: 'Enterprise', best: 'Critical infrastructure, embassies', colorVu: '✗', ai: '✓', anpr: '✓', fourK: '✓', notes: 'Swedish engineering. Premium price, highest build quality.' },
+  { brand: 'Bosch', tier: 'Enterprise', best: 'Hotels, government, hospitals', colorVu: '✗', ai: '✓', anpr: '✓', fourK: '✓', notes: 'German precision. Preferred for healthcare and government.' },
+]
+
+const propertyTypes = [
+  {
+    icon: HomeIcon,
+    title: 'Residential CCTV Installation Dubai',
+    href: '/home-cctv-dubai',
+    desc: 'Villas, townhouses, apartments — mobile app viewing, clean concealed wiring, aesthetic dome cameras. Family safety focused. SIRA certificate for NOC compliance.',
+    cta: 'Villa & Home CCTV →',
+    highlights: ['2–16 cameras', 'Mobile remote access', 'Clean cable runs', 'Wired & wireless options'],
+  },
+  {
+    icon: Building2,
+    title: 'Commercial CCTV Installation Dubai',
+    href: '/commercial-cctv-dubai',
+    desc: 'Offices, retail, restaurants, hotels — SIRA compliance, DMCC/DED certification, access control integration, POS camera sync, 30–90 day recording.',
+    cta: 'Commercial CCTV →',
+    highlights: ['SIRA certificate 48–72 hrs', 'DMCC & DED ready', '30–90 day recording', 'Enterprise NVR systems'],
+  },
+  {
+    icon: Factory,
+    title: 'Industrial CCTV Installation Dubai',
+    href: '/cctv-installation-al-quoz',
+    desc: 'Warehouses, factories, JAFZA facilities — high-channel NVRs, wide-angle 4K cameras, long-range bullet cameras, perimeter protection, ANPR at vehicle entries.',
+    cta: 'Industrial CCTV →',
+    highlights: ['32–128 channel systems', 'Long-range IR cameras', 'Perimeter protection', 'JAFZA compliant'],
+  },
+]
+
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home',     item: BASE },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/#services` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/services` },
     { '@type': 'ListItem', position: 3, name: 'CCTV Installation Dubai', item: `${BASE}/services/cctv-installation-dubai` },
   ],
 }
@@ -220,7 +256,7 @@ export default function CCTVPage() {
           <div className="flex items-center gap-2 text-gray-400 text-sm mb-4">
             <Link href="/" className="hover:text-blue-700 transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/#services" className="hover:text-blue-700 transition-colors">Services</Link>
+            <Link href="/services" className="hover:text-blue-700 transition-colors">Services</Link>
             <span>/</span>
             <span style={{ color: '#0F172A' }}>CCTV Installation Dubai</span>
           </div>
@@ -316,6 +352,41 @@ export default function CCTVPage() {
         </div>
       </section>
 
+      {/* Property Types */}
+      <section className="section-pad" style={{ background: '#F8FAFC' }}>
+        <div className="container-custom">
+          <div className="text-center mb-10">
+            <div className="section-tag">BY PROPERTY TYPE</div>
+            <h2 className="section-title mb-4">CCTV Installation for Every Property in Dubai</h2>
+            <p className="section-subtitle max-w-2xl mx-auto">Different properties have different security requirements. We design each system around your specific property type, usage, and SIRA compliance needs.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {propertyTypes.map((pt) => {
+              const Icon = pt.icon
+              return (
+                <div key={pt.title} className="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm flex flex-col">
+                  <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 flex-shrink-0" style={{ background: '#EFF6FF' }}>
+                    <Icon size={22} style={{ color: '#1B3F7C' }} />
+                  </div>
+                  <h3 className="font-bold font-heading text-lg mb-3" style={{ color: '#0F172A' }}>{pt.title}</h3>
+                  <p className="text-gray-500 text-sm leading-relaxed mb-4 flex-1">{pt.desc}</p>
+                  <ul className="space-y-1.5 mb-5">
+                    {pt.highlights.map((h) => (
+                      <li key={h} className="flex items-center gap-2 text-xs text-gray-600">
+                        <CheckCircle size={13} className="text-green-500 flex-shrink-0" /> {h}
+                      </li>
+                    ))}
+                  </ul>
+                  <Link href={pt.href} className="text-sm font-semibold hover:underline" style={{ color: '#1B3F7C' }}>
+                    {pt.cta}
+                  </Link>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
       {/* Photo Gallery */}
       <section className="section-pad bg-white">
         <div className="container-custom">
@@ -340,7 +411,7 @@ export default function CCTVPage() {
         <div className="container-custom">
           <div className="text-center mb-10">
             <div className="section-tag">PRICING GUIDE</div>
-            <h2 className="section-title mb-4">CCTV Installation Cost in Dubai 2025</h2>
+            <h2 className="section-title mb-4">CCTV Installation Cost in Dubai 2026</h2>
             <p className="section-subtitle max-w-2xl mx-auto">Transparent pricing guide. Exact cost depends on camera count, resolution, cable runs, and SIRA approval — our free site survey gives you a precise itemised quote.</p>
           </div>
           <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
@@ -369,6 +440,46 @@ export default function CCTVPage() {
               Get Your Free Quote
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* Brand Comparison */}
+      <section className="section-pad" style={{ background: '#F8FAFC' }}>
+        <div className="container-custom">
+          <div className="text-center mb-10">
+            <div className="section-tag">BRANDS WE INSTALL</div>
+            <h2 className="section-title mb-4">Hikvision vs Dahua vs Uniview — Which CCTV Brand is Right for Dubai?</h2>
+            <p className="section-subtitle max-w-2xl mx-auto">We are certified installers for all major SIRA-accepted brands. Here is how they compare so you can make an informed choice.</p>
+          </div>
+          <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+            <table className="w-full text-sm">
+              <thead>
+                <tr style={{ background: '#1B3F7C' }}>
+                  <th className="px-5 py-4 text-left text-white font-semibold">Brand</th>
+                  <th className="px-5 py-4 text-left text-white font-semibold">Tier</th>
+                  <th className="px-5 py-4 text-left text-white font-semibold">Best For</th>
+                  <th className="px-5 py-4 text-center text-white font-semibold">Colour Night</th>
+                  <th className="px-5 py-4 text-center text-white font-semibold">AI Detection</th>
+                  <th className="px-5 py-4 text-center text-white font-semibold">4K</th>
+                  <th className="px-5 py-4 text-left text-white font-semibold hidden lg:table-cell">Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                {brandComparison.map((b, i) => (
+                  <tr key={b.brand} style={{ background: i % 2 === 0 ? '#F8FAFC' : 'white' }}>
+                    <td className="px-5 py-4 font-bold" style={{ color: '#1B3F7C' }}>{b.brand}</td>
+                    <td className="px-5 py-4 text-gray-600">{b.tier}</td>
+                    <td className="px-5 py-4 text-gray-600">{b.best}</td>
+                    <td className="px-5 py-4 text-center">{b.colorVu === '✓' ? <span className="text-green-600 font-bold">✓</span> : <span className="text-gray-300">✗</span>}</td>
+                    <td className="px-5 py-4 text-center">{b.ai === '✓' ? <span className="text-green-600 font-bold">✓</span> : <span className="text-gray-300">✗</span>}</td>
+                    <td className="px-5 py-4 text-center">{b.fourK === '✓' ? <span className="text-green-600 font-bold">✓</span> : <span className="text-gray-300">✗</span>}</td>
+                    <td className="px-5 py-4 text-gray-500 text-xs hidden lg:table-cell">{b.notes}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-center text-gray-400 text-sm mt-4">Our free site survey includes brand recommendation based on your property type, budget, and SIRA requirements.</p>
         </div>
       </section>
 
@@ -454,6 +565,8 @@ export default function CCTVPage() {
           </div>
         </div>
       </section>
+
+      <RelatedServices exclude="/services/cctv-installation-dubai" title="Other Security Services We Offer" />
 
       <CTASection title="Need CCTV Installation in Dubai?" subtitle="Contact Mideatek for SIRA-approved CCTV systems with professional installation and lifetime support." />
     </>

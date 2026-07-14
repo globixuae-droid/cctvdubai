@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Car, CheckCircle, Phone, ChevronRight, CreditCard } from 'lucide-react'
 import LeadForm from '@/components/shared/LeadForm'
 import CTASection from '@/components/shared/CTASection'
+import RelatedServices from '@/components/shared/RelatedServices'
 import Link from 'next/link'
 
 const BASE = 'https://www.cctvdubai.me'
@@ -71,7 +72,7 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home',     item: BASE },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/#services` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/services` },
     { '@type': 'ListItem', position: 3, name: 'Gate Barrier Systems Dubai', item: `${BASE}/services/parking-gate-barrier` },
   ],
 }
@@ -111,7 +112,7 @@ export default function ParkingBarrierPage() {
           <div className="flex items-center gap-2 text-gray-400 text-sm mb-4">
             <Link href="/" className="hover:text-blue-700 transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/#services" className="hover:text-blue-700 transition-colors">Services</Link>
+            <Link href="/services" className="hover:text-blue-700 transition-colors">Services</Link>
             <span>/</span>
             <span style={{ color: '#0F172A' }}>Parking & Gate Barriers</span>
           </div>
@@ -284,6 +285,8 @@ export default function ParkingBarrierPage() {
           </div>
         </div>
       </section>
+
+      <RelatedServices exclude="/services/parking-gate-barrier" title="Other Security Systems We Install" />
 
       <CTASection title="Automate Your Parking Today" subtitle="Get a free site assessment and parking system proposal from Mideatek's experts." />
     </>

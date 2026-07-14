@@ -3,6 +3,7 @@ import { Lock, CheckCircle, Phone, ChevronRight } from 'lucide-react'
 import Image from 'next/image'
 import LeadForm from '@/components/shared/LeadForm'
 import CTASection from '@/components/shared/CTASection'
+import RelatedServices from '@/components/shared/RelatedServices'
 import Link from 'next/link'
 
 const BASE = 'https://www.cctvdubai.me'
@@ -70,7 +71,7 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home',     item: BASE },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/#services` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/services` },
     { '@type': 'ListItem', position: 3, name: 'Access Control Systems Dubai', item: `${BASE}/services/access-control-systems` },
   ],
 }
@@ -110,7 +111,7 @@ export default function AccessControlPage() {
           <div className="flex items-center gap-2 text-gray-400 text-sm mb-4">
             <Link href="/" className="hover:text-blue-700 transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/#services" className="hover:text-blue-700 transition-colors">Services</Link>
+            <Link href="/services" className="hover:text-blue-700 transition-colors">Services</Link>
             <span>/</span>
             <span style={{ color: '#0F172A' }}>Access Control Systems</span>
           </div>
@@ -244,6 +245,8 @@ export default function AccessControlPage() {
           </div>
         </div>
       </section>
+
+      <RelatedServices exclude="/services/access-control-systems" title="Complete Your Security System" />
 
       <CTASection title="Secure Your Premises Today" subtitle="Contact Mideatek for a free access control consultation and system design." />
     </>

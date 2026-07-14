@@ -27,6 +27,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
     {
+      url: `${BASE}/services`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.92,
+    },
+    {
       url: `${BASE}/services/cctv-installation-dubai`,
       lastModified: new Date(),
       changeFrequency: 'weekly',

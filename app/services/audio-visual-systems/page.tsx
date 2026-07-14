@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Speaker, CheckCircle, Phone, ChevronRight, Monitor } from 'lucide-react'
 import LeadForm from '@/components/shared/LeadForm'
 import CTASection from '@/components/shared/CTASection'
+import RelatedServices from '@/components/shared/RelatedServices'
 import Link from 'next/link'
 
 const BASE = 'https://www.cctvdubai.me'
@@ -80,7 +81,7 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home',     item: BASE },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/#services` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/services` },
     { '@type': 'ListItem', position: 3, name: 'Audio Visual Systems Dubai', item: `${BASE}/services/audio-visual-systems` },
   ],
 }
@@ -120,7 +121,7 @@ export default function AudioVisualPage() {
           <div className="flex items-center gap-2 text-gray-400 text-sm mb-4">
             <Link href="/" className="hover:text-blue-700 transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/#services" className="hover:text-blue-700 transition-colors">Services</Link>
+            <Link href="/services" className="hover:text-blue-700 transition-colors">Services</Link>
             <span>/</span>
             <span style={{ color: '#0F172A' }}>Audio Visual Systems</span>
           </div>
@@ -244,6 +245,8 @@ export default function AudioVisualPage() {
           </div>
         </div>
       </section>
+
+      <RelatedServices exclude="/services/audio-visual-systems" title="Other ELV Systems We Install" />
 
       <CTASection title="Elevate Your AV Experience" subtitle="Contact Mideatek for premium audio visual and video wall design and installation across Dubai and UAE." />
     </>

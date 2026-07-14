@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Home, CheckCircle, Phone, ChevronRight, Wifi, Lightbulb, Thermometer, Camera } from 'lucide-react'
 import LeadForm from '@/components/shared/LeadForm'
 import CTASection from '@/components/shared/CTASection'
+import RelatedServices from '@/components/shared/RelatedServices'
 import Link from 'next/link'
 
 const BASE = 'https://www.cctvdubai.me'
@@ -52,7 +53,7 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home',     item: BASE },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/#services` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/services` },
     { '@type': 'ListItem', position: 3, name: 'Smart Home Automation Dubai', item: `${BASE}/services/smart-home-automation` },
   ],
 }
@@ -92,7 +93,7 @@ export default function SmartHomePage() {
           <div className="flex items-center gap-2 text-gray-400 text-sm mb-4">
             <Link href="/" className="hover:text-blue-700 transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/#services" className="hover:text-blue-700 transition-colors">Services</Link>
+            <Link href="/services" className="hover:text-blue-700 transition-colors">Services</Link>
             <span>/</span>
             <span style={{ color: '#0F172A' }}>Smart Home Automation</span>
           </div>
@@ -170,6 +171,8 @@ export default function SmartHomePage() {
           </div>
         </div>
       </section>
+
+      <RelatedServices exclude="/services/smart-home-automation" title="Pair Your Smart Home With These Systems" />
 
       <CTASection title="Make Your Home Smarter Today" subtitle="Contact Mideatek for a complete smart home consultation and custom design proposal." />
     </>
