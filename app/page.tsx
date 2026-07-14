@@ -3,6 +3,7 @@ import Hero          from '@/components/home/Hero'
 import ServiceShowcase from '@/components/home/ServiceShowcase'
 import ServicesSection from '@/components/home/ServicesSection'
 import WhyChooseUs   from '@/components/home/WhyChooseUs'
+import TrustedBrands  from '@/components/home/TrustedBrands'
 import ProjectsGallery from '@/components/home/ProjectsGallery'
 import Testimonials  from '@/components/home/Testimonials'
 import FinalCTA      from '@/components/home/FinalCTA'
@@ -30,6 +31,7 @@ export default function HomePage() {
       <ServiceShowcase />
       <ServicesSection />
       <WhyChooseUs />
+      <TrustedBrands />
       <ProjectsGallery />
       <Testimonials />
       <FinalCTA />
