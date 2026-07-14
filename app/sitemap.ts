@@ -106,6 +106,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     { url: `${BASE}/commercial-cctv-dubai`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.85 },
     { url: `${BASE}/home-cctv-dubai`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.85 },
+    { url: `${BASE}/hikvision-cctv-dubai`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.88 },
+    { url: `${BASE}/dahua-cctv-dubai`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.88 },
     ...locationEntries,
     ...blogEntries,
   ]
