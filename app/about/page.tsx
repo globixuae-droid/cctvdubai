@@ -41,6 +41,7 @@ const certifications = [
   { code: 'TRA',  name: 'Telecommunications Regulatory Authority — Licensed Contractor',  color: '#1D4ED8' },
   { code: 'ISO',  name: 'ISO 9001:2015 Quality Management Certified',                     color: '#059669' },
   { code: 'ETI',  name: 'Etisalat & du Approved Structured Cabling Contractor',           color: '#2563EB' },
+  { code: 'HIK',  name: 'Hikvision Technology Partner',                                   color: '#334155' },
 ]
 
 const team = [
