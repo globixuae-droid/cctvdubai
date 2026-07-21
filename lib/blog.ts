@@ -7,6 +7,7 @@ export interface BlogPost {
   readTime: string
   keywords: string[]
   content: string
+  faqs?: { q: string; a: string }[]
 }
 
 export const blogPosts: BlogPost[] = [
@@ -1410,6 +1411,273 @@ export const blogPosts: BlogPost[] = [
 <p>Every Mideatek office CCTV system includes remote monitoring setup. The business owner, CEO, or security manager can view live and recorded footage from any device — phone, tablet, or laptop — from anywhere in the world. We set up the app and provide training during commissioning, and our 24/7 support team is available if you need help accessing footage at any time.</p>
 
 <p>Many office projects combine our <a href="/services/cctv-installation-dubai">CCTV installation service</a> with <a href="/services/access-control-systems">access control systems in Dubai</a> under one contract. Call <a href="tel:+971545566456">+971 54 556 6456</a> for a free office survey covering all major districts — DIFC, Business Bay, Downtown Dubai, JLT, Dubai Media City, Dubai Internet City, and Sheikh Zayed Road. We handle all SIRA paperwork and can install within 48 hours of approval.</p>
+    `,
+  },
+  {
+    slug: 'access-control-system-cost-dubai-2026',
+    title: 'Access Control System Cost in Dubai (2026 Price Guide)',
+    excerpt: 'How much does an access control system cost in Dubai? 2026 price breakdown for card, biometric & face recognition door access — by SIRA-approved installer Mideatek.',
+    category: 'Access Control',
+    date: '2026-07-21',
+    readTime: '7 min read',
+    keywords: ['access control system Dubai', 'access control cost Dubai', 'door access control Dubai', 'biometric access control Dubai', 'face recognition access control Dubai'],
+    faqs: [
+      {
+        q: 'Is access control mandatory in Dubai?',
+        a: 'Access control is not universally mandatory across all Dubai properties, but it is required in certain categories — including server rooms in ISO 27001 facilities, restricted zones in government buildings, some DMCC and JAFZA free zones, and any area where unauthorised access must be demonstrably prevented for compliance purposes. Many commercial landlords and master developers also specify access control in their fit-out guidelines.',
+      },
+      {
+        q: 'Do you install biometric and facial recognition access control?',
+        a: 'Yes. Mideatek installs fingerprint, palm-vein, and facial recognition access control systems from Suprema, HID Global, and Hikvision. Biometric systems are increasingly popular in UAE offices and villas because they eliminate card and fob management — users cannot share or lose credentials.',
+      },
+      {
+        q: 'Can access control integrate with my CCTV system?',
+        a: 'Yes — CCTV and access control integration is one of the most common requests on Dubai commercial projects. Events at a door reader (entry, exit, denied access) can be linked to camera footage from that door, giving a visual record of every access event. Mideatek installs both systems and configures the integration as standard on most commercial projects.',
+      },
+      {
+        q: 'How long does access control installation take?',
+        a: 'A single-door installation typically takes 4–6 hours. A 5–10 door office system is usually completed in one working day. Larger multi-floor projects may take 2–5 days depending on cabling routes and building access requirements.',
+      },
+      {
+        q: 'Do you offer Annual Maintenance Contracts for access control?',
+        a: 'Yes. Mideatek Annual Maintenance Contracts (AMC) cover scheduled inspection, firmware updates, credential management support, and priority fault response. AMC pricing starts from AED 800/year for a single-door system.',
+      },
+    ],
+    content: `
+<h2>How Much Does an Access Control System Cost in Dubai?</h2>
+<p>An access control system in Dubai typically costs between <strong>AED 1,500 for a basic single-door card reader</strong> and <strong>AED 50,000+ for a full multi-door biometric office system with management software</strong>. The exact price depends on the number of doors, credential technology, software requirements, and integration with CCTV or building management systems.</p>
+<p>This 2026 guide breaks down every cost component so you can budget accurately before requesting a quote.</p>
+
+<h2>Access Control System Cost in Dubai — 2026 Price Guide</h2>
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+  <thead><tr style="background:#1B3F7C;color:white"><th style="padding:10px;text-align:left">Setup</th><th style="padding:10px;text-align:left">Indicative Cost (AED)</th></tr></thead>
+  <tbody>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Single door – card / PIN</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">1,500 – 3,500</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Single door – biometric / fingerprint</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">2,500 – 5,000</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Single door – facial recognition</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">3,500 – 7,000</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Multi-door office system (per door)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">1,200 – 3,000</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Full office / building system with software</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">10,000 – 50,000+</td></tr>
+  </tbody>
+</table>
+<p><em>All prices are indicative and will be confirmed at a free site survey. VAT may apply.</em></p>
+
+<h2>What Affects Access Control System Cost in Dubai?</h2>
+
+<h3>1. Number of Doors</h3>
+<p>The primary cost driver. Each controlled door requires a reader, controller, electric lock or mag-lock, cabling, and configuration time. Multi-door systems benefit from shared controllers — the per-door cost falls as the number of doors increases. A 10-door system typically costs less per door than two separate 5-door installs.</p>
+
+<h3>2. Credential Technology</h3>
+<p>The credential type — card, fingerprint, face, or mobile — is the second major variable. Card and PIN systems are the most affordable upfront. Biometric and facial recognition systems add AED 1,000–3,500 per door in hardware cost but eliminate credential management entirely: no lost cards, no shared PINs, no re-keying after staff turnover.</p>
+
+<h3>3. Access Management Software</h3>
+<p>Standalone controllers work without software for very small deployments, but any system above 3–4 doors benefits from centralised software for user management, time & attendance, access reports, and anti-passback. Software licensing adds AED 2,000–15,000 depending on the platform and number of users.</p>
+
+<h3>4. Integration with CCTV</h3>
+<p>Linking door events to <a href="/services/cctv-installation-dubai">CCTV cameras in Dubai</a> creates a complete visual audit trail — every entry and exit is matched to camera footage from that door. This is standard on most Mideatek commercial projects and adds AED 500–2,000 per integration point for configuration and cabling.</p>
+
+<h2>Types of Access Control — Costs and Use Cases</h2>
+
+<h3>Card & RFID Access Control</h3>
+<p>The most widely deployed technology in Dubai commercial buildings. Proximity cards or key fobs are issued to each user and presented to a reader to unlock the door. Cost per door, all-in: <strong>AED 1,500 – 3,500</strong>.</p>
+<ul>
+  <li>Fast, contactless, user-friendly</li>
+  <li>Easy to revoke access when a card is reported lost</li>
+  <li>Cards can be combined with PIN for two-factor security in sensitive areas</li>
+  <li>Limitation: cards can be shared — a consideration for high-security zones</li>
+</ul>
+
+<h3>Biometric Fingerprint Access Control</h3>
+<p>Fingerprint readers verify the user's physical identity — the credential cannot be shared, forgotten, or lost. Popular in UAE offices, server rooms, and HR areas. Leading brands installed by Mideatek: Suprema, ZKTeco, HID Global, Hikvision. Cost per door, all-in: <strong>AED 2,500 – 5,000</strong>.</p>
+<ul>
+  <li>No cards or PINs to issue or revoke</li>
+  <li>Every entry linked to a named individual — full audit trail</li>
+  <li>Fingerprint + PIN fallback recommended for users with low-quality fingerprints</li>
+</ul>
+
+<h3>Facial Recognition Access Control</h3>
+<p>The fastest-growing access control technology in Dubai. High-spec readers from Hikvision and Suprema process faces in under 0.3 seconds, operate reliably in bright UAE sunlight, and support mask detection. Increasingly specified for hotel staff entrances, financial offices, and data rooms. Cost per door, all-in: <strong>AED 3,500 – 7,000</strong>.</p>
+<ul>
+  <li>Completely hands-free — no card, no PIN, no contact</li>
+  <li>Works with face masks; handles direct sunlight from Dubai building entrances</li>
+  <li>Premium upfront cost, but zero ongoing credential management</li>
+</ul>
+
+<h3>Mobile Credential (Bluetooth / NFC)</h3>
+<p>Users' smartphones become their access credential via Bluetooth or NFC. Popular in smart buildings, co-working spaces, and premium residential projects. Compatible platforms: HID Mobile Access, Suprema BioEntry W3. Cost per door, all-in: <strong>AED 2,000 – 4,500</strong>.</p>
+
+<h2>Access Control for Offices, Villas, and Buildings</h2>
+
+<h3>Offices & Commercial Properties</h3>
+<p>Most Dubai offices control access on: the main entrance, server room, finance area, HR records, and any zone with compliance requirements. A typical 10-person office in Business Bay or DIFC will have 3–6 controlled doors. Budget AED 8,000–25,000 for a complete system with software and CCTV integration. For larger <a href="/commercial-cctv-dubai">commercial properties in Dubai</a>, combined CCTV and access control under one contract is the most cost-effective approach.</p>
+
+<h3>Residential Villas</h3>
+<p>Villa owners in communities like Arabian Ranches, Palm Jumeirah, and Al Barsha increasingly install access control on the main gate, utility room, and staff entrance. Smart card or mobile credential access means no physical keys to cut, distribute, or replace. Budget AED 3,000–8,000 for a 2–3 door villa system.</p>
+
+<h3>Buildings & Residential Compounds</h3>
+<p>Multi-tenant buildings and residential compounds need centralised access management — individual tenant fobs, common area control, and a management dashboard for the building supervisor. Centralised systems by HID Global or Suprema connect all doors to a single platform. Budget AED 15,000–60,000+ depending on number of doors and readers.</p>
+
+<h2>Installation & SIRA Considerations</h2>
+<p>Access control installation in Dubai does not carry a universal SIRA requirement in the same way CCTV does — however, certain property types (hotels, government buildings, DMCC/JAFZA free zones) must meet the master developer's technical specifications. Always ask your installer to confirm applicable requirements before work begins.</p>
+<p>Cabling for access control typically runs CAT6 or CAT5e from the controller to each reader. For existing buildings with concealed cabling, budget an additional AED 150–300 per cable run. Mideatek's team handles access control cabling to the same standard as our structured cabling projects — neat, labelled, tested, and documented.</p>
+
+<h2>Why Choose a SIRA-Approved Installer for Access Control</h2>
+<p>Choosing a SIRA-approved security contractor for your <a href="/services/access-control-systems">access control system in Dubai</a> provides important assurances even where SIRA approval is not strictly required. A SIRA-approved company is audited annually for technical competence, meets Dubai security authority standards, and carries the appropriate insurance and licensing for work in commercial buildings.</p>
+<p>For projects that combine CCTV and access control — the most common approach for offices and retail — a single SIRA-approved contractor simplifies procurement, eliminates inter-vendor disputes, and typically reduces the overall cost of both systems.</p>
+
+<h2>Frequently Asked Questions — Access Control Dubai</h2>
+
+<h3>Is access control mandatory in Dubai?</h3>
+<p>Not universally, but it is required in specific categories: server rooms in ISO 27001 facilities, restricted zones in government buildings, certain DMCC and JAFZA free-zone properties, and anywhere a master developer's fit-out guide specifies it. Many commercial landlords also specify access control as a condition of fit-out approval for new tenants.</p>
+
+<h3>Do you install biometric and facial recognition access control?</h3>
+<p>Yes. Mideatek installs fingerprint, palm-vein, and facial recognition systems from Suprema, HID Global, and Hikvision. Biometric systems are increasingly popular in UAE offices because the credential cannot be shared or lost — every entry is linked to a named individual.</p>
+
+<h3>Can access control integrate with my CCTV system?</h3>
+<p>Yes — this is standard on most Mideatek commercial installations. Door events (entry, exit, denied access) are linked to camera footage from that door, giving a complete visual audit trail. We install and configure both systems on the same project.</p>
+
+<h3>How long does access control installation take?</h3>
+<p>A single-door system typically takes 4–6 hours. A 5–10 door office system is usually completed in one working day. Larger multi-floor projects take 2–5 days depending on cabling routes and building access.</p>
+
+<h3>Do you offer Annual Maintenance Contracts for access control?</h3>
+<p>Yes. Mideatek AMC plans cover scheduled inspection, firmware updates, credential management support, and priority fault response. AMC pricing starts from AED 800/year for a single-door system.</p>
+
+<p>Call <a href="tel:+971545566456">+971 54 556 6456</a> or WhatsApp us for a free site survey and access control quotation. We cover all Dubai areas and typically survey within 24 hours of your enquiry. For combined CCTV and access control packages, visit our <a href="/services/access-control-systems">access control systems Dubai</a> service page.</p>
+    `,
+  },
+  {
+    slug: 'gate-barrier-system-dubai-cost-guide-2026',
+    title: 'Gate Barrier Systems in Dubai — Cost & Installation Guide (2026)',
+    excerpt: 'Gate barrier system cost and installation in Dubai. 2026 guide to boom barriers, RFID & ANPR parking barriers for residential compounds, commercial buildings, and car parks — by Mideatek.',
+    category: 'Gate Barriers',
+    date: '2026-07-21',
+    readTime: '7 min read',
+    keywords: ['gate barrier system Dubai', 'boom barrier Dubai', 'parking barrier Dubai', 'ANPR barrier Dubai', 'gate barrier cost Dubai 2026'],
+    faqs: [
+      {
+        q: 'How much does a gate barrier system cost in Dubai?',
+        a: 'A basic boom barrier with remote control costs AED 3,500–7,000 supplied and installed. An automatic barrier with RFID/UHF card reader integration costs AED 7,000–15,000. An ANPR-integrated barrier system for a single lane costs AED 15,000–35,000+. All prices are indicative and confirmed at a free site survey.',
+      },
+      {
+        q: 'Do you integrate ANPR cameras with gate barriers?',
+        a: 'Yes. Mideatek installs ANPR camera systems integrated with BFT, FAAC, and CAME barriers across Dubai. ANPR allows automatic barrier opening for registered vehicle licence plates — no card, fob, or intercom needed. The system logs all vehicle movements with timestamp and plate image.',
+      },
+      {
+        q: 'Which gate barrier brands do you install?',
+        a: 'Mideatek installs and services BFT, FAAC, CAME, and Roger Technology barriers. All four brands are Italian-manufactured and proven in UAE conditions. Our recommendation depends on your traffic volume, duty cycle requirements, and integration needs.',
+      },
+      {
+        q: 'Do you install gate barriers for residential compounds?',
+        a: 'Yes — residential compounds are one of our most common barrier projects in Dubai. We install complete systems including barrier motor, arm, access controller, UHF/proximity card readers, video intercom, and ANPR cameras. We also maintain and repair barriers originally installed by other companies.',
+      },
+      {
+        q: 'Do you offer maintenance contracts for gate barriers?',
+        a: 'Yes. Mideatek Annual Maintenance Contracts (AMC) cover scheduled preventive maintenance (lubrication, motor inspection, loop detector calibration), emergency callout response within 4 hours, and spare parts at cost. AMC pricing starts from AED 1,500/year per barrier lane.',
+      },
+    ],
+    content: `
+<h2>Gate Barrier Systems in Dubai — What They Cost and What Is Included</h2>
+<p>A gate barrier system in Dubai includes the barrier motor and arm, access controller, credential reader (card, RFID, UHF, or ANPR camera), installation, and commissioning. Costs range from <strong>AED 3,500 for a basic remote-controlled boom barrier</strong> to <strong>AED 35,000+ per lane for a fully automated ANPR plate-recognition system</strong>. The right solution depends on your traffic volume, security requirements, and whether you need hands-free vehicle access.</p>
+
+<h2>Gate Barrier Cost in Dubai — 2026 Price Guide</h2>
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+  <thead><tr style="background:#1B3F7C;color:white"><th style="padding:10px;text-align:left">Type</th><th style="padding:10px;text-align:left">Indicative Cost (AED)</th></tr></thead>
+  <tbody>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Basic boom barrier (remote control)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">3,500 – 7,000</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Automatic barrier + RFID / UHF card reader</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">7,000 – 15,000</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">ANPR-integrated barrier (per lane)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">15,000 – 35,000+</td></tr>
+  </tbody>
+</table>
+<p><em>All prices are indicative and will be confirmed at a free site survey. Costs include supply, installation, and commissioning. VAT may apply.</em></p>
+
+<h2>Types of Gate Barrier Systems</h2>
+
+<h3>Basic Boom Barrier with Remote Control</h3>
+<p>The entry-level option — a motorised arm operated by a remote control held by the driver or a security guard. No card reader or ANPR required. Suitable for low-traffic private entrances, staff car parks, and service gates where manned security manages access.</p>
+<ul>
+  <li>Arm lengths available: 3m, 4m, 6m</li>
+  <li>Full open/close cycle: 2–4 seconds</li>
+  <li>Best for: private villa gates, service entrances, low-traffic private car parks</li>
+</ul>
+
+<h3>Automatic Barrier with RFID / UHF Card Reader</h3>
+<p>The most common barrier type across Dubai residential compounds and office car parks. Residents or staff are issued proximity cards or UHF windscreen tags — the barrier opens automatically when an authorised tag is detected. No guard intervention required for registered vehicles.</p>
+<ul>
+  <li><strong>Proximity cards</strong>: tap within 5–10cm of the reader at the barrier</li>
+  <li><strong>UHF windscreen tags</strong>: detected at 3–8m — barrier opens as the vehicle approaches the entry point</li>
+  <li>Visitor management via intercom or a guard console for unregistered vehicles</li>
+  <li>Best for: residential compounds, office car parks, staff-only areas</li>
+</ul>
+
+<h3>ANPR-Integrated Barrier System</h3>
+<p>The premium option for high-volume or security-sensitive facilities. An ANPR (Automatic Number Plate Recognition) camera reads the approaching vehicle's licence plate, checks it against an approved database, and triggers the barrier automatically — the registered driver does nothing. Every vehicle movement is logged with a plate image and timestamp.</p>
+<ul>
+  <li>Reads UAE, GCC, and international plates</li>
+  <li>Barrier triggered in under 1 second of plate recognition</li>
+  <li>Unknown plates generate a security alert and are stored for review</li>
+  <li>Best for: hotels, malls, large residential compounds, government-adjacent facilities</li>
+</ul>
+
+<h2>Gate Barriers for Residential, Commercial, and Industrial Sites</h2>
+
+<h3>Residential Compounds</h3>
+<p>Dubai residential compounds typically have one or two vehicle lanes at the main entrance — one for entry, one for exit. The most popular configuration combines UHF long-range readers for registered residents with an intercom or video phone for visitors. ANPR is increasingly specified in premium compound projects in Arabian Ranches, Damac Hills, and Jumeirah Golf Estates, eliminating the need for visitors to carry or present any credential.</p>
+<p>A complete 2-lane compound entry system (UHF readers, barrier motors, intercom, guard console software) typically costs AED 20,000–50,000 depending on lane count and infrastructure condition.</p>
+
+<h3>Commercial Car Parks and Office Buildings</h3>
+<p>Commercial facilities in Dubai typically require heavy-duty barriers rated for 500–1,200 vehicle cycles per day. FAAC and BFT commercial-grade products are the standard specification for high-traffic facilities. Multi-lane systems can integrate with pay-on-exit ticketing, parking guidance displays, and building management systems — the overall cost scales with the number of lanes and the integration complexity.</p>
+
+<h3>Industrial and Warehouse Sites</h3>
+<p>Sites in Al Quoz, Jebel Ali, Dubai Industrial City, and DAFZA typically require heavy-duty barriers combined with <a href="/commercial-cctv-dubai">commercial CCTV surveillance</a>. ANPR integration on industrial sites provides automatic vehicle movement logging for insurance claims, compliance audits, and fleet management purposes. A combined CCTV and barrier system from a single contractor simplifies maintenance and support.</p>
+
+<h2>Integration with ANPR, CCTV, and Access Control</h2>
+<p>A <a href="/services/parking-gate-barrier">gate barrier system in Dubai</a> delivers the most value when connected to other security systems on site:</p>
+<ul>
+  <li><strong>ANPR cameras</strong>: automatic licence plate recognition for hands-free vehicle access and movement logging</li>
+  <li><strong>Video intercom</strong>: visitors without registered plates can speak directly to a guard or resident from the gate</li>
+  <li><strong>Access control</strong>: pedestrian doors alongside the vehicle barrier can share the same credential database — a single <a href="/services/access-control-systems">access control system</a> manages both car and foot traffic from one platform</li>
+  <li><strong>CCTV</strong>: cameras above the barrier record every vehicle entry and exit, linked to access control events for a complete audit trail</li>
+</ul>
+
+<h2>BFT, FAAC, and CAME — Brands We Install</h2>
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+  <thead><tr style="background:#1B3F7C;color:white"><th style="padding:10px;text-align:left">Brand</th><th style="padding:10px;text-align:left">Best For</th><th style="padding:10px;text-align:left">Typical Duty Cycle</th></tr></thead>
+  <tbody>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>BFT</strong></td><td style="padding:10px;border-bottom:1px solid #e5e7eb">Residential compounds, medium-traffic car parks</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">Up to 600 cycles/day</td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>FAAC</strong></td><td style="padding:10px;border-bottom:1px solid #e5e7eb">Hotels, malls, high-traffic commercial facilities</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">Up to 1,200 cycles/day</td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>CAME</strong></td><td style="padding:10px;border-bottom:1px solid #e5e7eb">Smart buildings, mixed-use developments</td><td style="padding:10px;border-bottom:1px solid #e5e7eb">Up to 800 cycles/day</td></tr>
+  </tbody>
+</table>
+<p>All three brands are Italian-manufactured, proven in UAE heat and humidity, and fully supported by Mideatek's service team. Spare parts are available locally — no waiting for international shipping when a component needs replacing.</p>
+
+<h2>Installation and Annual Maintenance</h2>
+<p>Gate barriers in Dubai operate in extreme conditions — 45°C ambient temperatures, high humidity from June to September, and constant dust. These conditions accelerate wear on motor capacitors, control boards, and barrier arms. A properly maintained barrier from BFT, FAAC, or CAME lasts 10–15 years in Dubai conditions. A neglected unit typically fails within 3–5 years.</p>
+<p>Mideatek Annual Maintenance Contracts (AMC) include:</p>
+<ul>
+  <li>Quarterly preventive maintenance visits: lubrication, motor and capacitor inspection, loop detector calibration, arm condition check</li>
+  <li>Control board firmware updates</li>
+  <li>Priority emergency callout response within 4 hours</li>
+  <li>Spare parts supplied at cost — no markup on components</li>
+</ul>
+<p>AMC pricing starts from AED 1,500/year per lane. We service barriers originally installed by any company, not only our own installations.</p>
+
+<h2>Frequently Asked Questions — Gate Barriers Dubai</h2>
+
+<h3>How much does a gate barrier cost in Dubai?</h3>
+<p>A basic boom barrier with remote control costs AED 3,500–7,000 supplied and installed. An automatic barrier with RFID/UHF reader integration costs AED 7,000–15,000. An ANPR-integrated system costs AED 15,000–35,000+ per lane. All prices are indicative — confirmed at a free site survey.</p>
+
+<h3>Do you integrate ANPR cameras with gate barriers?</h3>
+<p>Yes. Mideatek installs ANPR camera systems integrated with BFT, FAAC, and CAME barriers across Dubai. ANPR allows automatic barrier opening for registered plates — no card or fob required. All vehicle movements are logged with timestamp and plate image.</p>
+
+<h3>Which gate barrier brands do you install?</h3>
+<p>Mideatek installs and services BFT, FAAC, CAME, and Roger Technology. All are Italian-manufactured and suitable for UAE conditions. Our recommendation is based on your traffic volume and integration requirements.</p>
+
+<h3>Do you install gate barriers for residential compounds?</h3>
+<p>Yes — residential compounds are among our most common projects. We install complete systems: barrier motor, arm, access controller, UHF readers, video intercom, and ANPR cameras. We also maintain and repair barriers from other brands.</p>
+
+<h3>Do you offer maintenance contracts for gate barriers?</h3>
+<p>Yes. Mideatek AMC plans cover scheduled preventive maintenance, emergency callout, and spare parts at cost. AMC starts from AED 1,500/year per lane and is available for both new and existing barrier systems of any brand.</p>
+
+<p>Contact Mideatek for a free site survey and quotation for your <a href="/services/parking-gate-barrier">gate barrier system in Dubai</a>. Call <a href="tel:+971545566456">+971 54 556 6456</a> or WhatsApp us — we typically survey within 24 hours. For properties requiring combined CCTV and barrier systems, we provide both under one contract at a reduced total cost. For camera requirements alongside your barrier, see our <a href="/services/cctv-installation-dubai">CCTV installation Dubai</a> service page.</p>
     `,
   },
 ]
