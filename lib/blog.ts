@@ -100,7 +100,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Ask about warranty</strong> — All Mideatek installations include a minimum 1-year warranty on equipment and labour.</li>
 </ol>
 
-<p>Mideatek provides <strong>free site surveys and no-obligation quotations</strong> for all CCTV projects in Dubai. Call <a href="tel:+971545566456">+971 54 556 6456</a> or <a href="/contact">submit your details online</a> and our team will visit within 24 hours.</p>
+<p>Mideatek provides <strong>free site surveys and no-obligation quotations</strong> for all <a href="/services/cctv-installation-dubai">CCTV installation in Dubai</a> projects. Call <a href="tel:+971545566456">+971 54 556 6456</a> or <a href="/contact">submit your details online</a> and our team will visit within 24 hours.</p>
     `,
   },
   {
@@ -204,7 +204,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>How to Check if a CCTV Company is SIRA Approved</h2>
 <p>You can verify any company's SIRA approval status on the <strong>SIRA website (sira.gov.ae)</strong> under the "Licensed Companies" section. Always verify before signing a contract — the SIRA approval number should be displayed on the company's quotation and contract documents.</p>
-<p>Mideatek's SIRA approval covers CCTV installation, maintenance, and system integration across all property types in Dubai. <a href="/contact">Contact us</a> for your free site survey and SIRA compliance assessment.</p>
+<p>Mideatek's SIRA approval covers <a href="/services/cctv-installation-dubai">CCTV installation in Dubai</a>, maintenance, and system integration across all property types. <a href="/contact">Contact us</a> for your free site survey and SIRA compliance assessment.</p>
     `,
   },
   {
@@ -302,7 +302,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 <p>For most Dubai villa and apartment projects, either brand is an excellent choice. The specific camera model and configuration matters more than the brand.</p>
 
-<p>Mideatek provides <strong>free site surveys</strong> for all residential CCTV projects in Dubai. Our engineers will recommend the right cameras for your specific property, layout, and budget. <a href="/contact">Get in touch today</a> or call <a href="tel:+971545566456">+971 54 556 6456</a>.</p>
+<p>Mideatek provides <strong>free site surveys</strong> for all residential <a href="/services/cctv-installation-dubai">CCTV installation in Dubai</a>. Our engineers will recommend the right cameras for your property — villa owners can also visit our dedicated <a href="/home-cctv-dubai">home CCTV Dubai</a> page for package details. <a href="/contact">Get in touch today</a> or call <a href="tel:+971545566456">+971 54 556 6456</a>.</p>
     `,
   },
   {
@@ -392,7 +392,7 @@ export const blogPosts: BlogPost[] = [
   </tbody>
 </table>
 
-<p>All Mideatek structured cabling installations include <strong>Fluke DSX certification testing</strong>, TRA-compliant documentation, and a <strong>15-year system warranty</strong>. We serve offices, hotels, data centres, and residential developments across Dubai and the UAE.</p>
+<p>All Mideatek <a href="/services/structured-cabling-uae">structured cabling in Dubai</a> includes <strong>Fluke DSX certification testing</strong>, TRA-compliant documentation, and a <strong>15-year system warranty</strong>. We serve offices, hotels, data centres, and residential developments across Dubai and the UAE.</p>
 <p><a href="/contact">Request a free site survey</a> or call <a href="tel:+971545566456">+971 54 556 6456</a> for a detailed cabling quotation.</p>
     `,
   },
@@ -487,7 +487,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 <p>Mideatek offers annual maintenance contracts for all gate barrier systems we install. A maintained barrier lasts 10–15 years in Dubai conditions; a neglected one may fail within 3–5 years.</p>
 
-<p>Contact Mideatek for a free site survey and barrier quotation for your Dubai property. We install and service BFT, FAAC, CAME, and Roger Technology barriers across Dubai, Abu Dhabi, and Sharjah. Call <a href="tel:+971545566456">+971 54 556 6456</a> or <a href="/contact">request a free survey online</a>.</p>
+<p>Contact Mideatek for a free site survey and quotation for your <a href="/services/parking-gate-barrier">gate barrier system in Dubai</a>. We install and service BFT, FAAC, CAME, and Roger Technology barriers across Dubai, Abu Dhabi, and Sharjah. Call <a href="tel:+971545566456">+971 54 556 6456</a> or <a href="/contact">request a free survey online</a>.</p>
     `,
   },
   {
@@ -981,7 +981,7 @@ export const blogPosts: BlogPost[] = [
   </tbody>
 </table>
 
-<p>Mideatek provides free site surveys for all properties in Dubai Marina. Our SIRA-approved engineers are familiar with the buildings, security rooms, and infrastructure across the Marina community. Call <a href="tel:+971545566456">+971 54 556 6456</a> or <a href="/contact">request a free survey</a> — we typically visit within 24 hours.</p>
+<p>Mideatek provides free site surveys for <a href="/cctv-installation-dubai-marina">CCTV installation in Dubai Marina</a>. Our SIRA-approved engineers are familiar with the buildings, security rooms, and infrastructure across the Marina community. For full service details, see our <a href="/services/cctv-installation-dubai">CCTV installation Dubai</a> page. Call <a href="tel:+971545566456">+971 54 556 6456</a> or <a href="/contact">request a free survey</a> — we typically visit within 24 hours.</p>
     `,
   },
   {
@@ -1049,7 +1049,7 @@ export const blogPosts: BlogPost[] = [
   </tbody>
 </table>
 
-<p>Call Mideatek on <a href="tel:+971545566456">+971 54 556 6456</a> for a free site survey at your JVC property. We cover all clusters in JVC and can typically visit within 24 hours of your call.</p>
+<p>For <a href="/cctv-installation-jvc">CCTV installation in JVC</a>, call Mideatek on <a href="tel:+971545566456">+971 54 556 6456</a> for a free site survey. Our full <a href="/services/cctv-installation-dubai">CCTV installation service</a> covers all clusters in JVC and can typically arrange a visit within 24 hours.</p>
     `,
   },
   {
@@ -1112,7 +1112,7 @@ export const blogPosts: BlogPost[] = [
   </tbody>
 </table>
 
-<p>Mideatek has completed CCTV projects across multiple Business Bay towers. Our SIRA-approved engineers understand the specific requirements of Business Bay buildings and can manage the entire SIRA and DCD approval process on your behalf. Call <a href="tel:+971545566456">+971 54 556 6456</a> for a free survey.</p>
+<p>Mideatek has completed <a href="/cctv-installation-business-bay">CCTV installation in Business Bay</a> across multiple towers. Our SIRA-approved engineers understand the specific requirements and can manage the entire approval process. For full service details, visit our <a href="/services/cctv-installation-dubai">CCTV installation Dubai</a> page. Call <a href="tel:+971545566456">+971 54 556 6456</a> for a free survey.</p>
     `,
   },
   {
@@ -1265,7 +1265,7 @@ export const blogPosts: BlogPost[] = [
   </tbody>
 </table>
 
-<p>Call Mideatek on <a href="tel:+971545566456">+971 54 556 6456</a> for a free warehouse CCTV survey. We cover Al Quoz, Jebel Ali, Dubai Industrial City, Dubai South, DAFZA, DIP, and all industrial areas across the UAE.</p>
+<p>Warehouse security often combines <a href="/commercial-cctv-dubai">commercial CCTV in Dubai</a> with integrated <a href="/services/access-control-systems">access control systems</a> for restricted-zone management — Mideatek handles both under one contract. Call <a href="tel:+971545566456">+971 54 556 6456</a> for a free warehouse survey covering Al Quoz, Jebel Ali, Dubai Industrial City, Dubai South, DAFZA, DIP, and all industrial areas across the UAE.</p>
     `,
   },
   {
@@ -1346,7 +1346,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Use WDR cameras at entrances</strong>: Dubai restaurant entrances have extreme contrast between bright outdoor sunlight and darker interior — Wide Dynamic Range cameras handle this well.</li>
 </ul>
 
-<p>Mideatek has installed CCTV in restaurants across Dubai Marina, Downtown Dubai, JLT, DIFC, Business Bay, Deira, and all other areas. We manage the SIRA approval process completely and deliver a system that satisfies Dubai Municipality inspection requirements. Call <a href="tel:+971545566456">+971 54 556 6456</a> for a free survey — we can typically install within 48 hours of your approval.</p>
+<p>Mideatek's <a href="/commercial-cctv-dubai">commercial CCTV Dubai</a> service covers restaurants across Dubai Marina, Downtown Dubai, JLT, DIFC, Business Bay, Deira, and all other areas. We manage the SIRA approval process completely — our <a href="/services/cctv-installation-dubai">CCTV installation service</a> delivers a system that satisfies Dubai Municipality inspection requirements. Call <a href="tel:+971545566456">+971 54 556 6456</a> for a free survey — we can typically install within 48 hours of your approval.</p>
     `,
   },
   {
@@ -1409,7 +1409,7 @@ export const blogPosts: BlogPost[] = [
 <h2>Remote Monitoring for Office CCTV</h2>
 <p>Every Mideatek office CCTV system includes remote monitoring setup. The business owner, CEO, or security manager can view live and recorded footage from any device — phone, tablet, or laptop — from anywhere in the world. We set up the app and provide training during commissioning, and our 24/7 support team is available if you need help accessing footage at any time.</p>
 
-<p>Call <a href="tel:+971545566456">+971 54 556 6456</a> for a free office CCTV survey. We cover all major office districts in Dubai including DIFC, Business Bay, Downtown Dubai, JLT, Dubai Media City, Dubai Internet City, and Sheikh Zayed Road. We handle all SIRA paperwork and can install within 48 hours of approval.</p>
+<p>Many office projects combine our <a href="/services/cctv-installation-dubai">CCTV installation service</a> with <a href="/services/access-control-systems">access control systems in Dubai</a> under one contract. Call <a href="tel:+971545566456">+971 54 556 6456</a> for a free office survey covering all major districts — DIFC, Business Bay, Downtown Dubai, JLT, Dubai Media City, Dubai Internet City, and Sheikh Zayed Road. We handle all SIRA paperwork and can install within 48 hours of approval.</p>
     `,
   },
 ]

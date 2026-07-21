@@ -106,6 +106,26 @@ export default function RelatedServices({ exclude, title = 'Complete Security & 
             View all services <ChevronRight size={15} />
           </Link>
         </div>
+
+        {/* Key area links */}
+        <div className="mt-8 pt-6 border-t border-gray-200">
+          <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{ color: '#94A3B8' }}>Key Areas We Serve</p>
+          <div className="flex flex-wrap gap-4">
+            {[
+              { name: 'CCTV Installation Dubai Marina', href: '/cctv-installation-dubai-marina' },
+              { name: 'CCTV Installation Downtown Dubai', href: '/cctv-installation-downtown-dubai' },
+              { name: 'CCTV Installation Business Bay', href: '/cctv-installation-business-bay' },
+              { name: 'CCTV Installation JVC', href: '/cctv-installation-jvc' },
+            ].map((area) => (
+              <Link key={area.href} href={area.href}
+                className="text-sm font-medium hover:text-blue-700 hover:underline transition-colors"
+                style={{ color: '#64748B' }}>
+                {area.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+
       </div>
     </section>
   )

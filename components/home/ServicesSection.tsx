@@ -17,6 +17,7 @@ const services = [
     tag: 'SIRA Approved', tagColor: 'bg-red-600',
     features: ['HD & 4K IP cameras', 'Remote mobile access', 'Night vision', 'AI motion detection'],
     wa: WA_LINK + 'CCTV%20Installation',
+    linkText: 'CCTV Installation Dubai',
   },
   {
     title: 'Gate Barrier Systems',
@@ -28,6 +29,7 @@ const services = [
     tag: 'Dubai Approved', tagColor: 'bg-orange-500',
     features: ['Boom barriers', 'ANPR cameras', 'Parking systems', 'Road bollards'],
     wa: WA_LINK + 'Gate%20Barrier',
+    linkText: 'Gate Barrier System Dubai',
   },
   {
     title: 'Structured Cabling',
@@ -39,6 +41,7 @@ const services = [
     tag: 'TRA Licensed', tagColor: 'bg-blue-700',
     features: ['Cat6 / Cat6A', 'Fiber optic', 'Data centers', 'Server rooms'],
     wa: WA_LINK + 'Structured%20Cabling',
+    linkText: 'Structured Cabling Dubai',
   },
   {
     title: 'Access Control Systems',
@@ -50,6 +53,7 @@ const services = [
     tag: 'Enterprise Grade', tagColor: 'bg-purple-600',
     features: ['Fingerprint readers', 'Face recognition', 'Card & PIN', 'Time & attendance'],
     wa: WA_LINK + 'Access%20Control',
+    linkText: 'Access Control System Dubai',
   },
   {
     title: 'Smart Home Automation',
@@ -61,6 +65,7 @@ const services = [
     tag: 'Premium Solution', tagColor: 'bg-emerald-600',
     features: ['Smart lighting', 'Climate control', 'Security integration', 'Voice control'],
     wa: WA_LINK + 'Smart%20Home',
+    linkText: 'Smart Home Automation Dubai',
   },
 ]
 
@@ -125,7 +130,7 @@ export default function ServicesSection() {
                   <Link href={svc.href}
                     className="inline-flex items-center gap-2 text-gray-600 hover:text-blue-700 text-sm font-semibold
                                transition-colors py-3 px-5 rounded-xl border border-gray-200 hover:border-blue-300 hover:bg-blue-50">
-                    Learn More <ChevronRight size={14} />
+                    {svc.linkText} <ChevronRight size={14} />
                   </Link>
                 </div>
               </div>

@@ -85,6 +85,14 @@ const allServices = [
   { icon: HomeIcon, key: 'Same-Day Installation',   desc: 'For nearby areas, installation completed within 24 hours of survey.' },
 ]
 
+const SERVICE_PAGE_LINKS: Record<string, string> = {
+  'CCTV Cameras':       '/services/cctv-installation-dubai',
+  'Structured Cabling': '/services/structured-cabling-uae',
+  'Access Control':     '/services/access-control-systems',
+  'Video Intercom':     '/services/intercom-systems',
+  'Gate Barrier Systems': '/services/parking-gate-barrier',
+}
+
 const processSteps = [
   { step: '01', title: 'Free Site Survey',  desc: 'Our SIRA-certified engineer surveys your property and designs the optimal camera layout.' },
   { step: '02', title: 'Quotation & NOC',   desc: 'Itemised quote within 24 hours plus building NOC submission where required.' },
@@ -279,7 +287,13 @@ export default function LocationPage({ params }: { params: { locationSlug: strin
                   <div className="w-10 h-10 rounded-lg flex items-center justify-center mb-3" style={{ background: isPopular ? '#1B3F7C' : '#EFF6FF' }}>
                     <Icon size={18} style={{ color: isPopular ? 'white' : '#1B3F7C' }} />
                   </div>
-                  <h3 className="font-bold font-heading text-base mb-1.5" style={{ color: '#0F172A' }}>{s.key}</h3>
+                  {SERVICE_PAGE_LINKS[s.key] ? (
+                    <Link href={SERVICE_PAGE_LINKS[s.key]} className="hover:text-blue-700 transition-colors">
+                      <h3 className="font-bold font-heading text-base mb-1.5" style={{ color: '#0F172A' }}>{s.key}</h3>
+                    </Link>
+                  ) : (
+                    <h3 className="font-bold font-heading text-base mb-1.5" style={{ color: '#0F172A' }}>{s.key}</h3>
+                  )}
                   <p className="text-gray-500 text-sm leading-relaxed">{s.desc}</p>
                   {isPopular && (
                     <div className="text-xs font-semibold mt-3 inline-block px-2 py-0.5 rounded-full" style={{ background: '#1B3F7C', color: 'white' }}>
