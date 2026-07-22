@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import { Shield, CheckCircle, Phone, MessageCircle } from 'lucide-react'
 import { SERVICES } from '@/lib/utils'
+import { trackEvent } from '@/lib/analytics'
 
 interface LeadFormProps {
   source?: string
@@ -32,6 +33,7 @@ export default function LeadForm({
         body: JSON.stringify({ ...data, source }),
       })
       if (!res.ok) throw new Error('Failed')
+      trackEvent('form_submit', { event_category: 'lead', event_label: source })
       setSubmitted(true)
     } catch {
       setError('Something went wrong. Please call us directly.')

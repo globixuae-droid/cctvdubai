@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import SiteShell from '@/components/layout/SiteShell'
+import { GoogleAnalytics } from '@next/third-parties/google'
+import ClickTracker from '@/components/analytics/ClickTracker'
 
 const BASE = 'https://www.cctvdubai.me'
 
@@ -209,6 +211,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <SiteShell>{children}</SiteShell>
+        <ClickTracker />
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID ?? ''} />
       </body>
     </html>
   )
