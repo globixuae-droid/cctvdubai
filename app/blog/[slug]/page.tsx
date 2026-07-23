@@ -62,7 +62,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     },
     author: {
       '@type': 'Person',
-      name: 'Mideatek Engineering Team',
+      name: post.author?.name ?? 'Mideatek Engineering Team',
       url: `${BASE}/about`,
     },
     publisher: {
@@ -134,8 +134,8 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
             <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-black text-sm"
               style={{ background: 'linear-gradient(135deg, #1B3F7C, #2563EB)' }}>M</div>
             <div>
-              <div className="font-bold text-sm" style={{ color: '#0F172A' }}>Mideatek Engineering Team</div>
-              <div className="text-gray-400 text-xs">SIRA Approved · TRA Licensed · 10+ Years Dubai Experience</div>
+              <div className="font-bold text-sm" style={{ color: '#0F172A' }}>{post.author?.name ?? 'Mideatek Engineering Team'}</div>
+              <div className="text-gray-400 text-xs">{post.author?.role ?? 'SIRA Approved · TRA Licensed · 10+ Years Dubai Experience'}</div>
             </div>
           </div>
         </div>

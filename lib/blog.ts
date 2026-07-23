@@ -8,6 +8,7 @@ export interface BlogPost {
   keywords: string[]
   content: string
   faqs?: { q: string; a: string }[]
+  author?: { name: string; role: string }
 }
 
 export const blogPosts: BlogPost[] = [
@@ -1678,6 +1679,121 @@ export const blogPosts: BlogPost[] = [
 <p>Yes. Mideatek AMC plans cover scheduled preventive maintenance, emergency callout, and spare parts at cost. AMC starts from AED 1,500/year per lane and is available for both new and existing barrier systems of any brand.</p>
 
 <p>Contact Mideatek for a free site survey and quotation for your <a href="/services/parking-gate-barrier">gate barrier system in Dubai</a>. Call <a href="tel:+971545566456">+971 54 556 6456</a> or WhatsApp us — we typically survey within 24 hours. For properties requiring combined CCTV and barrier systems, we provide both under one contract at a reduced total cost. For camera requirements alongside your barrier, see our <a href="/services/cctv-installation-dubai">CCTV installation Dubai</a> service page.</p>
+    `,
+  },
+  {
+    slug: 'sira-cctv-requirements-schools-dubai',
+    title: 'SIRA CCTV Requirements for Dubai Schools (2026) — Classroom CCTV Now Required',
+    excerpt: 'Dubai schools must now install CCTV in every classroom under updated SIRA requirements communicated via KHDA. Full 21-point camera specification, view classes, and compliance guide by SIRA-approved installer Mideatek.',
+    category: 'SIRA Compliance',
+    date: '2026-07-23',
+    readTime: '7 min read',
+    keywords: ['SIRA CCTV requirements schools', 'school CCTV Dubai', 'CCTV for schools Dubai', 'classroom CCTV Dubai', 'SIRA school specification'],
+    author: { name: 'Syed Hammad Rehman', role: 'Founder & CEO, Mideatek' },
+    faqs: [
+      {
+        q: 'Do Dubai schools now need CCTV in classrooms?',
+        a: 'Yes. Under the updated SIRA specification communicated via KHDA, classrooms are now included at Detection View classification, where previously interior classroom coverage was not standard.',
+      },
+      {
+        q: 'How many camera positions does the SIRA school specification cover?',
+        a: '21 specified areas, each with a required image view class, plus four operational requirements: 24-hour security guards, a SIRA-approved health monitoring service, SIRA-approved communication devices for guards, and a SIRA-approved ANPR system at vehicle entrances.',
+      },
+      {
+        q: 'What is "view class" in SIRA requirements?',
+        a: 'Defined image-quality classes (Monitoring, Detection, Observation, Recognition, Identification), each requiring a specific pixel density on the target subject at the coverage distance. The required class varies by location — and the class must be achieved in practice, not just specified on paper.',
+      },
+      {
+        q: 'Can Mideatek survey our school for compliance?',
+        a: 'Yes. We are a SIRA-approved installer and provide position-by-position gap surveys against the current specification, with full documentation including camera schedules and view-class calculations. Free site survey — call +971 54 556 6456.',
+      },
+    ],
+    content: `
+<h2>Classrooms Are Now Included in Dubai's School CCTV Specification</h2>
+<p>Dubai schools are being asked to meet an updated SIRA security specification, communicated through KHDA. The headline change: cameras are now specified for <strong>inside every classroom</strong> — something earlier requirements did not cover. Systems that passed inspection a few years ago may no longer be compliant.</p>
+<p>This guide walks through the full 21-point camera specification, the four operational requirements, and the practical steps school operators should take now.</p>
+
+<h2>What Changed: Classrooms Are Now Specified</h2>
+<p>Earlier <a href="/blog/sira-approval-cctv-dubai-guide-2025">SIRA</a> specifications for educational establishments focused on entrances, corridors, perimeters, and high-value areas. Interior classroom coverage was not standard. The updated specification adds classrooms at <strong>Detection View classification</strong> — enough to establish presence and activity, not the higher Identification standard reserved for entry points.</p>
+<p>Classroom surveillance touches on pupil and teacher privacy. Schools should communicate thoughtfully with staff and parents about the purpose and positioning of cameras before installation begins.</p>
+
+<h2>The Full 21-Point Camera Specification</h2>
+<p>The specification lists 21 areas, each assigned a required image-quality view class. The complete list, grouped by class:</p>
+<table style="width:100%;border-collapse:collapse;margin:20px 0">
+  <thead><tr style="background:#1B3F7C;color:white"><th style="padding:10px;text-align:left">Area / Location</th><th style="padding:10px;text-align:left;white-space:nowrap">Required View Class</th></tr></thead>
+  <tbody>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Entrances of the establishment</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Identification</strong></td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Cashier and reception desks</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Recognition</strong></td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Washroom entrances</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Recognition</strong></td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Entrances to men's changing rooms</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Recognition</strong></td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Safes for cash and important documents</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Recognition</strong></td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Emergency exit doors on all floors</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Observation</strong></td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Elevators, lobbies and stairs</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Observation</strong></td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Inside elevators (wide-angle lens, angled to show floor number)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Observation</strong></td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Establishment corridors</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Detection</strong></td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Inside classrooms</strong></td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Detection</strong></td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Laboratories</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Detection</strong></td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Waiting halls</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Detection</strong></td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Stairs leading to the roof</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Detection</strong></td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Inside the clinic room</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Detection</strong></td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Designated rooms for people with disabilities</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Detection</strong></td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Inside large exhibition halls</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Detection</strong></td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">The outer wall of the establishment</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Detection</strong></td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Storage rooms (file and equipment stores)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Detection</strong></td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">The external perimeter</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Detection</strong></td></tr>
+    <tr><td style="padding:10px;border-bottom:1px solid #e5e7eb">Outdoor play and event areas (sports fields, swimming pools, playgrounds)</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>Monitoring</strong></td></tr>
+    <tr style="background:#f8fafc"><td style="padding:10px;border-bottom:1px solid #e5e7eb">Vehicle entrances</td><td style="padding:10px;border-bottom:1px solid #e5e7eb"><strong>ANPR</strong> (SIRA-approved system)</td></tr>
+  </tbody>
+</table>
+
+<h2>Beyond Cameras: Four Operational Requirements</h2>
+<p>The specification goes beyond camera positions. Four operational items are also required, and schools that have addressed the camera side but not these will still fail inspection:</p>
+<ol>
+  <li><strong>24-hour security guards</strong> — manned security presence at all times.</li>
+  <li><strong>SIRA-approved system health monitoring service</strong> — continuous monitoring that the CCTV system is online. This is commonly overlooked in existing installations and is frequently absent in older systems.</li>
+  <li><strong>SIRA-approved communication devices for guards</strong> — specified communications equipment, not general-purpose devices.</li>
+  <li><strong>SIRA-approved ANPR system at vehicle entrances</strong> — a true automatic number plate recognition system, not simply a camera positioned above the gate.</li>
+</ol>
+
+<h2>Why "View Class" Is the Detail That Trips Schools Up</h2>
+<p>Monitoring, Detection, Observation, Recognition, and Identification are not descriptive words — they are defined image-quality standards in the SIRA specification, each requiring a specific pixel density on the target subject at the coverage distance.</p>
+<ul>
+  <li><strong>Detection</strong> — establishes that someone is present and their general activity</li>
+  <li><strong>Observation</strong> — sufficient to observe behaviour in detail</li>
+  <li><strong>Recognition</strong> — sufficient to confirm whether a known individual is present</li>
+  <li><strong>Identification</strong> — sufficient to identify a person to an evidentiary standard</li>
+  <li><strong>Monitoring</strong> — wide-area scene monitoring; the lowest density class</li>
+</ul>
+<p>A camera's megapixel rating alone is insufficient. A 4MP camera mounted at the wrong distance or angle can deliver Detection-grade image quality in a position where Identification is required. Entrances — specified at Identification class — are where existing school CCTV most often falls short. A standard 2MP dome covering a wide entrance corridor will rarely deliver Identification-grade quality at the distances involved. This is a camera-placement-and-specification problem, not simply a camera-count problem.</p>
+
+<h2>What School Operators Should Do Now</h2>
+<ol>
+  <li><strong>Commission a gap survey against the current specification</strong>, not the original design drawings — camera positions from several years ago will not have been assessed against this specification.</li>
+  <li><strong>Assess the achieved image class per position</strong>, camera by camera — not just whether a camera is present, but whether it delivers the required view class at the target subject.</li>
+  <li><strong>Confirm all four operational items</strong> — guards, health monitoring service, SIRA-approved comms devices, and a compliant ANPR system at vehicle entrances.</li>
+  <li><strong>Plan classroom coverage with the school community in mind</strong> — brief staff and parents, and position cameras for Detection (a wide classroom view) rather than intrusive close-up angles.</li>
+  <li><strong>Prepare documentation</strong> — as-built drawings, camera schedules, and view-class calculations should be ready for inspection. SIRA inspectors will want classification evidence, not just the installed hardware.</li>
+</ol>
+
+<p>Handled well, the updated specification extends Dubai's safeguarding standard into the classroom and demonstrates that a school takes pupil safety seriously. Handled as a last-minute scramble, it becomes expensive remediation. The practical first step is a position-by-position survey against the current 21-point specification — before an inspection, not after.</p>
+
+<p>Mideatek provides free gap surveys for Dubai schools against the current SIRA specification. We are a <a href="/blog/sira-approval-cctv-dubai-guide-2025">SIRA-approved</a> installer with experience across educational, <a href="/commercial-cctv-dubai">commercial</a>, and residential projects. Our survey produces a full documentation package — camera schedules, view-class calculations, and as-built drawings — suitable for SIRA submission. For our full <a href="/services/cctv-installation-dubai">CCTV installation Dubai</a> service, visit our services page.</p>
+
+<p>Call <a href="tel:+971545566456">+971 54 556 6456</a> or <a href="/contact">submit an enquiry online</a> — we can typically survey within 48 hours of your request.</p>
+
+<h2>Frequently Asked Questions — School CCTV Dubai</h2>
+
+<h3>Do Dubai schools now need CCTV in classrooms?</h3>
+<p>Yes. Under the updated SIRA specification communicated via KHDA, classrooms are now included at Detection View classification. Previously, interior classroom coverage was not standard in the SIRA school specification.</p>
+
+<h3>How many camera positions does the SIRA school specification cover?</h3>
+<p>21 specified areas, each with a required image view class, plus four operational requirements: 24-hour security guards, a SIRA-approved health monitoring service, SIRA-approved communication devices for guards, and a SIRA-approved ANPR system at vehicle entrances.</p>
+
+<h3>What is "view class" in SIRA requirements?</h3>
+<p>View classes (Monitoring, Detection, Observation, Recognition, Identification) are defined image-quality standards, each requiring a specific pixel density on the target subject at the coverage distance. A camera must be positioned and specified to deliver the required class at the required location — the class must be achieved in practice, not just specified on paper.</p>
+
+<h3>Can Mideatek survey our school for compliance?</h3>
+<p>Yes. We are a SIRA-approved installer and provide position-by-position gap surveys against the current specification, with full documentation including camera schedules and view-class calculations. Free site survey — call <a href="tel:+971545566456">+971 54 556 6456</a>.</p>
     `,
   },
 ]
